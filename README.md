@@ -61,7 +61,12 @@ Diagrama : es una representación gráfica por medio de diferentes convenciones 
 
  
 ### Architecture evaluations <a name="architecture-evaluations"></a>
+
+¿Si no hay otras evaluaciones?
+
 ### Rationale for key decisions <a name="rationale-for-key-decisions"></a>
+
+¿Por ejemplo las tecnologias que se usan? ¿las arquitecturas y metodologias? 
 
 [Table of contents](#table-of-contents)
 
@@ -251,8 +256,6 @@ Figira 6: Dependencia entre paquetes
 
 ### Package model correspondence rules <a name="package-model-correspondence-rules"></a>
 
-
-
 ## Operations on views+ <a name="operations-on-views-component"></a>
 
 Operations define the methods to be applied to views and their models. Types of operations include:
@@ -268,6 +271,11 @@ Operations define the methods to be applied to views and their models. Types of 
   Para el caso de los desarrolladores, el diagrama de componentes presenta la relación que debe existir entre las tareas que se le asignan como miembro del equipo de desarrollo, y sus compañeros, esto permite distinguir las responsabilidades de cada individuo como miembro del todo, restricciones, dependencia entre componentes, datos que son compartidos entre las funcionalidades de cada componente entre otros.
 
 ## Correspondence rules <a name="correspondence-rules-component"></a>
+
+¿Son las mismas de la parte de los modelos?
+
+Documente las reglas de correspondencia definidas por este punto de vista o sus tipos de modelos. Por lo general, estas reglas serán entre modelos o vistas, ya que las restricciones dentro de un tipo de modelo se habrán especificado como parte de las convenciones de ese tipo de modelo. Ver: ISO 42010 4.2.6 y 5.7.
+
 ## Sources <a name="sources-development"></a>
 
 [Table of contents](#table-of-contents)
@@ -297,10 +305,36 @@ Figira 8: Diagrama de paquetes
 
 ### Known Issues with View <a name="issues-with-development-view"></a>
 
+Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
+
 [Table of contents](#table-of-contents)
 
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
-Some introduction text, formatted in heading 2 style
+
+Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
+
+## Known inconsistencies <a name="known-inconsistencies"></a>
+
+Registre cualquier inconsistencia conocida en el AD. Aunque obviamente se prefieren los EA consistentes, a veces es inviable o poco práctico resolver todas las inconsistencias por razones de tiempo, esfuerzo o información insuficiente.
+
+## Correspondences in the AD <a name="correspondences-in-the-ad"></a>
+
+Identifique cada correspondencia en el AD y sus elementos de AD participantes. Identificar las reglas de correspondencia que rigen
+Las correspondencias se utilizan para expresar, registrar, aplicar y analizar la coherencia entre modelos, vistas y otros elementos de AD dentro de una descripción de arquitectura, entre AD o entre un AD y otras formas de documentación.
+
+Los elementos de AD incluyen instancias de partes interesadas, preocupaciones, puntos de vista y puntos de vista, tipos y modelos de modelos, decisiones y fundamentos. Las construcciones introducidas por los puntos de vista y los tipos de modelos también son elementos AD.
+
+Las correspondencias son relaciones matemáticas n-arias. Las correspondencias pueden representarse mediante tablas, enlaces o mediante otras formas de asociación (como en UML).
+
+[Table of contents](#table-of-contents)
+
+## Correspondence rules <a name="correspondence-rules-final"></a>
+
+Identifique cada regla de correspondencia que se aplica al AD.
+
+Las reglas de correspondencia pueden ser introducidas por el AD, por uno de sus puntos de vista, o desde un marco de arquitectura o lenguaje de descripción de arquitectura que se esté utilizando.
+
+Para cada regla de correspondencia identificada, registre si la regla cumple (se cumple) o, de lo contrario, registre todas las violaciones conocidas.
 
 [Table of contents](#table-of-contents)
 
