@@ -99,7 +99,6 @@ La matriz de trazabilidad de Stakeholders versus preocupaciones nos permite anal
 Concerns
  | CNR-001 | CNR-002 | CNR-003 | CNR-004 | CNR-005 | CNR-006 | CNR-007 | CNR-008 | CNR-009 | CNR-010 | CNR-011 | CNR-012 | CNR-013 | CNR-014 | CNR-015 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| STK-001 | X | X |  | X |  |  |  | X | X |  |  |  |  |  |  |
 
 
 [Table of contents](#table-of-contents)
