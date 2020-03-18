@@ -39,6 +39,10 @@
     1. [Decisions](#decisions)
 
 # Introduction <a name="introduction"></a>
+
+Modelo conceptual: 
+![alt text][fig1]
+
 ## Identifying information <a name="identifying-information"></a>
 ## Supplementary information <a name="supplementary-information"></a>
 ## Other information <a name="other-information"></a>
@@ -142,3 +146,6 @@ Some introduction text, formatted in heading 2 style
 The second paragraph text 
 
 [Table of contents](#table-of-contents)
+
+
+[fig1]: https://github.com/tuproyecto/AD/blob/master/img/fig1.png "Model Conceptual"
