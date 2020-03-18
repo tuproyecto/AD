@@ -96,7 +96,21 @@ Tabla No 2 Catálogo de Preocupaciones, Elaboración de los investigadores basad
 [Table of contents](#table-of-contents)
 
 # Viewpoints+ <a name="viewpoints"></a>
-Some introduction text, formatted in heading 2 style
+## Development viewpoint <a name="development-viewpoint"></a>
+## Overview <a name="overview-development"></a>
+## Framed concerns and typical stakeholders <a name="framed-concerns-and-typical-stakeholders-development"></a>
+### Concerns <a name="concerns-development"></a>
+### Typical stakeholders <a name="typical-stakeholders-development"></a>
+## Model kinds+ <a name="model-kinds"></a>
+## Component model <a name="component-model"></a>
+### Component model conventions <a name="component-model-conventions"></a>
+### Component model correspondence rules <a name="component-model-correspondence-rules"></a>
+## Package model <a name="package-model"></a>
+### Package model conventions <a name="package-model-conventions"></a>
+### Package model correspondence rules <a name="package-model-correspondence-rules"></a>
+## Operations on views+ <a name="operations-on-views-component"></a>
+## Correspondence rules <a name="correspondence-rules-component"></a>
+## Sources <a name="sources-development"></a>
 
 [Table of contents](#table-of-contents)
 
