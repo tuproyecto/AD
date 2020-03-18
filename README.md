@@ -40,19 +40,35 @@
 
 # Introduction <a name="introduction"></a>
 
+Para el propósito de esta actividad desarrollaremos la plantilla propuesta por el estándar ISO 42010 donde se plasmara por medio de la implementación del esquema 4 + 1 vistas la solución propuesta al problema planteado, para ello se presentan los diferentes viewpoint asociados a la matriz de stakeholder y concerns, asociando a cada viewpoint los diagramas que consideramos necesarios para poder exponer la solución.
+
 ![alt text][fig1]
 
 Figura 1: Modelo conceptual 
 
 ## Identifying information <a name="identifying-information"></a>
+
+4 + 1 : es un modelo diseñado por Philippe Kruchten para "describir la arquitectura de sistemas software, basados en el uso de múltiples vistas concurrentes"
+
+Diagrama : es una representación gráfica por medio de diferentes convenciones y atributos para dar a entender una idea, solución a un problema o demostración de una idea.
+
 ## Supplementary information <a name="supplementary-information"></a>
+
+
+ 
 ## Other information <a name="other-information"></a>
+
+
+ 
 ### Architecture evaluations <a name="architecture-evaluations"></a>
 ### Rationale for key decisions <a name="rationale-for-key-decisions"></a>
 
 [Table of contents](#table-of-contents)
 
 # Stakeholders and concerns <a name="stakeholders-and-concerns"></a>
+
+
+
 ## Stakeholders <a name="stakeholders"></a>
 
 La siguiente tabla presenta, el catálogo de Stakeholders identificados dentro del problema, los cuales son identificados con un valor único, han sido descritos y se han relacionado sus preocupaciones principales de acuerdo a la actividad así:
