@@ -96,7 +96,7 @@ Tabla No 2 Catálogo de Preocupaciones, Elaboración de los investigadores basad
 La matriz de trazabilidad de Stakeholders versus preocupaciones nos permite analizar sobre que interesado se identifica con qué preocupación además de ello cuales son común a varios interesados y cuales se presentan en menor cantidad entre los Stakeholders.
 
 | Stakeholders vs Concerns | CNR-001 | CNR-002 |
-|---|---|---|
+|:-:|:-:|:-:|
 | STK-001 | X | X |
 
 Tabla No 3 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
