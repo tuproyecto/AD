@@ -253,6 +253,7 @@ Figira 6: Dependencia entre paquetes
 
 <span style="color:red">¿Cuál es la diferencias con las regralas anteriores?</span>
 Some Markdown text with <span style="color:blue">some *blue* text</span>.
+<span style="color:red">some **This is Red Bold.** text</span>
 
 ## Operations on views+ <a name="operations-on-views-component"></a>
 
