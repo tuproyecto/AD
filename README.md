@@ -40,7 +40,6 @@
 
 # Introduction <a name="introduction"></a>
 
-{:.center}
 ![alt text][fig1]
 
 Figura 1: Modelo conceptual 
@@ -151,7 +150,3 @@ The second paragraph text
 
 
 [fig1]: https://github.com/tuproyecto/AD/blob/master/img/fig1.png "Model Conceptual"
-
-.center {
-  text-align: center;
-}
