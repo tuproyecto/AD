@@ -40,7 +40,7 @@
 
 # Introduction <a name="introduction"></a>
 
-<center>![alt text][fig1]</center>
+![alt text][fig1]
 
 Figura 1: Modelo conceptual 
 
