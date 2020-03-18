@@ -54,16 +54,16 @@ La siguiente tabla presenta, el catálogo de Stakeholders identificados dentro d
 
 | ID | Stakeholder | Descripción |
 |---|---|---|
-| STK-001 | Equipo de Gerencia | Equipo responsable de la dirección de la Compañía |
-| STK-002 | Clientes | Potenciales consumidores |
-| STK-003 | Equipo comercial | Personal que apoya el proceso de ventas |
-| STK-004 | Equipo de mercadeo | Personal encargado de definir estrategias de mercadeo y diseño de catálogos |
-| STK-005 | Equipo técnico | Expertos en cosmetología, apoyan el proceso de definición de los catálogos |
-| STK-006 | Equipo de arquitectura | Encargados de diseñar implementar la mejor solución arquitectónica |
-| STK-007 | Coordinador de proyectos | Responsable de liderar y presentar el proyecto al nivel directivo de la organización |
-| STK-008 | Arquitecto de Software | Líder técnico del Equipo de desarrollo |
-| STK-009 | Desarrollador | Responsable de la codificación del Aplicativo (Backend - Frontend) |
-| STK-010 | Tester | Personal encargado de llevar a cabo las pruebas antes de salir a producción |
+| STK-001 <a name="STK-001"></a> | Equipo de Gerencia | Equipo responsable de la dirección de la Compañía |
+| STK-002 <a name="STK-002"></a> | Clientes | Potenciales consumidores |
+| STK-003 <a name="STK-003"></a> | Equipo comercial | Personal que apoya el proceso de ventas |
+| STK-004 <a name="STK-004"></a> | Equipo de mercadeo | Personal encargado de definir estrategias de mercadeo y diseño de catálogos |
+| STK-005 <a name="STK-005"></a> | Equipo técnico | Expertos en cosmetología, apoyan el proceso de definición de los catálogos |
+| STK-006 <a name="STK-006"></a> | Equipo de arquitectura | Encargados de diseñar implementar la mejor solución arquitectónica |
+| STK-007 <a name="STK-007"></a> | Coordinador de proyectos | Responsable de liderar y presentar el proyecto al nivel directivo de la organización |
+| STK-008 <a name="STK-008"></a> | Arquitecto de Software | Líder técnico del Equipo de desarrollo |
+| STK-009 <a name="STK-009"></a> | Desarrollador | Responsable de la codificación del Aplicativo (Backend - Frontend) |
+| STK-010 <a name="STK-010"></a> | Tester | Personal encargado de llevar a cabo las pruebas antes de salir a producción |
 
 Tabla No 1 Catálogo de Stakeholder, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
 
@@ -97,8 +97,8 @@ La matriz de trazabilidad de Stakeholders versus preocupaciones nos permite anal
 
 | Stakeholders vs Concerns | CNR-001 | CNR-002 | CNR-003 | CNR-004 | CNR-005 | CNR-006 | CNR-007 | CNR-008 | CNR-009 | CNR-010 | CNR-011 | CNR-012 | CNR-013 | CNR-014 | CNR-015 |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| STK-001 | X | X |  | X |  |  |  | X | X |  |  |  |  |  |  |
-| STK-002 |  | X |  |  |  |  |  |  |  | X |  |  |  |  |  |
+| [STK-001](#STK-001) | X | X |  | X |  |  |  | X | X |  |  |  |  |  |  |
+| [STK-002](#STK-002) |  | X |  |  |  |  |  |  |  | X |  |  |  |  |  |
 
 Tabla No 3 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
 
