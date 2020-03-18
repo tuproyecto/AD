@@ -149,4 +149,9 @@ The second paragraph text
 [Table of contents](#table-of-contents)
 
 
-[fig1]: https://github.com/tuproyecto/AD/blob/master/img/fig1.png "Model Conceptual"
+[fig1]: https://github.com/tuproyecto/AD/blob/master/img/fig1.png#center "Model Conceptual"
+
+img[src*='#center'] { 
+    display: block;
+    margin: auto;
+}
