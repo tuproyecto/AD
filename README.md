@@ -40,7 +40,7 @@
 
 # Introduction <a name="introduction"></a>
 
-![alt text][fig1]
+<center>![alt text][fig1]</center>
 
 Figura 1: Modelo conceptual 
 
@@ -148,4 +148,4 @@ The second paragraph text
 
 [Table of contents](#table-of-contents)
 
-[fig1]: <center>https://github.com/tuproyecto/AD/blob/master/img/fig1.png</center> "Model Conceptual"
+[fig1]: https://github.com/tuproyecto/AD/blob/master/img/fig1.png "Model Conceptual"
