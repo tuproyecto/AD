@@ -34,7 +34,7 @@
 5. [Consistency and correspondences](#consistency-and-correspondences)
     1. [Known inconsistencies](#known-inconsistencies)
     2. [Correspondences in the AD](#correspondences-in-the-ad)
-    3. [Correspondence rules](#correspondence-rules-ad)
+    3. [Correspondence rules](#correspondence-rules-final)
 6. [Architecture decisions and rationale](#architecture-decisions-and-rationale)
     1. [Decisions](#decisions)
 
