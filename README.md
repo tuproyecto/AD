@@ -189,7 +189,7 @@ Tabla No 4 Catálogo de Stakeholder Viewpoint de Desarrollo
 
 Diagrama de componentes, Diagrama de Paquetes
 
-Subset of metamodel elements
+**Strong** __Subset of metamodel elements__
 
 Componente, Interfaz y Relación de dependencia, paquetes y dependencia entre paquetes
 
