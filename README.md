@@ -41,7 +41,6 @@
 # Introduction <a name="introduction"></a>
 
 Figura 1: Modelo conceptual 
-
 ![alt text][fig1]
 
 ## Identifying information <a name="identifying-information"></a>
@@ -149,4 +148,4 @@ The second paragraph text
 [Table of contents](#table-of-contents)
 
 
-[fig1]: /img/fig1.png "Model Conceptual"
+[fig1]: https://github.com/tuproyecto/AD/blob/master/img/fig1.png "Model Conceptual"
