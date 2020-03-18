@@ -67,8 +67,6 @@ Diagrama : es una representación gráfica por medio de diferentes convenciones 
 
 # Stakeholders and concerns <a name="stakeholders-and-concerns"></a>
 
-
-
 ## Stakeholders <a name="stakeholders"></a>
 
 La siguiente tabla presenta, el catálogo de Stakeholders identificados dentro del problema, los cuales son identificados con un valor único, han sido descritos y se han relacionado sus preocupaciones principales de acuerdo a la actividad así:
@@ -251,7 +249,7 @@ __Dependencias entre paquetes:__ Existe una dependencia cuando un elemento de un
 
 Figira 6: Dependencia entre paquetes
 
-### Package model correspondence rules <a name="package-model-correspondence-rules"></a>
+### <span style="color:red">Package model correspondence</span> rules <a name="package-model-correspondence-rules"></a>
 
 
 
