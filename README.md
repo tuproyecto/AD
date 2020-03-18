@@ -41,6 +41,7 @@
 # Introduction <a name="introduction"></a>
 
 Figura 1: Modelo conceptual 
+
 ![alt text][fig1]
 
 ## Identifying information <a name="identifying-information"></a>
