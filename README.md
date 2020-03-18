@@ -73,21 +73,21 @@ Las Preocupaciones fueron discutidas en grupo, de tal forma que pudieran identif
 
 | ID | Concern | Descripción |
 |---|---|---|
-| CNR-001 | Usabilidad | Se busca contar con herramientas de vanguardia que ofrezca una buena experiencia de usuario |
-| CNR-002 | Disponibilidad (Availability) | Que el sistema sea accesible dentro y fuera de las instalaciones de la compañía |
-| CNR-003 | Reacción al cambio "Escalabilidad" | Dada su efectividad se espera ser implementada en los 85 países donde se tiene presencia comercial |
-| CNR-004 | Costos | Disminuir los recursos invertidos en procesos que pueden ser automatizados |
-| CNR-005 | Definición de requerimiento | Recibir requerimientos de Calidad a tiempo |
-| CNR-006 | Modificabilidad | La modificabilidad se refiere al grado en que un sistema puede ser modificado efectiva o eficientemente sin introducir defectos o degradar la calidad del sistema existente. |
-| CNR-007 | Rendimento | Desempeño del aplicativo |
-| CNR-008 | Modernización | Actualizar sus recursos comerciales |
-| CNR-009 | Efectividad | Aumentar la efectividad del equipo comercial |
-| CNR-010 | Acceso a la información | Contar con la información necesaria en el momento adecuado |
-| CNR-011 | Estructura de información | Administrar y presentar la información en los catálogos de acuerdo a la estrategia definida |
-| CNR-012 | Estandarización del desarrollo | La metodología de desarrollo que se emplea debe ser Scrum, debe desarrollarse empleando lenguaje de programación Java Spring boot, vista en Angular última versión y base de datos Oracle 12c |
-| CNR-013 | Estandarización del Código | No debería haber código sin optimizar, se debe versionar el mismo, empleando git y Gogs como repositorio del mismo, se manejara el estándar de Java para el desarrollo (Nombres de Clases, Métodos, Comentar el código) |
-| CNR-014 | Estandarización de las Pruebas | Debe existir un claro proceso de pruebas, esto debe incluir, punto de partida, componentes a estudiar, recomendaciones para desarrolladores, así mismo el personal responsable de la pruebas debe ser personal técnico que cuente con la experiencia en pruebas y validación de componentes desarrollados. |
-| CNR-015 | Estandarización del Diseño | Se emplearán y documentaran los patrones de diseño empleado para el desarrollo del aplicativo, no debe existir desarrollo que no tenga documentación, así mismo debe existir un repositorio para persistir la documentación del proyecto. |
+| CNR-001 <a name="CNR-001"></a> | Usabilidad | Se busca contar con herramientas de vanguardia que ofrezca una buena experiencia de usuario |
+| CNR-002 <a name="CNR-002"></a> | Disponibilidad (Availability) | Que el sistema sea accesible dentro y fuera de las instalaciones de la compañía |
+| CNR-003 <a name="CNR-003"></a> | Reacción al cambio "Escalabilidad" | Dada su efectividad se espera ser implementada en los 85 países donde se tiene presencia comercial |
+| CNR-004 <a name="CNR-004"></a> | Costos | Disminuir los recursos invertidos en procesos que pueden ser automatizados |
+| CNR-005 <a name="CNR-005"></a> | Definición de requerimiento | Recibir requerimientos de Calidad a tiempo |
+| CNR-006 <a name="CNR-006"></a> | Modificabilidad | La modificabilidad se refiere al grado en que un sistema puede ser modificado efectiva o eficientemente sin introducir defectos o degradar la calidad del sistema existente. |
+| CNR-007 <a name="CNR-007"></a> | Rendimento | Desempeño del aplicativo |
+| CNR-008 <a name="CNR-008"></a> | Modernización | Actualizar sus recursos comerciales |
+| CNR-009 <a name="CNR-009"></a> | Efectividad | Aumentar la efectividad del equipo comercial |
+| CNR-010 <a name="CNR-010"></a> | Acceso a la información | Contar con la información necesaria en el momento adecuado |
+| CNR-011 <a name="CNR-011"></a> | Estructura de información | Administrar y presentar la información en los catálogos de acuerdo a la estrategia definida |
+| CNR-012 <a name="CNR-012"></a> | Estandarización del desarrollo | La metodología de desarrollo que se emplea debe ser Scrum, debe desarrollarse empleando lenguaje de programación Java Spring boot, vista en Angular última versión y base de datos Oracle 12c |
+| CNR-013 <a name="CNR-013"></a> | Estandarización del Código | No debería haber código sin optimizar, se debe versionar el mismo, empleando git y Gogs como repositorio del mismo, se manejara el estándar de Java para el desarrollo (Nombres de Clases, Métodos, Comentar el código) |
+| CNR-014 <a name="CNR-014"></a> | Estandarización de las Pruebas | Debe existir un claro proceso de pruebas, esto debe incluir, punto de partida, componentes a estudiar, recomendaciones para desarrolladores, así mismo el personal responsable de la pruebas debe ser personal técnico que cuente con la experiencia en pruebas y validación de componentes desarrollados. |
+| CNR-015 <a name="CNR-015"></a> | Estandarización del Diseño | Se emplearán y documentaran los patrones de diseño empleado para el desarrollo del aplicativo, no debe existir desarrollo que no tenga documentación, así mismo debe existir un repositorio para persistir la documentación del proyecto. |
 
 Tabla No 2 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
 
@@ -95,7 +95,7 @@ Tabla No 2 Catálogo de Preocupaciones, Elaboración de los investigadores basad
 
 La matriz de trazabilidad de Stakeholders versus preocupaciones nos permite analizar sobre que interesado se identifica con qué preocupación además de ello cuales son común a varios interesados y cuales se presentan en menor cantidad entre los Stakeholders.
 
-| Stakeholders vs Concerns | CNR-001 | CNR-002 | CNR-003 | CNR-004 | CNR-005 | CNR-006 | CNR-007 | CNR-008 | CNR-009 | CNR-010 | CNR-011 | CNR-012 | CNR-013 | CNR-014 | CNR-015 |
+| Stakeholders vs Concerns | [CNR-001](#CNR-001) | [CNR-002](#CNR-002) | [CNR-003](#CNR-003) | [CNR-004](#CNR-004) | [CNR-005](#CNR-005) | [CNR-006](#CNR-006) | [CNR-007](#CNR-007) | [CNR-008](#CNR-008) | [CNR-009](#CNR-009) | [CNR-010](#CNR-010) | [CNR-011](#CNR-011) | [CNR-012](#CNR-012) | [CNR-013](#CNR-013) | [CNR-014](#CNR-014) | [CNR-015](#CNR-015) |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | [STK-001](#STK-001) | X | X |  | X |  |  |  | X | X |  |  |  |  |  |  |
 | [STK-002](#STK-002) |  | X |  |  |  |  |  |  |  | X |  |  |  |  |  |
