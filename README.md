@@ -249,9 +249,9 @@ __Dependencias entre paquetes:__ Existe una dependencia cuando un elemento de un
 
 Figira 6: Dependencia entre paquetes
 
-### <span style="color:red">Package model correspondence</span> rules <a name="package-model-correspondence-rules"></a>
+### Package model correspondence rules <a name="package-model-correspondence-rules"></a>
 
-
+<span style="color:red">¿Cuál es la diferencias con las regralas anteriores?</span>
 
 ## Operations on views+ <a name="operations-on-views-component"></a>
 
