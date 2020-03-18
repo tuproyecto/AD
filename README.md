@@ -50,9 +50,47 @@
 # Stakeholders and concerns <a name="stakeholders-and-concerns"></a>
 ## Stakeholders <a name="stakeholders"></a>
 
+La siguiente tabla presenta, el catálogo de Stakeholders identificados dentro del problema, los cuales son identificados con un valor único, han sido descritos y se han relacionado sus preocupaciones principales de acuerdo a la actividad así:
 
+| ID | Stakeholder | Descripción |
+|---|---|---|
+| STK-001 | Equipo de Gerencia | Equipo responsable de la dirección de la Compañía |
+| STK-002 | Clientes | Potenciales consumidores |
+| STK-003 | Equipo comercial | Personal que apoya el proceso de ventas |
+| STK-004 | Equipo de mercadeo | Personal encargado de definir estrategias de mercadeo y diseño de catálogos |
+| STK-005 | Equipo técnico | Expertos en cosmetología, apoyan el proceso de definición de los catálogos |
+| STK-006 | Equipo de arquitectura | Encargados de diseñar implementar la mejor solución arquitectónica |
+| STK-007 | Coordinador de proyectos | Responsable de liderar y presentar el proyecto al nivel directivo de la organización |
+| STK-008 | Arquitecto de Software | Líder técnico del Equipo de desarrollo |
+| STK-009 | Desarrollador | Responsable de la codificación del Aplicativo (Backend - Frontend) |
+| STK-010 | Tester | Personal encargado de llevar a cabo las pruebas antes de salir a producción |
+
+Tabla No 1 Catálogo de Stakeholder, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
 
 ## Concerns <a name="concerns"></a>
+
+Las Preocupaciones fueron discutidas en grupo, de tal forma que pudieran identificarse cuáles eran apropiados para el ejercicio, de esta manera llevar a cabo un análisis de información que permitirá mapearlos hacia los viewpoints que serán definidos.
+
+| ID | Concern | Descripción |
+|---|---|---|
+| CNR-001 | Usabilidad | Se busca contar con herramientas de vanguardia que ofrezca una buena experiencia de usuario |
+| CNR-002 | Disponibilidad (Availability) | Que el sistema sea accesible dentro y fuera de las instalaciones de la compañía |
+| CNR-003 | Reacción al cambio "Escalabilidad" | Dada su efectividad se espera ser implementada en los 85 países donde se tiene presencia comercial |
+| CNR-004 | Costos | Disminuir los recursos invertidos en procesos que pueden ser automatizados |
+| CNR-005 | Definición de requerimiento | Recibir requerimientos de Calidad a tiempo |
+| CNR-006 | Modificabilidad | La modificabilidad se refiere al grado en que un sistema puede ser modificado efectiva o eficientemente sin introducir defectos o degradar la calidad del sistema existente. |
+| CNR-007 | Rendimento | Desempeño del aplicativo |
+| CNR-008 | Modernización | Actualizar sus recursos comerciales |
+| CNR-009 | Efectividad | Aumentar la efectividad del equipo comercial |
+| CNR-010 | Acceso a la información | Contar con la información necesaria en el momento adecuado |
+| CNR-011 | Estructura de información | Administrar y presentar la información en los catálogos de acuerdo a la estrategia definida |
+| CNR-012 | Estandarización del desarrollo | La metodología de desarrollo que se emplea debe ser Scrum, debe desarrollarse empleando lenguaje de programación Java Spring boot, vista en Angular última versión y base de datos Oracle 12c |
+| CNR-013 | Estandarización del Código | No debería haber código sin optimizar, se debe versionar el mismo, empleando git y Gogs como repositorio del mismo, se manejara el estándar de Java para el desarrollo (Nombres de Clases, Métodos, Comentar el código) |
+| CNR-014 | Estandarización de las Pruebas | Debe existir un claro proceso de pruebas, esto debe incluir, punto de partida, componentes a estudiar, recomendaciones para desarrolladores, así mismo el personal responsable de la pruebas debe ser personal técnico que cuente con la experiencia en pruebas y validación de componentes desarrollados. |
+| CNR-015 | Estandarización del Diseño | Se emplearán y documentaran los patrones de diseño empleado para el desarrollo del aplicativo, no debe existir desarrollo que no tenga documentación, así mismo debe existir un repositorio para persistir la documentación del proyecto. |
+
+Tabla No 2 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
+
 ## Concern–Stakeholder Traceability <a name="concern–stakeholder-traceability"></a>
 
 [Table of contents](#table-of-contents)
