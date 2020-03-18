@@ -40,8 +40,10 @@
 
 # Introduction <a name="introduction"></a>
 
-Figura 1: Modelo conceptual 
+{:.center}
 ![alt text][fig1]
+
+Figura 1: Modelo conceptual 
 
 ## Identifying information <a name="identifying-information"></a>
 ## Supplementary information <a name="supplementary-information"></a>
@@ -149,3 +151,7 @@ The second paragraph text
 
 
 [fig1]: https://github.com/tuproyecto/AD/blob/master/img/fig1.png "Model Conceptual"
+
+.center {
+  text-align: center;
+}
