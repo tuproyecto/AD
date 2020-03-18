@@ -48,7 +48,12 @@
 [Table of contents](#table-of-contents)
 
 # Stakeholders and concerns <a name="stakeholders-and-concerns"></a>
-Some introduction text, formatted in heading 2 style
+## Stakeholders <a name="stakeholders"></a>
+
+
+
+## Concerns <a name="concerns"></a>
+## Concern–Stakeholder Traceability <a name="concern–stakeholder-traceability"></a>
 
 [Table of contents](#table-of-contents)
 
