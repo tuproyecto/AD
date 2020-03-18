@@ -120,6 +120,14 @@ La matriz de trazabilidad de Stakeholders versus preocupaciones nos permite anal
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | [STK-001](#STK-001) | X | X |  | X |  |  |  | X | X |  |  |  |  |  |  |
 | [STK-002](#STK-002) |  | X |  |  |  |  |  |  |  | X |  |  |  |  |  |
+| [STK-003](#STK-003) | X | X |  |  |  |  | X |  | X |  |  |  |  |  |  |
+| [STK-004](#STK-004) |  | X |  |  |  |  | X |  |  |  | X |  |  |  |  |
+| [STK-005](#STK-005) |  | X |  |  |  |  |  |  |  |  | X |  |  |  |  |
+| [STK-006](#STK-006) | X | X | X |  | X | X | X |  |  |  |  |  |  |  |  |
+| [STK-007](#STK-007) | X |  |  |  | X | X |  |  |  | X |  |  |  |  |  |
+| [STK-008](#STK-008) |  |  |  |  |  |  |  |  |  |  |  | X | X | X | X |
+| [STK-009](#STK-009) |  |  | X |  | X | X |  |  |  |  |  | X | X |  | X |
+| [STK-010](#STK-010) | X |  |  |  | X |  |  |  |  |  |  |  |  | X |  |
 
 Tabla No 3 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
 
