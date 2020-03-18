@@ -39,7 +39,11 @@
     1. [Decisions](#decisions)
 
 # Introduction <a name="introduction"></a>
-Some introduction text, formatted in heading 2 style
+## Identifying information <a name="identifying-information"></a>
+## Supplementary information <a name="supplementary-information"></a>
+## Other information <a name="other-information"></a>
+### Architecture evaluations <a name="architecture-evaluations"></a>
+### Rationale for key decisions <a name="rationale-for-key-decisions"></a>
 
 [Table of contents](#table-of-contents)
 
