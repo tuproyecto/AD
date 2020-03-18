@@ -95,23 +95,9 @@ Tabla No 2 Catálogo de Preocupaciones, Elaboración de los investigadores basad
 
 La matriz de trazabilidad de Stakeholders versus preocupaciones nos permite analizar sobre que interesado se identifica con qué preocupación además de ello cuales son común a varios interesados y cuales se presentan en menor cantidad entre los Stakeholders.
 
-| ID | Concern | Descripción |
+| Stakeholders vs Concerns | CNR-001 | CNR-002 |
 |---|---|---|
-| CNR-001 | Usabilidad | Se busca contar con herramientas de vanguardia que ofrezca una buena experiencia de usuario |
-| CNR-002 | Disponibilidad (Availability) | Que el sistema sea accesible dentro y fuera de las instalaciones de la compañía |
-| CNR-003 | Reacción al cambio "Escalabilidad" | Dada su efectividad se espera ser implementada en los 85 países donde se tiene presencia comercial |
-| CNR-004 | Costos | Disminuir los recursos invertidos en procesos que pueden ser automatizados |
-| CNR-005 | Definición de requerimiento | Recibir requerimientos de Calidad a tiempo |
-| CNR-006 | Modificabilidad | La modificabilidad se refiere al grado en que un sistema puede ser modificado efectiva o eficientemente sin introducir defectos o degradar la calidad del sistema existente. |
-| CNR-007 | Rendimento | Desempeño del aplicativo |
-| CNR-008 | Modernización | Actualizar sus recursos comerciales |
-| CNR-009 | Efectividad | Aumentar la efectividad del equipo comercial |
-| CNR-010 | Acceso a la información | Contar con la información necesaria en el momento adecuado |
-| CNR-011 | Estructura de información | Administrar y presentar la información en los catálogos de acuerdo a la estrategia definida |
-| CNR-012 | Estandarización del desarrollo | La metodología de desarrollo que se emplea debe ser Scrum, debe desarrollarse empleando lenguaje de programación Java Spring boot, vista en Angular última versión y base de datos Oracle 12c |
-| CNR-013 | Estandarización del Código | No debería haber código sin optimizar, se debe versionar el mismo, empleando git y Gogs como repositorio del mismo, se manejara el estándar de Java para el desarrollo (Nombres de Clases, Métodos, Comentar el código) |
-| CNR-014 | Estandarización de las Pruebas | Debe existir un claro proceso de pruebas, esto debe incluir, punto de partida, componentes a estudiar, recomendaciones para desarrolladores, así mismo el personal responsable de la pruebas debe ser personal técnico que cuente con la experiencia en pruebas y validación de componentes desarrollados. |
-| CNR-015 | Estandarización del Diseño | Se emplearán y documentaran los patrones de diseño empleado para el desarrollo del aplicativo, no debe existir desarrollo que no tenga documentación, así mismo debe existir un repositorio para persistir la documentación del proyecto. |
+| STK-001 | X | X |
 
 Tabla No 3 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
 
