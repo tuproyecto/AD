@@ -272,7 +272,29 @@ Operations define the methods to be applied to views and their models. Types of 
 [Table of contents](#table-of-contents)
 
 # Views+ <a name="views"></a>
-Some introduction text, formatted in heading 2 style
+
+## Development view <a name="development-view"></a>
+
+Descripción de la vista de desarrollo usada. dos modelos uno de componentes y uno de paquetes
+
+### Models+ <a name="models-development-view"></a>
+### Components <a name="models-component-development-view"></a>
+
+![alt text][fig7]
+
+Figira 7: Diagrama de Componentes de aplicación
+
+### Package <a name="models-package-development-view"></a>
+
+El objetivo del diagrama es obtener una visión más clara del sistema de información orientado a objetos, organizándolo en subsistemas, agrupando los elementos de análisis, diseño y construcción detallando las relaciones de dependencia entre ellos.
+
+El diagrama de paquetes y sus dependencias, son elementos de los diagramas de casos de uso y de componentes de nuestro sistema.
+
+![alt text][fig8]
+
+Figira 8: Diagrama de paquetes
+
+### Known Issues with View <a name="issues-with-development-view"></a>
 
 [Table of contents](#table-of-contents)
 
@@ -297,3 +319,5 @@ The second paragraph text
 [fig4]: /img/fig4.png "Relación de dependencia"
 [fig5]: /img/fig5.png "Paquete"
 [fig6]: /img/fig6.png "Dependencia entre paquetes"
+[fig7]: /img/fig7.png "Diagrama de Componentes de aplicación"
+[fig8]: /img/fig8.png "Diagrama de paquetes"
