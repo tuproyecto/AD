@@ -219,7 +219,7 @@ La relación de dependencia representa que un componente requiere de otro para e
 
 ![alt text][fig4]
 
-Figura 4: Interfaz
+Figura 4: Relación de dependencia
 
 ### Component model correspondence rules <a name="component-model-correspondence-rules"></a>
 
@@ -295,5 +295,5 @@ The second paragraph text
 [fig2]: /img/fig2.png "Componente"
 [fig3]: /img/fig3.png "Interfaz"
 [fig4]: /img/fig4.png "Relación de dependencia"
-[fig4]: /img/fig5.png "Paquete"
-[fig4]: /img/fig6.png "Dependencia entre paquetes"
+[fig5]: /img/fig5.png "Paquete"
+[fig6]: /img/fig6.png "Dependencia entre paquetes"
