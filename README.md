@@ -55,6 +55,13 @@ Diagrama : es una representación gráfica por medio de diferentes convenciones 
 
 ### Rationale for key decisions <a name="rationale-for-key-decisions"></a>
 
+| Matriz de poder | Keep Satisfied | Key Subject | Minimal Effort | Keep Informed |
+|---|:-:|:-:|:-:|:-:|
+| Clientes |  |  | X |  |
+| Equipo comercial |  | X |  |  |
+| Equipo de mercadeo |  | X |  |  |
+| Equipo técnico | X |  |  |  |
+
 Matriz de poder
 
 [Table of contents](#table-of-contents)
