@@ -62,7 +62,7 @@ Diagrama : es una representación gráfica por medio de diferentes convenciones 
 | Equipo de mercadeo |  | X |  |  |
 | Equipo técnico | X |  |  |  |
 
-Matriz de poder
+Tabla No 1 Matriz de poder
 
 [Table of contents](#table-of-contents)
 
@@ -79,7 +79,7 @@ La siguiente tabla presenta, el catálogo de Stakeholders identificados dentro d
 | STK-003 <a name="STK-003"></a> | Equipo de mercadeo | Personal encargado de definir estrategias de mercadeo y diseño de catálogos |
 | STK-004 <a name="STK-004"></a> | Equipo técnico | Expertos en cosmetología, apoyan el proceso de definición de los catálogos |
 
-Tabla No 1 Catálogo de Stakeholder, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
+Tabla No 2 Catálogo de Stakeholder, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
 
 ## Concerns <a name="concerns"></a>
 
@@ -98,7 +98,7 @@ Las Preocupaciones fueron discutidas en grupo, de tal forma que pudieran identif
 | CNR-009 <a name="CNR-009"></a> | Acceso a la información | Contar con la información necesaria en el momento adecuado |
 | CNR-010 <a name="CNR-010"></a> | Estructura de información | Administrar y presentar la información en los catálogos de acuerdo a la estrategia definida |
 
-Tabla No 2 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
+Tabla No 3 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
 
 ## Concern–Stakeholder Traceability <a name="concern–stakeholder-traceability"></a>
 
@@ -111,7 +111,7 @@ La matriz de trazabilidad de Stakeholders versus preocupaciones nos permite anal
 | [STK-003](#STK-003) |  |  |  |  | X |  |  | X |  | X | 
 | [STK-004](#STK-004) |  |  |  |  | X |  |  |  |  | X |
 
-Tabla No 3 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
+Tabla No 4 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
 
 [Table of contents](#table-of-contents)
 
