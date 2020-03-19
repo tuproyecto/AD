@@ -3,8 +3,7 @@
     1. [Identifying information](#identifying-information)
     2. [Supplementary information](#supplementary-information)
     3. [Other information](#other-information)
-        1. [Architecture evaluations](#architecture-evaluations)
-        2. [Rationale for key decisions](#rationale-for-key-decisions)
+        1. [Rationale for key decisions](#rationale-for-key-decisions)
 2. [Stakeholders and concerns](#stakeholders-and-concerns)
     1. [Stakeholders](#stakeholders)
     2. [Concerns](#concerns)
@@ -18,10 +17,8 @@
     4. [Model kinds+](#model-kinds)
     5. [Component model](#component-model)
         1. [Component model conventions](#component-model-conventions)
-        2. [Component model correspondence rules](#component-model-correspondence-rules)
     9. [Package model](#package-model)
         1. [Package model conventions](#package-model-conventions)
-        2. [Package model correspondence rules](#package-model-correspondence-rules)
     6. [Operations on views+](#operations-on-views-component)
     7. [Correspondence rules](#correspondence-rules-component)
     8. [Sources](#sources-development)
@@ -53,20 +50,12 @@ Figura 1: Modelo conceptual
 Diagrama : es una representación gráfica por medio de diferentes convenciones y atributos para dar a entender una idea, solución a un problema o demostración de una idea.
 
 ## Supplementary information <a name="supplementary-information"></a>
-
-
  
 ## Other information <a name="other-information"></a>
 
-
- 
-### Architecture evaluations <a name="architecture-evaluations"></a>
-
-¿Si no hay otras evaluaciones?
-
 ### Rationale for key decisions <a name="rationale-for-key-decisions"></a>
 
-¿Por ejemplo las tecnologias que se usan? ¿las arquitecturas y metodologias? 
+Matriz de poder
 
 [Table of contents](#table-of-contents)
 
@@ -224,18 +213,6 @@ __La relación de dependencia:__ representa que un componente requiere de otro p
 
 Figura 4: Relación de dependencia
 
-### Component model correspondence rules <a name="component-model-correspondence-rules"></a>
-
-Los Jar generados posterior de la aplicación serán desplegados en servidores provistos por el Servicio de AWS contratado para tal fin.
-
-Debe existir 3 ambientes Desarrollo, Pruebas y Producción, desarrollo corresponde al ambiente local de los programadores, mientras que pruebas será desplegado de manera independiente a producción pero estará desplegado empleando el servicio de AWS, producción será independiente y si y sólo si sera puesto en producción aquellos desarrollos o nuevas características que han sido probadas por desarrolladores, testers y usuarios finales.
-
-Las bases de datos estarán en servidores provistas por AWS, manejando tres ambientes como es el caso del código, desarrollo, pruebas y producción.
-
-Se debe desplegar un repositorio de código, para este caso se emplea Gogs y el versionamiento se hará empleando git, debe existir un solo repositorio alojado en un servidor provisto por el AWS.
-
-Para los desarrolladores los requerimientos de pull serán de acuerdo a la necesidad, para el caso de Push al repositorio principal, solo se harán posterior a la validación del Arquitecto o quien este designe, así los desarrolladores menos experimentados podrán recibir retroalimentación por parte de otros integrantes del equipo.
-
 ## Package model <a name="package-model"></a>
 
 Por medio de estos diagramas se pretende presentar una visión más clara del sistema de información de la empresa K,   organizado en subsistemas y agrupando elementos para su análisis y mejor entendimiento así mismo se construyen dependencias entre paquetes, siendo una extensión del diagrama de clases y de componentes.
@@ -253,8 +230,6 @@ __Dependencias entre paquetes:__ Existe una dependencia cuando un elemento de un
 ![alt text][fig6]
 
 Figira 6: Dependencia entre paquetes
-
-### Package model correspondence rules <a name="package-model-correspondence-rules"></a>
 
 ## Operations on views+ <a name="operations-on-views-component"></a>
 
