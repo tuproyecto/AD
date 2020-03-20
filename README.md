@@ -73,7 +73,7 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
  
 ## Other information <a name="other-information"></a>
 
-__Descripción general del sistema__
+__Descripción general del sistema__ <a name="descripcion-problema"></a>
 
 La empresa K, lleva 5 años en el mercado ofreciendo a sus clientes productos cosméticos, para lo cual ha generado como apoyo a las ventas catálogos y manuales de producto.
 Para bajar costos, los manuales se quieren manejar de manera electrónica y los catálogos se quieren manejar a través de tecnología Web.
@@ -100,7 +100,7 @@ __Papel clave de las partes interesadas__
 
 ### Rationale for key decisions <a name="rationale-for-key-decisions"></a>
 
-Conociendo los stakeholders vinculados al desarrollo de la descripción de arquitectura procedemos a realizar la matriz de porder [Tabla 1](#tabla1) para determinar las prioridades y contar con un primer elemento de juicio para tomar las decisiones arquitectónicas relevantes.
+Conociendo los stakeholders vinculados al desarrollo de la descripción de arquitectura procedemos a realizar la matriz de porder [tabla 1](#tabla1) para determinar las prioridades y contar con un primer elemento de juicio para tomar las decisiones arquitectónicas relevantes.
 
 | Matriz de poder<a name="tabla1"></a> | Keep Satisfied | Key Subject | Minimal Effort | Keep Informed |
 |---|:-:|:-:|:-:|:-:|
@@ -111,26 +111,28 @@ Conociendo los stakeholders vinculados al desarrollo de la descripción de arqui
 
 Tabla 1:  Matriz de poder de stakeholders involucrados en la descripción de arquitectura.
 
+Los stakeholders con mayor poder en para el ejercicio de descripción de arquitectura son el equipo de mercadeo y el equipo comercial ya que estos se encargaran de la estrategia y la ejecución respectivamente. Por tal motivo muchas de las decisiones tomadas se basaran en la prioridad que se les otorgará en las decisiones.
+
 [Table of contents](#table-of-contents)
 
 # Stakeholders and concerns <a name="stakeholders-and-concerns"></a>
 
 ## Stakeholders <a name="stakeholders"></a>
 
-La siguiente tabla presenta, el catálogo de Stakeholders identificados dentro del problema, los cuales son identificados con un valor único, han sido descritos y se han relacionado sus preocupaciones principales de acuerdo a la actividad así:
+La [tabla 2](#tabla2) presenta el catálogo de Stakeholders identificados dentro del problema, los cuales son identificados con un id único, el cual será usado de aquí en adelante cada vez que se haga referencia a estos.
 
-| ID | Stakeholder | Descripción |
+| ID | Stakeholder<a name="tabla2"></a> | Descripción |
 |---|---|---|
 | STK-001 <a name="STK-001"></a> | Clientes | Potenciales consumidores |
 | STK-002 <a name="STK-002"></a> | Equipo comercial | Personal que apoya el proceso de ventas |
 | STK-003 <a name="STK-003"></a> | Equipo de mercadeo | Personal encargado de definir estrategias de mercadeo y diseño de catálogos |
 | STK-004 <a name="STK-004"></a> | Equipo técnico | Expertos en cosmetología, apoyan el proceso de definición de los catálogos |
 
-Tabla No 2 Catálogo de Stakeholder, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
+Tabla 2: Catálogo de Stakeholder detectados con interés sobre el desarrollo del documento de descripción de arquitectura.
 
 ## Concerns <a name="concerns"></a>
 
-Las Preocupaciones fueron discutidas en grupo, de tal forma que pudieran identificarse cuáles eran apropiados para el ejercicio, de esta manera llevar a cabo un análisis de información que permitirá mapearlos hacia los viewpoints que serán definidos.
+Las Preocupaciones fueron discutidas basandonos en la revisión de la [descripción del problema](#descripcion-problema), de tal forma que pudieran identificarse cuáles eran apropiados para el ejercicio, de esta manera llevar a cabo un análisis de información que permitirá mapearlos hacia los viewpoints que serán definidos.
 
 | ID | Concern | Descripción |
 |---|---|---|
