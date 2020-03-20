@@ -121,6 +121,26 @@ La arquitectura de la empresa K será expresada usando la vista de componentes y
 
 Una vez revisada la actividad, en conjunto se establece que que se tomarán los puntos de vista Desarrollo, lógico, Físico y Procesos. consideramos que de esta manera se abarca más información sobre la construcción de arquitectura de Software como respuesta a la necesidad de la Empresa k
 
+| ID | Viewpoints | Descripción |
+|---|---|---|
+| VWP-001 <a name="VWP-001"></a> | Viewpoint lógica | Principalmente los requerimientos funcionales. Como se descomponete el sistema en un conjunto de abstracciones tomadas principalmente del dominio del probelma en forma de objetos y clases. |
+| VWP-002 <a name="VWP-002"></a> | Viewpoint desarrollo | Descompocision de del subsistema. Se centra en la organización de los modulos de software. |
+| VWP-003 <a name="VWP-003"></a> | Viewpoint proceso | Algunos requerimientos no funcionales. Aborda problemas de concurrencia y distribución |
+| VWP-004 <a name="VWP-004"></a> | Viewpoint física | Mapeo de software y hardware. Principalmente requisitos no funcionales  |
+| VWP-005 <a name="VWP-005"></a> | Viewpoint escenarios | Abstraccion de requisitos importante. |
+
+Tabla No 5 Catálogo de Stakeholder, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
+
+| Stakeholders vs Concerns | [CNR-001](#CNR-001) | [CNR-002](#CNR-002) | [CNR-003](#CNR-003) | [CNR-004](#CNR-004) | [CNR-005](#CNR-005) | [CNR-006](#CNR-006) | [CNR-007](#CNR-007) | [CNR-008](#CNR-008) | [CNR-009](#CNR-009) | [CNR-010](#CNR-010) |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| [VWP-001](#VWP-001) | X | X |  |  | X | X |  |  |  |  |
+| [VWP-002](#VWP-002) |  | X | X |  | X | X |  |  |  | X |
+| [VWP-003](#VWP-003) |  |  |  |  |  | X | X | X |  |  | 
+| [VWP-004](#VWP-004) |  | X | X |  | X | X |  |  |  |  |
+| [VWP-005](#VWP-005) | X |  |  |  |  |  |  |  | X | X |
+
+Tabla No 6 Concerns vs Viewpoints
+
 ## Development viewpoint <a name="development-viewpoint"></a>
 
 El viewpoint de desarrollo describe los requerimientos, preocupaciones inicialmente del equipo de desarrollo (Arquitecto - Desarrolladores - Tester), en esta apartado encontrará los concerns que enmarcan el punto de Vista, los tipos de modelos incluidos y convenciones que permiten un mejor entendimiento de la información que se presenta.
