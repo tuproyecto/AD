@@ -256,9 +256,12 @@ Operations define the methods to be applied to views and their models. Types of 
 
 ## Correspondence rules <a name="correspondence-rules-component"></a>
 
-¿Son las mismas de la parte de los modelos?
+* R1: Los módulos presentados en el diagrama de componentes serán desplegados en nodos del diagrama de despliegue.
+por lo anterior debe existir 3 nodos Desarrollo, Pruebas y Producción, desarrollo corresponde al nodo de desarrollo local de los programadores, mientras que pruebas será desplegado de manera independiente a producción, el nodo productivo será independiente y si y sólo si sera puesto en producción aquellos componentes y/o paquetes que han sido probadas por desarrolladores, testers y usuarios finales.
 
-Documente las reglas de correspondencia definidas por este punto de vista o sus tipos de modelos. Por lo general, estas reglas serán entre modelos o vistas, ya que las restricciones dentro de un tipo de modelo se habrán especificado como parte de las convenciones de ese tipo de modelo. Ver: ISO 42010 4.2.6 y 5.7.
+* R2: Las bases de datos estarán en nodos, manejando tres ambientes como es el caso de los componentes, desarrollo, pruebas y producción.
+
+* R3: Debe existir un solo repositorio para el versionamiento del código el cual será  desplegado en un nodo descrito en el diagrama de despliegue.
 
 ## Sources <a name="sources-development"></a>
 
