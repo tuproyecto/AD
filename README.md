@@ -180,11 +180,9 @@ A continuación se describe cada preocupación de las partes interesadas relacio
 
 Las partes interesadas para esta vista incluye a los integrantes del equipo de desarrollo responsables de la construcción de software y sus descripciones Una vez revisada la tabla No 1, se identifican 3 Stakeholders para el viewpoint de desarrollo.
 
-| ID | Stakeholder | Descripción |
-|---|---|---|
-| STK-008 <a name="STK-008"></a> | Arquitecto de Software | Líder técnico del Equipo de desarrollo |
-| STK-009 <a name="STK-009"></a> | Desarrollador | Responsable de la codificación del Aplicativo (Backend - Frontend) |
-| STK-010 <a name="STK-010"></a> | Tester | Personal encargado de llevar a cabo las pruebas antes de salir a producción |
+STK-002 <a name="STK-002"></a> - Equipo comercial: Personal que apoya el proceso de ventas
+STK-003 <a name="STK-003"></a> - Equipo de mercadeo: Personal encargado de definir estrategias de mercadeo y diseño de catálogos
+STK-004 <a name="STK-004"></a> - Equipo técnico: Expertos en cosmetología, apoyan el proceso de definición de los catálogos
 
 Tabla No 4 Catálogo de Stakeholder Viewpoint de Desarrollo
 
