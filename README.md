@@ -162,7 +162,7 @@ Tabla No 4 Catálogo de Preocupaciones, Elaboración de los investigadores basad
 
 # Viewpoints+ <a name="viewpoints"></a>
 
-La arquitectura de la empresa K será expresada usando la vista de componentes y de despliegue, en ella se presentan los principales componentes de aplicación adaptados como solución a la necesidad de la organización. 
+La arquitectura de la empresa " K " será expresada usando la vista de componentes y de despliegue, en ella se presentan los principales componentes de aplicación adaptados como solución a la necesidad de la organización. 
 
 Una vez revisada la actividad, en conjunto se establece que que se tomarán los puntos de vista Desarrollo, lógico, Físico y Procesos. consideramos que de esta manera se abarca más información sobre la construcción de arquitectura de Software como respuesta a la necesidad de la Empresa k
 
