@@ -73,7 +73,7 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
  
 ## Other information <a name="other-information"></a>
 
-__Descripción general del sistema__ <a name="descripcion-problema"></a>
+__Descripción general del sistema__ <a name="descripcion-general-sistema"></a>
 
 La empresa K, lleva 5 años en el mercado ofreciendo a sus clientes productos cosméticos, para lo cual ha generado como apoyo a las ventas catálogos y manuales de producto.
 Para bajar costos, los manuales se quieren manejar de manera electrónica y los catálogos se quieren manejar a través de tecnología Web.
@@ -132,9 +132,9 @@ Tabla 2: Catálogo de Stakeholder detectados con interés sobre el desarrollo de
 
 ## Concerns <a name="concerns"></a>
 
-Las Preocupaciones fueron discutidas basandonos en la revisión de la [descripción del problema](#descripcion-problema), de tal forma que pudieran identificarse cuáles eran apropiados para el ejercicio, de esta manera llevar a cabo un análisis de información que permitirá mapearlos hacia los viewpoints que serán definidos.
+Las Preocupaciones descritas en la [tabla 3](#tabla3) fueron discutidas basados en la revisión de la [descripción general del sistema](#descripcion-general-sistema), de tal forma que pudieran identificarse cuáles eran apropiados para el ejercicio, de esta manera llevar a cabo un análisis de información que permitirá mapearlos para poder establecer las relaciones asociaciones necesarias para definir de forma adecuada los viewpoints.
 
-| ID | Concern | Descripción |
+| ID | Concerns <a name="tabla3"></a> | Descripción |
 |---|---|---|
 | CNR-001 <a name="CNR-001"></a> | Usabilidad | Se busca contar con herramientas de vanguardia que ofrezca una buena experiencia de usuario |
 | CNR-002 <a name="CNR-002"></a> | Disponibilidad (Availability) | Que el sistema sea accesible dentro y fuera de las instalaciones de la compañía |
@@ -147,7 +147,7 @@ Las Preocupaciones fueron discutidas basandonos en la revisión de la [descripci
 | CNR-009 <a name="CNR-009"></a> | Acceso a la información | Contar con la información necesaria en el momento adecuado |
 | CNR-010 <a name="CNR-010"></a> | Estructura de información | Administrar y presentar la información en los catálogos de acuerdo a la estrategia definida |
 
-Tabla No 3 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
+Tabla 3: Catálogo de Preocupaciones definidas con base en la [descripción general del sistema](#descripcion-general-sistema)
 
 ## Concern–Stakeholder Traceability <a name="concern–stakeholder-traceability"></a>
 
