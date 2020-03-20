@@ -220,11 +220,16 @@ Tabla No 4 Catálogo de Stakeholder Viewpoint de Desarrollo
 
 ## Model kinds+ <a name="model-kinds"></a>
 
-Diagrama de componentes, Diagrama de Paquetes
+* Modelo de componentes
+* Modelo de Paquetes
 
 __Subset of metamodel elements__
 
-Componente, Interfaz y Relación de dependencia, paquetes y dependencia entre paquetes
+* Componente
+* Interfaz
+* Relación de dependencia
+* Paquetes
+* Dependencia entre paquetes
 
 ## Component model <a name="component-model"></a>
 
