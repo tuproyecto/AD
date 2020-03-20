@@ -220,8 +220,8 @@ Tabla No 4 Catálogo de Stakeholder Viewpoint de Desarrollo
 
 ## Model kinds+ <a name="model-kinds"></a>
 
-* MOD-001 <a name="MOD-001"></a> - Modelo de componentes
-* MOD-002 <a name="MOD-002"></a> - Modelo de Paquetes
+* [MOD-001](#MOD-001) - Modelo de componentes
+* [MOD-002](#MOD-002) - Modelo de Paquetes
 
 __Subset of metamodel elements__
 
