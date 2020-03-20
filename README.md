@@ -100,6 +100,8 @@ __Papel clave de las partes interesadas__
 
 ### Rationale for key decisions <a name="rationale-for-key-decisions"></a>
 
+Conociendo los stakeholders vinculados al desarrollo de la descripción de arquitectura procedemos a realizar la matriz de porder [Tabla 1](#tabla1) para determinar las prioridades y contar con un primer elemento de juicio para tomar las decisiones arquitectónicas relevantes.
+
 | Matriz de poder | Keep Satisfied | Key Subject | Minimal Effort | Keep Informed |
 |---|:-:|:-:|:-:|:-:|
 | Clientes |  |  | X |  |
@@ -107,7 +109,7 @@ __Papel clave de las partes interesadas__
 | Equipo de mercadeo |  | X |  |  |
 | Equipo técnico | X |  |  |  |
 
-Tabla No 1 Matriz de poder
+Tabla 1 <a name="tabla1"></a>:  Matriz de poder de stakeholders involucrados en la descripción de arquitectura.
 
 [Table of contents](#table-of-contents)
 
