@@ -182,6 +182,8 @@ Tabla No 9 Stakeholders vs Viewpoints
 
 Tabla No 10 Vistas vs Modelos
 
+<!-- Desde aca empieza el primer viewpoint -->
+
 ## Development viewpoint <a name="development-viewpoint"></a>
 
 El viewpoint de desarrollo describe los requerimientos, preocupaciones inicialmente del equipo de desarrollo (Arquitecto - Desarrolladores - Tester), en esta apartado encontrará los concerns que enmarcan el punto de Vista, los tipos de modelos incluidos y convenciones que permiten un mejor entendimiento de la información que se presenta.
