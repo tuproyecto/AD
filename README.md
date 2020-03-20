@@ -59,23 +59,17 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
 ## Supplementary information <a name="supplementary-information"></a>
 
 * Fecha de emisión: Marzo 13 de 2020
-* Estado: Documento para revisón
+* Estado: Documento para revisión
 * Autores: 
-  * Johan
-  * Alejandro
-  * Dubier
-  * Diego
-* Revisores
-* Autoridad de aprobación
-* Organización emisora
-* Historial de cambios: 
-* Resumen
-* Alcance
-* Contexto
-* Glosario
-* Información de control de versión
-* Información de gestión de configuración y referencias
-* ISO 42010 5.2
+  * Castiblanco Soler David Alejandro
+  * Céspedes Ortega Johan Miguel
+  * Espitia Aristizábal Dubier Esneider
+  * Gómez Cuervo Diego Armando
+* Revisores: Ing. Miguel Torres
+* Historial de cambios: Primera versión del documento
+* Resumen:
+* Alcance: Definir una primera versión del documento de descripción de arquitectura para el proyecto de catálogo virtual.
+* Contexto:
  
 ## Other information <a name="other-information"></a>
 
