@@ -136,10 +136,19 @@ Tabla No 5 Catálogo de Stakeholder, Elaboración de los investigadores basada e
 | [VWP-001](#VWP-001) | X | X |  |  | X | X |  |  |  |  |
 | [VWP-002](#VWP-002) |  | X | X |  | X | X |  |  |  | X |
 | [VWP-003](#VWP-003) |  |  |  |  |  | X | X | X |  |  | 
-| [VWP-004](#VWP-004) |  | X | X |  | X | X |  |  |  |  |
+| [VWP-004](#VWP-004) | X |  | X |  | X | X |  |  |  |  |
 | [VWP-005](#VWP-005) | X |  |  |  |  |  |  |  | X | X |
 
 Tabla No 6 Concerns vs Viewpoints
+
+| Stakeholders vs Viewpoints | [VWP-001](#VWP-001) | [VWP-002](#VWP-002) | [VWP-003](#VWP-003) | [VWP-004](#VWP-004) | [VWP-005](#VWP-005) |
+|---|:-:|:-:|:-:|:-:|:-:|
+| [STK-001](#STK-001) |  |  |  |  | X |
+| [STK-002](#STK-002) | X | X | X | X | X |
+| [STK-003](#STK-003) | X | X | X | X | X |
+| [STK-004](#STK-004) | X | X |  | X | X |
+
+Tabla No 5 Stakeholders vs Viewpoints
 
 ## Development viewpoint <a name="development-viewpoint"></a>
 
@@ -164,16 +173,6 @@ A continuación se describe cada preocupación de las partes interesadas relacio
 [CNR-005](#CNR-005) - Definición de requerimiento: Recibir requerimientos de Calidad a tiempo, uno de los riesgos a la hora de la definición e implementación de la arquitectura de Software está en el levantamiento de los requerimientos, en la mayor parte de los casos cuando no se emplea una adecuada metodología que responda interrogantes básicos, los resultados no siempre son los esperados, el tiempo dispuesto para el desarrollo puede superar la estimación, sin mencionar que el sistema podría no cumplir con la funcionalidad para la que fue diseñada.  
 
 [CNR-006](#CNR-006) - Modificabilidad: La modificabilidad se refiere al grado en que un sistema puede ser modificado efectiva o eficientemente sin introducir defectos o degradar la calidad del sistema existente, esta preocupación de stakeholder, es bastante importante, por cuanto en la mayoría de los casos, los aplicativos crecen, los usuarios solicitan nuevas características o requieren que se amplíe una funcionalidad, si la arquitectura no ha sido debidamente planteada, este tipo de cambios puede ser de criticidad alta a la hora de hacer modificaciones.  
- 
-[CNR-007](#CNR-007) - Rendimiento: Desempeño del aplicativo, para la empresa es importante ampliar sus posibilidades de consulta y procesamiento de datos, es por ello que para el arquitecto debe ser importante diseñar una arquitectura que cumpla con las expectativas de la empresa, definir los estilos, patrones de diseño y técnicas a emplear importante, ya que a futuro las implementaciones de arquitectura repercuten en el correcto funcionamiento de características y requerimientos funcionales. 
-
-[CNR-012](#CNR-012) -Estandarización del desarrollo: Es importante que para el desarrollo el equipo se encuentre coordinado, no es posible que integrantes del equipo lleven a cabo tareas fuera de tiempo, sin organización, que no exista respuesta a preguntas comunes entre desarrolladores, como qué herramientas emplear, lenguajes, Apis, Frameworks, motores de bases de datos, es por ello que esta es una preocupación del equipo de desarrollo, la cual se debe documentar y ser clara para todos los integrantes del equipo, de tal forma que cada quien conozca los recursos y métodos para llevar a cabo el desarrollo. 
-
-[CNR-013](#CNR-013) -Estandarización del Código: No debería haber código sin optimizar, se debe versionar el mismo, empleando git y Gogs como repositorio del mismo, se manejara el estándar de Java para el desarrollo (Nombres de Clases, Métodos, Comentar el código).
-
-[CNR-014](#CNR-014) -Estandarización de las Pruebas: Debe existir un claro proceso de pruebas, esto debe incluir, punto de partida, componentes a estudiar, recomendaciones para desarrolladores, así mismo el personal responsable de la pruebas debe ser personal técnico que cuente con la experiencia en pruebas y validación de componentes desarrollados.
-
-[CNR-015](#CNR-015) -Estandarización del Diseño: Se emplearán y documentaran los estilos de arquitectura y patrones de diseño empleados para el desarrollo del aplicativo, no debe existir desarrollo  sin documentación, así mismo debe existir un repositorio para persistir la documentación del proyecto.
 
 ### Typical stakeholders <a name="typical-stakeholders-development"></a>
 
