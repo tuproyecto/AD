@@ -59,7 +59,7 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
 ## Supplementary information <a name="supplementary-information"></a>
 
 * Fecha de emisión: Marzo 13 de 2020
-* Estado: Documento para revisión
+* Estado: Documento en revisión
 * Autores: 
   * Castiblanco Soler David Alejandro
   * Céspedes Ortega Johan Miguel
@@ -67,11 +67,36 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
   * Gómez Cuervo Diego Armando
 * Revisores: Ing. Miguel Torres
 * Historial de cambios: Primera versión del documento
-* Resumen: Se realizará la descripción de arquitectura para la digitalización del catálogo de cosméticos utilizado por el equipo comercial para el proceso de ventas y que actualmente se encuentra en físico.
+* Resumen: Se realizará la descripción de arquitectura para la digitalización del catálogo de cosméticos utilizado por el equipo comercial para el proceso de ventas y que actualmente se encuentra en medio físico.
 * Alcance: Definir una primera versión del documento de descripción de arquitectura para el proyecto de catálogo virtual.
-* Contexto:
+* Contexto: Con el objetivo modernizar la operación y construir escenarios para una mayor expansión de su mercado, la empresa Cosmetikos busca digitalizar su catálogo físico a un catálogo digital que sirva como herramienta para que el equipo comercial optimice su eficiencia con una herramienta fácil de usar e intuitiva.
  
 ## Other information <a name="other-information"></a>
+
+__Descripción general del sistema__
+
+La empresa K, lleva 5 años en el mercado ofreciendo a sus clientes productos cosméticos, para lo cual ha generado como apoyo a las ventas catálogos y manuales de producto.
+Para bajar costos, los manuales se quieren manejar de manera electrónica y los catálogos se quieren manejar a través de tecnología Web.
+
+La empresa cuenta con un equipo comercial, al cual se le asignan diferentes tipos de tecnologías para apoyar el proceso de ventas. Entre los equipos asignados están portátiles, tabletas, celulares, entre otros.
+
+Se busca que el sistema permita a los comerciales presentar el catálogo durante sus visitas, independientemente de la tecnología. De modo que el comercial pueda ofrecer los productos y realizar el pedido de los mismos durante la visita. 
+
+Al realizar el pedido se le debe indicar al cliente cuando se le realizará la entrega del producto. Adicional a los vendedores se cuenta con un equipo de mercadeo que define la estrategia, diseño, forma y contenido de los catálogos. Este equipo de mercadeo debe contar con las herramientas para poder ingresar, manipular y gestionar los catálogos.
+
+El equipo de mercadeo, junto con un equipo técnico de expertos en cosmetología definen los manuales, el diseño de estos y su contenido. Estos equipos deben estar en la capacidad de crear nuevos manuales, gestionarlos y administrar su contenido.
+Se espera que el sistema pueda ser usado tanto en las oficinas como fuera de estas.
+
+Se busca un sistema fácil de usar, que permita una curva acelerada de aprendizaje al ser intuitivo. Los tiempos de respuesta deben ser acordes al mercado, de modo que los diferentes usuarios del sistema no deban esperar por la respuesta del sistema.
+
+El sistema inicialmente se usará en Colombia, pero una vez se pruebe su efectividad, este se llevará a los 85 países donde se tiene ventas de los productos.
+
+__Papel clave de las partes interesadas__
+
+* Clientes: No jugaran un papel clave en esta descripción de arquitectura ya que según lo estipula la descripción general del sistema nos enfocaremos en el equipo comercial y de mercadeo como principales beneficiarios tanto a nivel de estrategia como de ejecución.
+* Equipo comercial: Se busca que beneficie principalmente a este stakeholder ya que uno de los principales objetivos en mejorar la efectividad en cada visita.
+* Equipo de mercadeo: Se busca que este stakeholder tenga la capacidad de diseñar estrategias más eficientes y oportunas al contar con las herramientas digitales para cerrar las brechas que generan los catálogos impresos.
+* Equipo técnico: Tendrá la capacidad de ajustar de forma más oportuna los diseños y manuales de cosmetología de acuerdo con las estrategias que mercadeo dicte.
 
 ### Rationale for key decisions <a name="rationale-for-key-decisions"></a>
 
