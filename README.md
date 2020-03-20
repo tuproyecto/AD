@@ -67,7 +67,7 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
   * Gómez Cuervo Diego Armando
 * Revisores: Ing. Miguel Torres
 * Historial de cambios: Primera versión del documento
-* Resumen:
+* Resumen: Se realizará la descripción de arquitectura para la digitalización del catálogo de cosméticos utilizado por el equipo comercial para el proceso de ventas y que actualmente se encuentra en físico.
 * Alcance: Definir una primera versión del documento de descripción de arquitectura para el proyecto de catálogo virtual.
 * Contexto:
  
