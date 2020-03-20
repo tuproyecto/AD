@@ -294,7 +294,7 @@ __Subset of metamodel elements__
 
 ## Component model <a name="component-model"></a>
 
-En esta sección se describe el diagrama de componentes de software que será empleado para describir la solución propuesta para la empresa “K”.
+En esta sección se describe el diagrama de componentes de software que será empleado para describir la solución propuesta para la empresa K.
 
 ### Component model conventions <a name="component-model-conventions"></a>
 
@@ -371,7 +371,7 @@ por lo anterior debe existir 3 nodos Desarrollo, Pruebas y Producción, desarrol
 
 ## Development view <a name="development-view"></a>
 
-Descripción de la vista de desarrollo usada. dos modelos uno de componentes y uno de paquetes
+A continuación se describe la vista de desarrollo los modelos de componentes y paquetes.
 
 ### Models+ <a name="models-development-view"></a>
 ### Components <a name="models-component-development-view"></a>
@@ -392,36 +392,37 @@ Figira 8: Diagrama de paquetes
 
 ### Known Issues with View <a name="issues-with-development-view"></a>
 
-Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
+> Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
 
 [Table of contents](#table-of-contents)
 
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
-Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
+> Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
 
 ## Known inconsistencies <a name="known-inconsistencies"></a>
 
-Registre cualquier inconsistencia conocida en el AD. Aunque obviamente se prefieren los EA consistentes, a veces es inviable o poco práctico resolver todas las inconsistencias por razones de tiempo, esfuerzo o información insuficiente.
+> Registre cualquier inconsistencia conocida en el AD. Aunque obviamente se prefieren los EA consistentes, a veces es inviable o poco práctico resolver todas las inconsistencias por razones de tiempo, esfuerzo o información insuficiente.
 
 ## Correspondences in the AD <a name="correspondences-in-the-ad"></a>
 
-Identifique cada correspondencia en el AD y sus elementos de AD participantes. Identificar las reglas de correspondencia que rigen
-Las correspondencias se utilizan para expresar, registrar, aplicar y analizar la coherencia entre modelos, vistas y otros elementos de AD dentro de una descripción de arquitectura, entre AD o entre un AD y otras formas de documentación.
+> Identifique cada correspondencia en el AD y sus elementos de AD participantes. Identificar las reglas de correspondencia que rigen
 
-Los elementos de AD incluyen instancias de partes interesadas, preocupaciones, puntos de vista y puntos de vista, tipos y modelos de modelos, decisiones y fundamentos. Las construcciones introducidas por los puntos de vista y los tipos de modelos también son elementos AD.
+> Las correspondencias se utilizan para expresar, registrar, aplicar y analizar la coherencia entre modelos, vistas y otros elementos de AD dentro de una descripción de arquitectura, entre AD o entre un AD y otras formas de documentación.
 
-Las correspondencias son relaciones matemáticas n-arias. Las correspondencias pueden representarse mediante tablas, enlaces o mediante otras formas de asociación (como en UML).
+> Los elementos de AD incluyen instancias de partes interesadas, preocupaciones, puntos de vista y puntos de vista, tipos y modelos de modelos, decisiones y fundamentos. Las construcciones introducidas por los puntos de vista y los tipos de modelos también son elementos AD.
+
+> Las correspondencias son relaciones matemáticas n-arias. Las correspondencias pueden representarse mediante tablas, enlaces o mediante otras formas de asociación (como en UML).
 
 [Table of contents](#table-of-contents)
 
 ## Correspondence rules <a name="correspondence-rules-final"></a>
 
-Identifique cada regla de correspondencia que se aplica al AD.
+> Identifique cada regla de correspondencia que se aplica al AD.
 
-Las reglas de correspondencia pueden ser introducidas por el AD, por uno de sus puntos de vista, o desde un marco de arquitectura o lenguaje de descripción de arquitectura que se esté utilizando.
+> Las reglas de correspondencia pueden ser introducidas por el AD, por uno de sus puntos de vista, o desde un marco de arquitectura o lenguaje de descripción de arquitectura que se esté utilizando.
 
-Para cada regla de correspondencia identificada, registre si la regla cumple (se cumple) o, de lo contrario, registre todas las violaciones conocidas.
+> Para cada regla de correspondencia identificada, registre si la regla cumple (se cumple) o, de lo contrario, registre todas las violaciones conocidas.
 
 [Table of contents](#table-of-contents)
 
