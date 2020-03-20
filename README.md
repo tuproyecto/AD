@@ -61,10 +61,10 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
 * Fecha de emisión: Marzo 13 de 2020
 * Estado: Documento para revisón
 * Autores: 
-** Johan
-** Alejandro
-** Dubier
-** Diego
+  ** Johan
+  ** Alejandro
+  ** Dubier
+  ** Diego
 * Revisores
 * Autoridad de aprobación
 * Organización emisora
