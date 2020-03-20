@@ -123,13 +123,35 @@ Una vez revisada la actividad, en conjunto se establece que que se tomarán los 
 
 | ID | Viewpoints | Descripción |
 |---|---|---|
-| VWP-001 <a name="VWP-001"></a> | Viewpoint lógica | Principalmente los requerimientos funcionales. Como se descomponete el sistema en un conjunto de abstracciones tomadas principalmente del dominio del probelma en forma de objetos y clases. |
-| VWP-002 <a name="VWP-002"></a> | Viewpoint desarrollo | Descompocision de del subsistema. Se centra en la organización de los modulos de software. |
-| VWP-003 <a name="VWP-003"></a> | Viewpoint proceso | Algunos requerimientos no funcionales. Aborda problemas de concurrencia y distribución |
-| VWP-004 <a name="VWP-004"></a> | Viewpoint física | Mapeo de software y hardware. Principalmente requisitos no funcionales  |
-| VWP-005 <a name="VWP-005"></a> | Viewpoint escenarios | Abstraccion de requisitos importante. |
+| VWP-001 <a name="VWP-001"></a> | Viewpoint lógica | Establece convenciones para crear, interpretar y usar la vista lógica. |
+| VWP-002 <a name="VWP-002"></a> | Viewpoint desarrollo | Establece convenciones para crear, interpretar y usar la vista de desarrollo. |
+| VWP-003 <a name="VWP-003"></a> | Viewpoint proceso | Establece convenciones para crear, interpretar y usar la vista de proceso. |
+| VWP-004 <a name="VWP-004"></a> | Viewpoint física | Establece convenciones para crear, interpretar y usar la vista física. |
+| VWP-005 <a name="VWP-005"></a> | Viewpoint escenarios | Establece convenciones para crear, interpretar y usar la vista de escenarios. |
 
-Tabla No 5 Catálogo de Stakeholder, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
+Tabla No 5 Viewpoints
+
+| ID | Vistas | Descripción |
+|---|---|---|
+| VIEW-001 <a name="VIEW-001"></a> | Vista lógica | Principalmente los requerimientos funcionales. Como se descompone el sistema en un conjunto de abstracciones tomadas principalmente del dominio del problema en forma de objetos y clases. |
+| VIEW-002 <a name="VIEW-002"></a> | Vista desarrollo | Descomposición de del subsistema. Se centra en la organización de los módulos de software. |
+| VIEW-003 <a name="VIEW-003"></a> | Vista proceso | Algunos requerimientos no funcionales. Aborda problemas de concurrencia y distribución. |
+| VIEW-004 <a name="VIEW-004"></a> | Vista física | Mapeo de software y hardware. Principalmente requisitos no funcionales. |
+| VIEW-005 <a name="VIEW-005"></a> | Vista escenarios | Abstracción de requisitos importante. |
+
+Tabla No 6 Vistas
+
+| ID | Modelos | Descripción |
+|---|---|---|
+| MOD-001 <a name="MOD-001"></a> | Modelo de Componentes | Aquí modelamos los componentes que ayudan a gestionar las funcionalidades del sistema. |
+| MOD-002 <a name="MOD-002"></a> | Modelo de Paquetes | Se definen distintos paquetes a nivel lógico que forman parte de la aplicación y la dependencia entre ellos. |
+| MOD-003 <a name="MOD-003"></a> | Modelo de Clases | Descripción estática de un sistema, permite comunicar el diseño de un programa, así mismo permite presentar relaciones entre entidades. |
+| MOD-004 <a name="MOD-004"></a> | Modelo de despliegue | Representación gráfica sobre la ubicación física de los artefactos de Software. |
+| MOD-005 <a name="MOD-005"></a> | Modelo de Secuencia | Presenta gráficamente las interacciones del actor y las operaciones que realiza durante el tiempo de ejecución . |
+| MOD-006 <a name="MOD-006"></a> | Modelo de Actividad | Describen procesos llevados a cabo dentro de un sistema, transacciones o procedimientos. |
+| MOD-007 <a name="MOD-007"></a> | Modelo de casos de uso | Representan la comunicaciones entre usuarios de un sistema u otros sistemas. |
+
+Tabla No 7 Modelos
 
 | Stakeholders vs Concerns | [CNR-001](#CNR-001) | [CNR-002](#CNR-002) | [CNR-003](#CNR-003) | [CNR-004](#CNR-004) | [CNR-005](#CNR-005) | [CNR-006](#CNR-006) | [CNR-007](#CNR-007) | [CNR-008](#CNR-008) | [CNR-009](#CNR-009) | [CNR-010](#CNR-010) |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -139,7 +161,7 @@ Tabla No 5 Catálogo de Stakeholder, Elaboración de los investigadores basada e
 | [VWP-004](#VWP-004) |  | X | X |  | X | X |  |  |  |  |
 | [VWP-005](#VWP-005) | X |  |  |  |  |  |  |  | X | X |
 
-Tabla No 6 Concerns vs Viewpoints
+Tabla No 8 Concerns vs Viewpoints
 
 | Stakeholders vs Viewpoints | [VWP-001](#VWP-001) | [VWP-002](#VWP-002) | [VWP-003](#VWP-003) | [VWP-004](#VWP-004) | [VWP-005](#VWP-005) |
 |---|:-:|:-:|:-:|:-:|:-:|
@@ -148,7 +170,17 @@ Tabla No 6 Concerns vs Viewpoints
 | [STK-003](#STK-003) | X | X | X | X | X |
 | [STK-004](#STK-004) | X | X |  | X | X |
 
-Tabla No 5 Stakeholders vs Viewpoints
+Tabla No 9 Stakeholders vs Viewpoints
+
+| Vistas vs Modelos | [MOD-001](#MOD-001) | [MOD-002](#MOD-002) | [MOD-003](#MOD-003) | [MOD-004](#MOD-004) | [MOD-005](#MOD-005) | [MOD-006](#MOD-006) | [MOD-007](#MOD-007) |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| [VIEW-001](#VIEW-001) |  |  | X |  | X |  |  |
+| [VIEW-002](#VIEW-002) | X | X |  |  |  |  |  |
+| [VIEW-003](#VIEW-003) |  |  |  |  |  | X |  |
+| [VIEW-004](#VIEW-004) |  |  |  | X |  |  |  |
+| [VIEW-005](#VIEW-005) |  |  |  |  |  |  | X |
+
+Tabla No 10 Vistas vs Modelos
 
 ## Development viewpoint <a name="development-viewpoint"></a>
 
