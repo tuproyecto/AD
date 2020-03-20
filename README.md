@@ -37,7 +37,11 @@
 
 # Introduction <a name="introduction"></a>
 
-Para el propósito de esta actividad desarrollaremos la plantilla propuesta por el estándar ISO 42010 donde se plasmara por medio de la implementación del esquema 4 + 1 vistas la solución propuesta al problema planteado, para ello se presentan los diferentes viewpoint asociados a la matriz de stakeholder y concerns, asociando a cada viewpoint los diagramas que consideramos necesarios para poder exponer la solución.
+El presente trabajo desarrolla un ejercicio de descripción arquitectónica que atiende las especificaciones del proyecto de modernización del modelo de ventas por catalogo el cual se basa principalmente en catálogos físicos de productos de maquillaje los cuales son presentados a los clientes para su respectiva compra.
+
+Desarrollaremos la documentación arquitectónica basados en el modelo 4+1, de estas formas utilizaremos cada uno de los componentes de este modelo como un viewpoint y los diagramas de UML como modelos dentro de cada vista descrita con anterioridad por el viewpoint.
+
+El ejercicio parte desde la defección de los stakeholders y concers que se encuentran el planteamiento inicial y se busca establecerá unas reglas de correspondencia entre viewpoints y busca manejar un alto grado de consistencia en el desarrollo de los modelos, pero principalmente se busca evidenciar el manejo de la correspondencia, las inconsistencias que se presentan durante el desarrollo del ejercicio y la forma en la que se pueden justificar las decisiones de arquitectura.
 
 ![alt text][fig1]
 
@@ -45,11 +49,33 @@ Figura 1: Modelo conceptual
 
 ## Identifying information <a name="identifying-information"></a>
 
-4 + 1 : es un modelo diseñado por Philippe Kruchten para "describir la arquitectura de sistemas software, basados en el uso de múltiples vistas concurrentes"
+A continuación se identifica la arquitectura sobre la cual se trata esta descripción de arquitectura junto a conceptos claves que se manejan a lo largo del documento.
 
-Diagrama : es una representación gráfica por medio de diferentes convenciones y atributos para dar a entender una idea, solución a un problema o demostración de una idea.
+* 4 + 1 : es un modelo diseñado por Philippe Kruchten para "describir la arquitectura de sistemas software, basados en el uso de múltiples vistas concurrentes"
+* ISO42010 : Es un estándar para la descripción de la arquitectura de sistemas y productos de software
+* Diagrama : es una representación gráfica por medio de diferentes convenciones y atributos para dar a entender una idea, solución a un problema o demostración de una idea.
+
 
 ## Supplementary information <a name="supplementary-information"></a>
+
+* Fecha de emisión: Marzo 13 de 2020
+* Estado: Documento para revisón
+* Autores: 
+** Johan
+** Alejandro
+** Dubier
+** Diego
+* Revisores
+* Autoridad de aprobación
+* Organización emisora
+* Historial de cambios: 
+* Resumen
+* Alcance
+* Contexto
+* Glosario
+* Información de control de versión
+* Información de gestión de configuración y referencias
+* ISO 42010 5.2
  
 ## Other information <a name="other-information"></a>
 
@@ -182,7 +208,7 @@ Tabla No 9 Stakeholders vs Viewpoints
 
 Tabla No 10 Vistas vs Modelos
 
-<!-- Desde aca empieza el primer viewpoint -->
+<!-- Inicio de viewpoint de desarrollo -->
 
 ## Development viewpoint <a name="development-viewpoint"></a>
 
@@ -305,6 +331,8 @@ por lo anterior debe existir 3 nodos Desarrollo, Pruebas y Producción, desarrol
 ## Sources <a name="sources-development"></a>
 
 [Table of contents](#table-of-contents)
+
+<!-- Fin de viewpoint de desarrollo -->
 
 # Views+ <a name="views"></a>
 
