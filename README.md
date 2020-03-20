@@ -357,7 +357,7 @@ por lo anterior debe existir 3 nodos Desarrollo, Pruebas y Producción, desarrol
 
 <!-- Inicio de viewpoint Fisica -->
 
-## Development viewpoint <a name="development-viewpoint"></a>
+## Physical viewpoint <a name="development-physical"></a>
 
 El viewpoint Fisico describe los requerimientos no funcionales del sistema, en este apartado encontrará los concerns que enmarcan el punto de Vista, los tipos de modelos incluidos y convenciones que permiten un mejor entendimiento de la información que se presenta asi mismo el despliegue de componentes de Software sobre el hardware propuesto para las actividades.
 
@@ -573,5 +573,6 @@ The second paragraph text
 [fig7]: /img/fig7.png "Diagrama de Componentes de aplicación"
 [fig8]: /img/fig8.png "Diagrama de paquetes"
 [fig9]: /img/fig9.png "Nodo"
+[fig10]: /img/fig10.png "Diagrama de Despliegue"
 
 
