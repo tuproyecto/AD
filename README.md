@@ -134,9 +134,9 @@ Tabla No 5 Catálogo de Stakeholder, Elaboración de los investigadores basada e
 | Stakeholders vs Concerns | [CNR-001](#CNR-001) | [CNR-002](#CNR-002) | [CNR-003](#CNR-003) | [CNR-004](#CNR-004) | [CNR-005](#CNR-005) | [CNR-006](#CNR-006) | [CNR-007](#CNR-007) | [CNR-008](#CNR-008) | [CNR-009](#CNR-009) | [CNR-010](#CNR-010) |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | [VWP-001](#VWP-001) | X | X |  |  | X | X |  |  |  |  |
-| [VWP-002](#VWP-002) |  | X | X |  | X | X |  |  |  | X |
+| [VWP-002](#VWP-002) | X |  | X |  | X | X |  |  |  | X |
 | [VWP-003](#VWP-003) |  |  |  |  |  | X | X | X |  |  | 
-| [VWP-004](#VWP-004) | X |  | X |  | X | X |  |  |  |  |
+| [VWP-004](#VWP-004) |  | X | X |  | X | X |  |  |  |  |
 | [VWP-005](#VWP-005) | X |  |  |  |  |  |  |  | X | X |
 
 Tabla No 6 Concerns vs Viewpoints
