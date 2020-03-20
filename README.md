@@ -69,7 +69,7 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
 * Historial de cambios: Primera versión del documento
 * Resumen: Se realizará la descripción de arquitectura para la digitalización del catálogo de cosméticos utilizado por el equipo comercial para el proceso de ventas y que actualmente se encuentra en medio físico.
 * Alcance: Definir una primera versión del documento de descripción de arquitectura para el proyecto de catálogo virtual.
-* Contexto: Con el objetivo modernizar la operación y construir escenarios para una mayor expansión de su mercado, la empresa Cosmetikos busca digitalizar su catálogo físico a un catálogo digital que sirva como herramienta para que el equipo comercial optimice su eficiencia con una herramienta fácil de usar e intuitiva.
+* Contexto: Con el objetivo modernizar la operación y construir escenarios para una mayor expansión de su mercado, la empresa K busca digitalizar su catálogo físico a un catálogo digital que sirva como herramienta para que el equipo comercial optimice su eficiencia con una herramienta fácil de usar e intuitiva.
  
 ## Other information <a name="other-information"></a>
 
@@ -151,26 +151,26 @@ Tabla 3: Catálogo de Preocupaciones definidas con base en la [descripción gene
 
 ## Concern–Stakeholder Traceability <a name="concern–stakeholder-traceability"></a>
 
-La matriz de trazabilidad de Stakeholders versus preocupaciones nos permite analizar sobre que interesado se identifica con qué preocupación además de ello cuales son común a varios interesados y cuales se presentan en menor cantidad entre los Stakeholders.
+La matriz de trazabilidad entre Stakeholders y preocupaciones presentada en la [tabla 4](#tabla4) nos permite analizar sobre ¿Qué stakeholder se identifica con cuáles preocupación? Además de ¿Cuáles son común a varios interesados? ¿Cuáles no tienen relevancia entre entre los Stakeholders identificados?.
 
-| Stakeholders vs Concerns | [CNR-001](#CNR-001) | [CNR-002](#CNR-002) | [CNR-003](#CNR-003) | [CNR-004](#CNR-004) | [CNR-005](#CNR-005) | [CNR-006](#CNR-006) | [CNR-007](#CNR-007) | [CNR-008](#CNR-008) | [CNR-009](#CNR-009) | [CNR-010](#CNR-010) |
+| Stakeholders vs Concerns <a name="tabla4"></a> | [CNR-001](#CNR-001) | [CNR-002](#CNR-002) | [CNR-003](#CNR-003) | [CNR-004](#CNR-004) | [CNR-005](#CNR-005) | [CNR-006](#CNR-006) | [CNR-007](#CNR-007) | [CNR-008](#CNR-008) | [CNR-009](#CNR-009) | [CNR-010](#CNR-010) |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | [STK-001](#STK-001) | X | X |  | X |  |  |  |  | X |  |
 | [STK-002](#STK-002) | X | X | X |  |  | X | X | X |  |  |
 | [STK-003](#STK-003) |  |  |  |  | X |  |  | X |  | X | 
 | [STK-004](#STK-004) |  |  |  |  | X |  |  |  |  | X |
 
-Tabla No 4 Catálogo de Preocupaciones, Elaboración de los investigadores basada en Togaf 9.2 Diagrams, Catalog, Matrix
+Tabla 4: Matriz de stakeholders vs concerns, se muestra la asociación existente entre los stakeholders identificados y las preocupaciones.
 
 [Table of contents](#table-of-contents)
 
 # Viewpoints+ <a name="viewpoints"></a>
 
-La arquitectura de la empresa " K " será expresada usando la vista de componentes y de despliegue, en ella se presentan los principales componentes de aplicación adaptados como solución a la necesidad de la organización. 
+La arquitectura definida de acuerdo a la [descripción general del sistema](#descripcion-general-sistema) para la empresa K será expresada usando el modelo 4 + 1, de esta forma definiremos 4 viewpoints para el desarrollo de la actividad y enmarcamos las preocupaciones y los stakeholders dentro de estas 4 perspectivas del la arquitectura.
 
-Una vez revisada la actividad, en conjunto se establece que que se tomarán los puntos de vista Desarrollo, lógico, Físico y Procesos. consideramos que de esta manera se abarca más información sobre la construcción de arquitectura de Software como respuesta a la necesidad de la Empresa k
+En conjunto se establece que se tomarán los puntos de vista descritos en la [tabla 5](#tabla5) los cuales corresponden a: desarrollo, lógico, físico, procesos y escenarios. Consideramos que de esta manera se abarca el total de la información sobre la construcción de arquitectura de software como respuesta a la necesidad de la Empresa K.
 
-| ID | Viewpoints | Descripción |
+| ID | Viewpoints <a name="tabla5"> | Descripción |
 |---|---|---|
 | VWP-001 <a name="VWP-001"></a> | Viewpoint lógica | Establece convenciones para crear, interpretar y usar la vista lógica. |
 | VWP-002 <a name="VWP-002"></a> | Viewpoint desarrollo | Establece convenciones para crear, interpretar y usar la vista de desarrollo. |
@@ -178,9 +178,11 @@ Una vez revisada la actividad, en conjunto se establece que que se tomarán los 
 | VWP-004 <a name="VWP-004"></a> | Viewpoint física | Establece convenciones para crear, interpretar y usar la vista física. |
 | VWP-005 <a name="VWP-005"></a> | Viewpoint escenarios | Establece convenciones para crear, interpretar y usar la vista de escenarios. |
 
-Tabla No 5 Viewpoints
+Tabla 5: Catálogo de viewpoints, se definen los viewpoint que se considerarán para el desarrollo de la descripción de arquitectura.
 
-| ID | Vistas | Descripción |
+Ya teniendo definidos los viewpoints con los que trabajaremos para la descripción de arquitectura, procedemos a construir la [tabla 6](#tabla6) en la cual se describen las vistas con las que trabajaremos.
+
+| ID | Vistas <a name="tabla6"> | Descripción |
 |---|---|---|
 | VIEW-001 <a name="VIEW-001"></a> | Vista lógica | Principalmente los requerimientos funcionales. Como se descompone el sistema en un conjunto de abstracciones tomadas principalmente del dominio del problema en forma de objetos y clases. |
 | VIEW-002 <a name="VIEW-002"></a> | Vista desarrollo | Descomposición de del subsistema. Se centra en la organización de los módulos de software. |
@@ -188,9 +190,11 @@ Tabla No 5 Viewpoints
 | VIEW-004 <a name="VIEW-004"></a> | Vista física | Mapeo de software y hardware. Principalmente requisitos no funcionales. |
 | VIEW-005 <a name="VIEW-005"></a> | Vista escenarios | Abstracción de requisitos importante. |
 
-Tabla No 6 Vistas
+Tabla 6: Catálogo de vistas basado en los viewpoints definidos por el modelo 4 + 1.
 
-| ID | Modelos | Descripción |
+Teniendo definidas las vistas por el modelo 4 + 1, procedemos a definir en la [tabla 7](#tabla7) los modelos asociados a cada vista y los cuales definirán los viewpoints para el desarrollo de la descripción de arquitectura.
+
+| ID | Modelos <a name="tabla7"> | Descripción |
 |---|---|---|
 | MOD-001 <a name="MOD-001"></a> | Modelo de Componentes | Aquí modelamos los componentes que ayudan a gestionar las funcionalidades del sistema. |
 | MOD-002 <a name="MOD-002"></a> | Modelo de Paquetes | Se definen distintos paquetes a nivel lógico que forman parte de la aplicación y la dependencia entre ellos. |
@@ -200,9 +204,11 @@ Tabla No 6 Vistas
 | MOD-006 <a name="MOD-006"></a> | Modelo de Actividad | Describen procesos llevados a cabo dentro de un sistema, transacciones o procedimientos. |
 | MOD-007 <a name="MOD-007"></a> | Modelo de casos de uso | Representan la comunicaciones entre usuarios de un sistema u otros sistemas. |
 
-Tabla No 7 Modelos
+Tabla 7: Descripción de los modelos definidos de acuerdo al modelo 4 + 1.
 
-| Stakeholders vs Concerns | [CNR-001](#CNR-001) | [CNR-002](#CNR-002) | [CNR-003](#CNR-003) | [CNR-004](#CNR-004) | [CNR-005](#CNR-005) | [CNR-006](#CNR-006) | [CNR-007](#CNR-007) | [CNR-008](#CNR-008) | [CNR-009](#CNR-009) | [CNR-010](#CNR-010) |
+Contando con las tablas anteriormente descritas podemos establecer relaciones que nos ayudan a definir cada uno de los viewpoints. En la [tabla 8](#tabla8) se presenta la relación entre los viewpoints y los concerns relacionados a cada uno.
+
+| Viewpoints vs Concerns <a name="tabla8"> | [CNR-001](#CNR-001) | [CNR-002](#CNR-002) | [CNR-003](#CNR-003) | [CNR-004](#CNR-004) | [CNR-005](#CNR-005) | [CNR-006](#CNR-006) | [CNR-007](#CNR-007) | [CNR-008](#CNR-008) | [CNR-009](#CNR-009) | [CNR-010](#CNR-010) |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | [VWP-001](#VWP-001) | X | X |  |  | X | X |  |  |  |  |
 | [VWP-002](#VWP-002) | X |  | X |  | X | X |  |  |  | X |
@@ -210,18 +216,22 @@ Tabla No 7 Modelos
 | [VWP-004](#VWP-004) |  | X | X |  | X | X |  |  |  |  |
 | [VWP-005](#VWP-005) | X |  |  |  |  |  |  |  | X | X |
 
-Tabla No 8 Concerns vs Viewpoints
+Tabla 8: Matriz de relación enrte Viewpoints y Concerns para la elaboración de viewpoints.
 
-| Stakeholders vs Viewpoints | [VWP-001](#VWP-001) | [VWP-002](#VWP-002) | [VWP-003](#VWP-003) | [VWP-004](#VWP-004) | [VWP-005](#VWP-005) |
+Así mismo realizamos la [tabla 9](#tabla9) para relacionar los stakeholders identificados con los viewpoints definidos anteriormente.
+
+| Stakeholders vs Viewpoints <a name="tabla9"> | [VWP-001](#VWP-001) | [VWP-002](#VWP-002) | [VWP-003](#VWP-003) | [VWP-004](#VWP-004) | [VWP-005](#VWP-005) |
 |---|:-:|:-:|:-:|:-:|:-:|
 | [STK-001](#STK-001) |  |  |  |  | X |
 | [STK-002](#STK-002) | X | X | X | X | X |
 | [STK-003](#STK-003) | X | X | X | X | X |
 | [STK-004](#STK-004) | X | X |  | X | X |
 
-Tabla No 9 Stakeholders vs Viewpoints
+Tabla 9: Matriz de relación entre stakeholders y viewpoints.
 
-| Vistas vs Modelos | [MOD-001](#MOD-001) | [MOD-002](#MOD-002) | [MOD-003](#MOD-003) | [MOD-004](#MOD-004) | [MOD-005](#MOD-005) | [MOD-006](#MOD-006) | [MOD-007](#MOD-007) |
+Para complementar las definiciones de cada viewpoint en la [tabla 10](#tabla10) realizamos la matriz de relación entre las vistas y los modelos con los que se representará cada una. 
+
+| Vistas vs Modelos <a name="tabla10"> | [MOD-001](#MOD-001) | [MOD-002](#MOD-002) | [MOD-003](#MOD-003) | [MOD-004](#MOD-004) | [MOD-005](#MOD-005) | [MOD-006](#MOD-006) | [MOD-007](#MOD-007) |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | [VIEW-001](#VIEW-001) |  |  | X |  | X |  |  |
 | [VIEW-002](#VIEW-002) | X | X |  |  |  |  |  |
@@ -229,7 +239,7 @@ Tabla No 9 Stakeholders vs Viewpoints
 | [VIEW-004](#VIEW-004) |  |  |  | X |  |  |  |
 | [VIEW-005](#VIEW-005) |  |  |  |  |  |  | X |
 
-Tabla No 10 Vistas vs Modelos
+Tabla 10: Matriz de relación entre las vistas y los modelos con los que se representa cada vista.
 
 <!-- Inicio de viewpoint de desarrollo -->
 
