@@ -35,7 +35,7 @@ Desarrollaremos la documentación arquitectónica basados en el modelo 4+1, de e
 
 El ejercicio parte desde la defección de los stakeholders y concers que se encuentran el planteamiento inicial y se busca establecerá unas reglas de correspondencia entre viewpoints y busca manejar un alto grado de consistencia en el desarrollo de los modelos, pero principalmente se busca evidenciar el manejo de la correspondencia, las inconsistencias que se presentan durante el desarrollo del ejercicio y la forma en la que se pueden justificar las decisiones de arquitectura.
 
-![alt text][fig2
+![alt text][fig1]
 
 Figura 1: Modelo conceptual 
 
