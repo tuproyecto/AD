@@ -9,7 +9,7 @@
     2. [Concerns](#concerns)
     3. [Concern–Stakeholder Taceability](#concern–stakeholder-traceability)
 3. [Viewpoints+](#viewpoints)    
-    1. [Viewpoints descriptions](#viepoint-description)
+    1. [Viewpoints descriptions](#viewpoint-description)
 4. [Views+](#views)    
     1. [Development view](#development-view)
         1. [Models+](#models-development-view)
