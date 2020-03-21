@@ -122,21 +122,21 @@ __Componente:__ Representa una unidad lógicas del sistema, se grafica como un r
 
 Puede representar dos tipos de elementos: componentes lógicos (componentes de negocio o proceso) o componentes físicos (como componentes .NET, EJB).
 
-![alt text][fig2]
+![alt text][fig1]
 
-Figura 2: Componente
+Figura 1: Componente
 
 __La interfaz:__ Representa la zona del módulo que es utilizada para la comunicación con otro de los componentes está compuesta generalmente por una relación de Proveedor y consumidor de un servicio que es expuesto mediante un contrato.
 
-![alt text][fig3]
+![alt text][fig2]
 
-Figura 3: Interfaz
+Figura 2: Interfaz
 
 __La relación de dependencia:__ representa que un componente requiere de otro para ejecutar su trabajo. Es diferente a la interfaz, pues esta identifica que un componente ofrece una serie de operaciones. En cualquier caso, en ocasiones para simplificar el diagrama no se usan las interfaces sino que solamente se utilizan relaciones de dependencia.
 
-![alt text][fig4]
+![alt text][fig3]
 
-Figura 4: Relación de dependencia
+Figura 3: Relación de dependencia
 
 ## Package model <a name="package-model"></a>
 
@@ -146,15 +146,15 @@ Por medio de estos diagramas se pretende presentar una visión más clara del si
 
 __Paquetes:__ Consiste en agrupar elementos de casos de uso,  clases o componentes. a menudo es posible encontrar paquetes que contienen otros paquetes, su representación es un artefacto con forma de carpeta, el cual es nombrado según su uso y responsabilidad dentro del diagrama.
 
-![alt text][fig5]
+![alt text][fig4]
 
-Figura 5: Paquete
+Figura 4: Paquete
 
 __Dependencias entre paquetes:__ Existe una dependencia cuando un elemento de un paquete requiere de otro que pertenece a un paquete distinto. Las dependencias se representan con una flecha discontinua con inicio en el paquete que depende del otro.
 
-![alt text][fig6]
+![alt text][fig5]
 
-Figura 6: Dependencia entre paquetes
+Figura 5: Dependencia entre paquetes
 
 ## Operations on views+ <a name="operations-on-views-development"></a>
 
@@ -168,7 +168,7 @@ Operations define the methods to be applied to views and their models. Types of 
 
 * __Analysis method:__ Para el arquitecto el diagrama de componentes le permite conocer un plano general de la aplicación, la relación entre módulos y sus dependencias, de tal manera que sea posible identificar las tareas de desarrollo que debe asignar al equipo, los estilos de arquitectura, patrones de diseño y distribuir actividades de acuerdo a la experticia del equipo.
 
-  Para el caso de los desarrolladores, el diagrama de componentes presenta la relación que debe existir entre las tareas que se le asignan como miembro del equipo de desarrollo, y sus compañeros, esto permite distinguir las responsabilidades de cada individuo como miembro del todo, restricciones, dependencia entre componentes, datos que son compartidos entre las funcionalidades de cada componente entre otros.
+Para el caso de los desarrolladores, el diagrama de componentes presenta la relación que debe existir entre las tareas que se le asignan como miembro del equipo de desarrollo, y sus compañeros, esto permite distinguir las responsabilidades de cada individuo como miembro del todo, restricciones, dependencia entre componentes, datos que son compartidos entre las funcionalidades de cada componente entre otros.
 
 ## Correspondence rules <a name="correspondence-rules-development"></a>
 
@@ -202,7 +202,6 @@ El equipo de arquitectura asume la importancia de identificar las preocupaciones
 ### Concerns <a name="concerns-physical"></a>
 
 A continuación se describe cada preocupación de las partes interesadas relacionadas con el Viewpoint Fisico, las preocupaciones identificadas en esta sección son información esencial para que el arquitecto tome desiciones sobre la arquitectura fisica del sistema que favorezcan la disponibilidad, confiabilidad, rendimiento y escalabilidad.
-
 
 * [CNR-002](#CNR-002) - Disponibilidad "Availability": Que el sistema sea accesible dentro y fuera de las instalaciones de la compañía, esta preocupación dentro del analisis permitirá que se construya un sistema que en adelante permitirá a los vendedores gestionar sus ventas desde diferentes ubiciaciones, ahora durante las visitas se llevará a cabo presentación de catálogos para que el cliente este en la capacidad de seleccionar productos y proceder con la compra.  
 
@@ -246,48 +245,48 @@ El diagrama de despliegue empleado para describir la vista fisica está formado 
 
 __Artefacto:__ Un producto desarrollado por el software, representado por un rectángulo con el nombre y la palabra "artefacto" encerrado por flechas dobles.
 
-![alt text][fig7]
+![alt text][fig6]
 
-Figura 7: Artefacto
+Figura 6: Artefacto
 
 __Asociación:__ Una línea que indica un mensaje u otro tipo de comunicación entre nodos.
 
-![alt text][fig8]
+![alt text][fig7]
 
-Figura 8: Asociación
+Figura 7: Asociación
 
 __Componente:__ Representa una unidad lógicas del sistema, se grafica como un rectángulo con un rectángulo más pequeño en la esquina superior derecha con pestañas o la palabra escrita encima del nombre del componente.
 
 Puede representar dos tipos de elementos: componentes lógicos (componentes de negocio o proceso) o componentes físicos (como componentes .NET, EJB).
 
-![alt text][fig9]
+![alt text][fig8]
 
-Figura 9: Componente
+Figura 8: Componente
 
 
 __Dependencia:__ Una línea discontinua que termina en una flecha, que indica que un nodo o componente depende de otro.
 
-![alt text][fig10]
+![alt text][fig9]
 
-Figura 10: Dependencia
+Figura 9: Dependencia
 
 __Interfaz:__ Representa la zona del módulo que es utilizada para la comunicación con otro de los componentes está compuesta generalmente por una relación de Proveedor y consumidor de un servicio que es expuesto mediante un contrato.
 
-![alt text][fig11]
+![alt text][fig10]
 
-Figura 11: Interfaz
+Figura 10: Interfaz
 
 __Nodo:__ Un objeto de hardware o software, mostrado por un cuadro tridimensional.
 
-![alt text][fig12]
+![alt text][fig11]
 
-Figura 12: Nodo
+Figura 11: Nodo
 
 __Estereotipo:__ Un dispositivo contenido dentro del nodo, presentado en la parte superior del nodo, con el nombre entre flechas dobles a manera de corchetes.
 
-![alt text][fig13]
+![alt text][fig12]
 
-Figura 13: Estereotipo
+Figura 12: Estereotipo
 
 ## Operations on views+ <a name="operations-on-views-physical"></a>
 
@@ -316,16 +315,16 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 
 <!-- Fin de viewpoint Fisica -->
 
-[fig2]: /img/fig2.png "Componente"
-[fig3]: /img/fig3.png "Interfaz"
-[fig4]: /img/fig4.png "Relación de dependencia"
-[fig5]: /img/fig5.png "Paquete"
-[fig6]: /img/fig6.png "Dependencia entre paquetes"
-[fig7]: /img/fig7.png "Diagrama de Componentes de aplicación"
-[fig8]: /img/fig8.png "Asociación"
-[fig9]: /img/fig9.png "Componente"
-[fig10]: /img/fig10.png "Dependencia"
-[fig11]: /img/fig11.png "Interfaz"
-[fig12]: /img/fig12.png "Nodo"
-[fig13]: /img/fig13.png "Estereotipo"
+[fig1]: /img/fig1-vp.png "Componente"
+[fig2]: /img/fig2-vp.png "Interfaz"
+[fig3]: /img/fig3-vp.png "Relación de dependencia"
+[fig4]: /img/fig4-vp.png "Paquete"
+[fig5]: /img/fig5-vp.png "Dependencia entre paquetes"
+[fig6]: /img/fig6-vp.png "Diagrama de Componentes de aplicación"
+[fig7]: /img/fig7-vp.png "Asociación"
+[fig8]: /img/fig8-vp.png "Componente"
+[fig9]: /img/fig9-vp.png "Dependencia"
+[fig10]: /img/fig10-vp.png "Interfaz"
+[fig11]: /img/fig11-vp.png "Nodo"
+[fig12]: /img/fig12-vp.png "Estereotipo"
 

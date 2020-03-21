@@ -35,7 +35,7 @@ Desarrollaremos la documentación arquitectónica basados en el modelo 4+1, de e
 
 El ejercicio parte desde la defección de los stakeholders y concers que se encuentran el planteamiento inicial y se busca establecerá unas reglas de correspondencia entre viewpoints y busca manejar un alto grado de consistencia en el desarrollo de los modelos, pero principalmente se busca evidenciar el manejo de la correspondencia, las inconsistencias que se presentan durante el desarrollo del ejercicio y la forma en la que se pueden justificar las decisiones de arquitectura.
 
-![alt text][fig1]
+![alt text][fig2
 
 Figura 1: Modelo conceptual 
 
@@ -45,7 +45,7 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
 
 * 4 + 1 : es un modelo diseñado por Philippe Kruchten para "describir la arquitectura de sistemas software, basados en el uso de múltiples vistas concurrentes"
 * ISO42010 : Es un estándar para la descripción de la arquitectura de sistemas y productos de software
-* Diagrama : es una representación gráfica por medio de diferentes convenciones y atributos para dar a entender una idea, solución a un problema o demostración de una idea.
+* Diagrama : e3una representación gráfica por medio de diferentes convenciones y atributos para dar a entender una idea, solución a un problema o demostración de una idea.
 
 
 ## Supplementary information <a name="supplementary-information"></a>
@@ -253,9 +253,9 @@ A continuación se describe la vista de desarrollo los modelos de componentes y 
 ### Models+ <a name="models-development -view"></a>
 ### Components <a name="models-component-development-view"></a>
 
-![alt text][fig14]
+![alt text][fig2]
 
-Figura 14: Diagrama de Componentes de aplicación
+Figura 2: Diagrama de Componentes de aplicación
 
 ### Package <a name="models-package-development-view"></a>
 
@@ -263,9 +263,9 @@ El objetivo del diagrama es obtener una visión más clara del sistema de inform
 
 El diagrama de paquetes y sus dependencias, son elementos de los diagramas de casos de uso y de componentes de nuestro sistema.
 
-![alt text][fig15]
+![alt text][fig3]
 
-Figura 15: Diagrama de paquetes
+Figura 3: Diagrama de paquetes
 
 ### Known Issues with View <a name="issues-with-development-view"></a>
 
@@ -296,13 +296,13 @@ La separación por capas permite que la aplicación sea fácilmente escalable.
 
 La aplicación interactúa con una base de datos a través de una capa de persistencia, para lo cual emplea repositorio y es persistida por medio del motor de base de datos de la empresa.
 
-![alt text][fig16]
+![alt text][fig4]
 
-Figura 16: Diagrama de Despliegue de aplicación en ambiente productivo
+Figura 4: Diagrama de Despliegue de aplicación en ambiente productivo
 
-![alt text][fig17]
+![alt text][fig5]
 
-Figura 17: Diagrama de Despliegue de aplicación desarrollo y pruebas 
+Figura 5: Diagrama de Despliegue de aplicación desarrollo y pruebas 
 
 ### Known Issues with View <a name="issues-with-physical-view"></a>
 
@@ -353,10 +353,10 @@ The second paragraph text
 [Table of contents](#table-of-contents)
 
 [fig1]: /img/fig1.png "Model Conceptual"
-[fig14]: /img/fig14.png "Diagrama de Componentes de aplicación"
-[fig15]: /img/fig15.png "Diagrama de paquetes"
-[fig16]: /img/fig16.png "Diagrama de Despliegue de aplicación en ambiente productivo"
-[fig17]: /img/fig17.png "Diagrama de Despliegue de aplicación desarrollo y pruebas"
+[fig2]: /img/fig2.png "Diagrama de Componentes de aplicación"
+[fig3]: /img/fig3.png "Diagrama de paquetes"
+[fig4]: /img/fig4.png "Diagrama de Despliegue de aplicación en ambiente productivo"
+[fig5]: /img/fig5.png "Diagrama de Despliegue de aplicación desarrollo y pruebas"
 
 [vp-description]: /vp-description.md
 [development-viewpoint-description]: /vp-description.md#development-viewpoint
