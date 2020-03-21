@@ -231,7 +231,10 @@ Tabla 10: Matriz de relación entre las vistas y los modelos con los que se repr
 
 ## Viewpoint description <a name="viewpoint-description"></a>
 
-A continuación se presentan los [viewpoints descriptions][vp-description].
+A continuación se presentan los [viewpoints descriptions][vp-description]:
+
+* [Development viewpoint][development-viewpoint-description]
+* [Physical viewpoint][physical-viewpoint-description]
 
 # Views+ <a name="views"></a>
 
@@ -347,3 +350,5 @@ The second paragraph text
 [fig11]: /img/fig11.png "Diagrama de Despliegue Desarrollo y Pruebas"
 
 [vp-description]: /vp-description.md
+[development-viewpoint-description]: /vp-description.md#development-viewpoint
+[physical-viewpoint-description]: /vp-description.md#physical-viewpoint
