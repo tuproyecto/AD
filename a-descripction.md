@@ -228,6 +228,8 @@ Para complementar las definiciones de cada viewpoint en la [tabla 10](#tabla10) 
 
 Tabla 10: Matriz de relación entre las vistas y los modelos con los que se representa cada vista.
 
+[blog]: /vp-description.md
+
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
 > Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
