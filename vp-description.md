@@ -136,7 +136,7 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 
 ## Sources <a name="sources-development"></a>
 
-[Table of contents](#table-of-contents)
+[Table of contents](#table-of-contents-vp)
 
 <!-- Fin de viewpoint de desarrollo -->
 
@@ -250,7 +250,7 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 
 ## Sources <a name="sources-physical"></a>
 
-[Table of contents](#table-of-contents)
+[Table of contents](#table-of-contents-vp)
 
 <!-- Fin de viewpoint Fisica -->
 
@@ -282,7 +282,7 @@ Figura 8: Diagrama de paquetes
 
 Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
 
-[Table of contents](#table-of-contents)
+[Table of contents](#table-of-contents-vp)
 
 <!-- Fin de view development -->
 
@@ -303,7 +303,7 @@ Como se evidencia en la Figura 10, los se especifican 3 ambientes Desarrollo, Pr
 
 Figura 10: Diagrama de Despliegue de aplicación en ambiente productivo
 
-![alt text][fig10]
+![alt text][fig11]
 
 Figura 11: Diagrama de Despliegue de aplicación desarrollo y pruebas 
 
@@ -311,8 +311,7 @@ Figura 11: Diagrama de Despliegue de aplicación desarrollo y pruebas
 
 La empresa no cuenta con equipos de seguridad que permitan implementar medidas de seguridad de los servicios que se exponen y los equipos donde se encuntran desplegados. 
 
-
-[Table of contents](#table-of-contents)
+[Table of contents](#table-of-contents-vp)
 
 <!-- Fin de view Fisica -->
 
