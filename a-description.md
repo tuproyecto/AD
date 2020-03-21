@@ -9,6 +9,7 @@
     2. [Concerns](#concerns)
     3. [Concern–Stakeholder Traceability](#concern–stakeholder-traceability)
 3. [Viewpoints+](#viewpoints)
+    1. [Viewpoints descriptions](#viewpoint-description)
 4. [Views+](#views)
     1. [Development view](#development-view)
         1. [Models+](#models-development-view)
@@ -228,7 +229,9 @@ Para complementar las definiciones de cada viewpoint en la [tabla 10](#tabla10) 
 
 Tabla 10: Matriz de relación entre las vistas y los modelos con los que se representa cada vista.
 
-A continuación se presentan los [viewpoint description][vp-description].
+## Viewpoint description <a name="viewpoint-description"></a>
+
+A continuación se presentan los [viewpoints descriptions][vp-description].
 
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
