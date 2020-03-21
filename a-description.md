@@ -240,7 +240,7 @@ A continuación se presentan los [viewpoints descriptions][vp-description].
 
 A continuación se describe la vista de desarrollo los modelos de componentes y paquetes.
 
-### Models+ <a name="models-development -view"></a>
+### Models+ <a name="models-development-view"></a>
 ### Components <a name="models-component-development-view"></a>
 
 ![alt text][fig7]
