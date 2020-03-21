@@ -16,6 +16,10 @@
         2. [Components](#models-component-development-view)
         3. [Package](#models-package-development-view)
         4. [Known Issues with View](#issues-with-development-view)
+    2. [Physical view](#physical-view)
+        1. [Models+](#models-physical-view)
+        2. [Deployment](#models-deployment-physical-view)
+        3. [Known Issues with View](#issues-with-physical-view)
 5. [Consistency and correspondences](#consistency-and-correspondences)
     1. [Known inconsistencies](#known-inconsistencies)
     2. [Correspondences in the AD](#correspondences-in-the-ad)
@@ -41,7 +45,7 @@ A continuación se identifica la arquitectura sobre la cual se trata esta descri
 
 * 4 + 1 : es un modelo diseñado por Philippe Kruchten para "describir la arquitectura de sistemas software, basados en el uso de múltiples vistas concurrentes"
 * ISO42010 : Es un estándar para la descripción de la arquitectura de sistemas y productos de software
-* Diagrama : es una representación gráfica por medio de diferentes convenciones y atributos para dar a entender una idea, solución a un problema o demostración de una idea.
+* Diagrama : e3una representación gráfica por medio de diferentes convenciones y atributos para dar a entender una idea, solución a un problema o demostración de una idea.
 
 
 ## Supplementary information <a name="supplementary-information"></a>
@@ -235,20 +239,23 @@ A continuación se presentan los [viewpoints descriptions][vp-description]:
 
 * [Development viewpoint][development-viewpoint-description]
 * [Physical viewpoint][physical-viewpoint-description]
+* [Logical viewpoint][logical-viewpoint-description]
+* [Process viewpoint][process-viewpoint-description]
+* [Scenarios viewpoint][scenarios-viewpoint-description]
 
 # Views+ <a name="views"></a>
 
 <!-- Inicio de view development -->
-## Development  view <a name="development-view"></a>
+## Development  view <a name="development -view"></a>
 
 A continuación se describe la vista de desarrollo los modelos de componentes y paquetes.
 
-### Models+ <a name="models-development-view"></a>
+### Models+ <a name="models-development -view"></a>
 ### Components <a name="models-component-development-view"></a>
 
-![alt text][fig7]
+![alt text][fig2]
 
-Figura 7: Diagrama de Componentes de aplicación
+Figura 2: Diagrama de Componentes de aplicación
 
 ### Package <a name="models-package-development-view"></a>
 
@@ -256,22 +263,22 @@ El objetivo del diagrama es obtener una visión más clara del sistema de inform
 
 El diagrama de paquetes y sus dependencias, son elementos de los diagramas de casos de uso y de componentes de nuestro sistema.
 
-![alt text][fig8]
+![alt text][fig3]
 
-Figura 8: Diagrama de paquetes
+Figura 3: Diagrama de paquetes
 
 ### Known Issues with View <a name="issues-with-development-view"></a>
 
 Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
 
-[Table of contents](#table-of-contents)
+[Table of contents](#table-of-contents-vp)
 
 <!-- Fin de view development -->
 
 <!-- Inicio de view Fisica -->
 ## Physical  view <a name="physical-view"></a>
 
-Descripción de la vista de fisica empleada, presentando el modelo de despliegue
+Descripción de la vista de fisica empleada, presentando el modelo de despliegue.
 
 ### Models+ <a name="models-physical-view"></a>
 
@@ -279,21 +286,29 @@ Descripción de la vista de fisica empleada, presentando el modelo de despliegue
 
 El diagrama de despliegue describe la implementación física de la información generada por el programa de software en los componentes de hardware. La arquitectura presentada en capas, es la que ofrece mayor rendimiento en cumplimiento con las preocupaciones de stakeholders, respecto CNR-002 Disponibilidad "Availability", CNR-003 - Reacción al cambio "Escalabilidad", CNR-006 - Rendimiento: Desempeño del aplicativo, CNR-010 - Estructura de información.
 
-Como se evidencia en la Figura 10, los se especifican 3 ambientes Desarrollo, Pruebas y Producción, este último es independiente mientra desarrollo y pruebas comparten base de datos lo cual optimiza recursos. 
+Como se evidencia en la Figura 10, se especifica el ambiente de Producción y en la figura, los ambientes de Desarrollo y Pruebas, producción es independiente mientra desarrollo y pruebas comparten base de datos lo cual optimiza recursos.
 
-![alt text][fig10]
+El sistema de la empresa ”K” está diseñado para que se ejecute en un servidor de aplicaciones, este cuenta con un componente encargado de gestionar la vista, un servidor de aplicaciones con el backend de la aplicación y una base de datos en un nodo independiente.
 
-Figura 10: Diagrama de Despliegue de aplicación en ambiente productivo
+El objetivo de separar los componentes por su responsabilidad, se plantea minimizando el acoplamiento, ademas de esto la lógica de negocio no se vera afectada en casos de requerir cambios, las transacciones y seguridad de la aplicación será aumentada por la distribución de capas y su consumo desde la capa superior únicamente.
 
-![alt text][fig11]
+La separación por capas permite que la aplicación sea fácilmente escalable.
 
-Figura 11: Diagrama de Despliegue de aplicación desarrollo y pruebas 
+La aplicación interactúa con una base de datos a través de una capa de persistencia, para lo cual emplea repositorio y es persistida por medio del motor de base de datos de la empresa.
+
+![alt text][fig4]
+
+Figura 4: Diagrama de Despliegue de aplicación en ambiente productivo
+
+![alt text][fig5]
+
+Figura 5: Diagrama de Despliegue de aplicación desarrollo y pruebas 
 
 ### Known Issues with View <a name="issues-with-physical-view"></a>
 
 La empresa no cuenta con equipos de seguridad que permitan implementar medidas de seguridad de los servicios que se exponen y los equipos donde se encuntran desplegados. 
 
-[Table of contents](#table-of-contents)
+[Table of contents](#table-of-contents-vp)
 
 <!-- Fin de view Fisica -->
 
@@ -338,17 +353,14 @@ The second paragraph text
 [Table of contents](#table-of-contents)
 
 [fig1]: /img/fig1.png "Model Conceptual"
-[fig2]: /img/fig2.png "Componente"
-[fig3]: /img/fig3.png "Interfaz"
-[fig4]: /img/fig4.png "Relación de dependencia"
-[fig5]: /img/fig5.png "Paquete"
-[fig6]: /img/fig6.png "Dependencia entre paquetes"
-[fig7]: /img/fig7.png "Diagrama de Componentes de aplicación"
-[fig8]: /img/fig8.png "Diagrama de paquetes"
-[fig9]: /img/fig9.png "Nodo"
-[fig10]: /img/fig10.png "Diagrama de Despliegue"
-[fig11]: /img/fig11.png "Diagrama de Despliegue Desarrollo y Pruebas"
+[fig2]: /img/fig2.png "Diagrama de Componentes de aplicación"
+[fig3]: /img/fig3.png "Diagrama de paquetes"
+[fig4]: /img/fig4.png "Diagrama de Despliegue de aplicación en ambiente productivo"
+[fig5]: /img/fig5.png "Diagrama de Despliegue de aplicación desarrollo y pruebas"
 
 [vp-description]: /vp-description.md
 [development-viewpoint-description]: /vp-description.md#development-viewpoint
 [physical-viewpoint-description]: /vp-description.md#physical-viewpoint
+[logical-viewpoint-description]: /vp-description.md#logical-viewpoint
+[process-viewpoint-description]: /vp-description.md#process-viewpoint
+[scenarios-viewpoint-description]: /vp-description.md#scenarios-viewpoint

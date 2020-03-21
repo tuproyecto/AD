@@ -18,11 +18,46 @@
         1. [Concerns](#concerns-physical)
         2. [Typical stakeholders](#typical-stakeholders-physical)
     3. [Model kinds+](#model-kinds-physical)
-    4. [Component model](#deployment-model)
-        1. [Component model conventions](#deployment-model-conventions)
+    4. [Deployment model](#deployment-model)
+        1. [Deployment model conventions](#deployment-model-conventions)
     6. [Operations on views+](#operations-on-views-physical)
     7. [Correspondence rules](#correspondence-rules-physical)
     8. [Sources](#sources-physical)
+3. [Logical viewpoint](#logical-viewpoint)
+    1. [Overview](#overview-logical)
+    2. [Framed concerns and typical stakeholders](#framed-concerns-and-typical-stakeholders-logical)
+        1. [Concerns](#concerns-logical)
+        2. [Typical stakeholders](#typical-stakeholders-logical)
+    3. [Model kinds+](#model-kinds-logical)
+    4. [Class model](#class-model)
+        1. [Class model conventions](#class-model-conventions)
+    5. [Sequence model](#sequence-model)
+        1. [Sequence model conventions](#sequence-model-conventions)
+    6. [Operations on views+](#operations-on-views-logical)
+    7. [Correspondence rules](#correspondence-rules-logical)
+    8. [Sources](#sources-logical)
+4. [Process viewpoint](#process-viewpoint)
+    1. [Overview](#overview-process)
+    2. [Framed concerns and typical stakeholders](#framed-concerns-and-typical-stakeholders-process)
+        1. [Concerns](#concerns-process)
+        2. [Typical stakeholders](#typical-stakeholders-process)
+    3. [Model kinds+](#model-kinds-process)
+    4. [Activities model](#activities-model)
+        1. [Activities model conventions](#activities-model-conventions)
+    5. [Operations on views+](#operations-on-views-process)
+    6. [Correspondence rules](#correspondence-rules-process)
+    7. [Sources](#sources-process)
+5. [Scenarios viewpoint](#scenarios-viewpoint)
+    1. [Overview](#overview-scenarios)
+    2. [Framed concerns and typical stakeholders](#framed-concerns-and-typical-stakeholders-scenarios)
+        1. [Concerns](#concerns-scenarios)
+        2. [Typical stakeholders](#typical-stakeholders-scenarios)
+    3. [Model kinds+](#model-kinds-scenarios)
+    4. [Use cases model](#use-cases-model)
+        1. [Use cases model conventions](#use-cases-model-conventions)
+    5. [Operations on views+](#operations-on-views-scenarios)
+    6. [Correspondence rules](#correspondence-rules-scenarios)
+    7. [Sources](#sources-scenarios)
 
 <!-- Inicio de viewpoint de desarrollo -->
 
@@ -87,21 +122,21 @@ __Componente:__ Representa una unidad lógicas del sistema, se grafica como un r
 
 Puede representar dos tipos de elementos: componentes lógicos (componentes de negocio o proceso) o componentes físicos (como componentes .NET, EJB).
 
-![alt text][fig2]
+![alt text][fig1]
 
-Figura 2: Componente
+Figura 1: Componente
 
 __La interfaz:__ Representa la zona del módulo que es utilizada para la comunicación con otro de los componentes está compuesta generalmente por una relación de Proveedor y consumidor de un servicio que es expuesto mediante un contrato.
 
-![alt text][fig3]
+![alt text][fig2]
 
-Figura 3: Interfaz
+Figura 2: Interfaz
 
 __La relación de dependencia:__ representa que un componente requiere de otro para ejecutar su trabajo. Es diferente a la interfaz, pues esta identifica que un componente ofrece una serie de operaciones. En cualquier caso, en ocasiones para simplificar el diagrama no se usan las interfaces sino que solamente se utilizan relaciones de dependencia.
 
-![alt text][fig4]
+![alt text][fig3]
 
-Figura 4: Relación de dependencia
+Figura 3: Relación de dependencia
 
 ## Package model <a name="package-model"></a>
 
@@ -111,15 +146,15 @@ Por medio de estos diagramas se pretende presentar una visión más clara del si
 
 __Paquetes:__ Consiste en agrupar elementos de casos de uso,  clases o componentes. a menudo es posible encontrar paquetes que contienen otros paquetes, su representación es un artefacto con forma de carpeta, el cual es nombrado según su uso y responsabilidad dentro del diagrama.
 
-![alt text][fig5]
+![alt text][fig4]
 
-Figura 5: Paquete
+Figura 4: Paquete
 
 __Dependencias entre paquetes:__ Existe una dependencia cuando un elemento de un paquete requiere de otro que pertenece a un paquete distinto. Las dependencias se representan con una flecha discontinua con inicio en el paquete que depende del otro.
 
-![alt text][fig6]
+![alt text][fig5]
 
-Figura 6: Dependencia entre paquetes
+Figura 5: Dependencia entre paquetes
 
 ## Operations on views+ <a name="operations-on-views-development"></a>
 
@@ -133,7 +168,7 @@ Operations define the methods to be applied to views and their models. Types of 
 
 * __Analysis method:__ Para el arquitecto el diagrama de componentes le permite conocer un plano general de la aplicación, la relación entre módulos y sus dependencias, de tal manera que sea posible identificar las tareas de desarrollo que debe asignar al equipo, los estilos de arquitectura, patrones de diseño y distribuir actividades de acuerdo a la experticia del equipo.
 
-  Para el caso de los desarrolladores, el diagrama de componentes presenta la relación que debe existir entre las tareas que se le asignan como miembro del equipo de desarrollo, y sus compañeros, esto permite distinguir las responsabilidades de cada individuo como miembro del todo, restricciones, dependencia entre componentes, datos que son compartidos entre las funcionalidades de cada componente entre otros.
+Para el caso de los desarrolladores, el diagrama de componentes presenta la relación que debe existir entre las tareas que se le asignan como miembro del equipo de desarrollo, y sus compañeros, esto permite distinguir las responsabilidades de cada individuo como miembro del todo, restricciones, dependencia entre componentes, datos que son compartidos entre las funcionalidades de cada componente entre otros.
 
 ## Correspondence rules <a name="correspondence-rules-development"></a>
 
@@ -167,7 +202,6 @@ El equipo de arquitectura asume la importancia de identificar las preocupaciones
 ### Concerns <a name="concerns-physical"></a>
 
 A continuación se describe cada preocupación de las partes interesadas relacionadas con el Viewpoint Fisico, las preocupaciones identificadas en esta sección son información esencial para que el arquitecto tome desiciones sobre la arquitectura fisica del sistema que favorezcan la disponibilidad, confiabilidad, rendimiento y escalabilidad.
-
 
 * [CNR-002](#CNR-002) - Disponibilidad "Availability": Que el sistema sea accesible dentro y fuera de las instalaciones de la compañía, esta preocupación dentro del analisis permitirá que se construya un sistema que en adelante permitirá a los vendedores gestionar sus ventas desde diferentes ubiciaciones, ahora durante las visitas se llevará a cabo presentación de catálogos para que el cliente este en la capacidad de seleccionar productos y proceder con la compra.  
 
@@ -211,48 +245,48 @@ El diagrama de despliegue empleado para describir la vista fisica está formado 
 
 __Artefacto:__ Un producto desarrollado por el software, representado por un rectángulo con el nombre y la palabra "artefacto" encerrado por flechas dobles.
 
-![alt text][fig7]
+![alt text][fig6]
 
-Figura 7: Artefacto
+Figura 6: Artefacto
 
 __Asociación:__ Una línea que indica un mensaje u otro tipo de comunicación entre nodos.
 
-![alt text][fig8]
+![alt text][fig7]
 
-Figura 8: Asociación
+Figura 7: Asociación
 
 __Componente:__ Representa una unidad lógicas del sistema, se grafica como un rectángulo con un rectángulo más pequeño en la esquina superior derecha con pestañas o la palabra escrita encima del nombre del componente.
 
 Puede representar dos tipos de elementos: componentes lógicos (componentes de negocio o proceso) o componentes físicos (como componentes .NET, EJB).
 
-![alt text][fig9]
+![alt text][fig8]
 
-Figura 9: Componente
+Figura 8: Componente
 
 
 __Dependencia:__ Una línea discontinua que termina en una flecha, que indica que un nodo o componente depende de otro.
 
-![alt text][fig10]
+![alt text][fig9]
 
-Figura 10: Dependencia
+Figura 9: Dependencia
 
 __Interfaz:__ Representa la zona del módulo que es utilizada para la comunicación con otro de los componentes está compuesta generalmente por una relación de Proveedor y consumidor de un servicio que es expuesto mediante un contrato.
 
-![alt text][fig11]
+![alt text][fig10]
 
-Figura 11: Interfaz
+Figura 10: Interfaz
 
 __Nodo:__ Un objeto de hardware o software, mostrado por un cuadro tridimensional.
 
-![alt text][fig12]
+![alt text][fig11]
 
-Figura 12: Nodo
+Figura 11: Nodo
 
 __Estereotipo:__ Un dispositivo contenido dentro del nodo, presentado en la parte superior del nodo, con el nombre entre flechas dobles a manera de corchetes.
 
-![alt text][fig13]
+![alt text][fig12]
 
-Figura 13: Estereotipo
+Figura 12: Estereotipo
 
 ## Operations on views+ <a name="operations-on-views-physical"></a>
 
@@ -264,7 +298,7 @@ Operations define the methods to be applied to views and their models. Types of 
 
 * __Analysis method:__ Para el arquitecto el diagrama de despliegue le permite conocer un plano general de la distribucion de la aplicación, bases de datos y otros componentes en la infraestructura (Hardware), ahora bien existen tecnologías que permiten virtualizar el despliegue y para este caso el diagrama es el mismo, este tipo d diagramas hace posible que identificar las necesidades de hardware para el dspliegue, generar solicitudes de equipos, requerimientos de configuración, permisos de seguridad y configuraciones de red.
 
-  Para el caso del personal de infraestructura, el diagrama de componentes les permitirá tener claro el panorama de despliegue y uso de equipos, asi mismo le permite identificar la necesidad de asignacion de recursos, memoria, disco, equipos fisicos, servicios virtuales, responsables y despliegue de aplicaciones en la infraestructura de la organización.
+Para el caso del personal de infraestructura, el diagrama de componentes les permitirá tener claro el panorama de despliegue y uso de equipos, asi mismo le permite identificar la necesidad de asignacion de recursos, memoria, disco, equipos fisicos, servicios virtuales, responsables y despliegue de aplicaciones en la infraestructura de la organización.
 
 ## Correspondence rules <a name="correspondence-rules-physical"></a>
 
@@ -281,88 +315,16 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 
 <!-- Fin de viewpoint Fisica -->
 
-# Views+ <a name="views"></a>
+[fig1]: /img/fig1-vp.png "Componente"
+[fig2]: /img/fig2-vp.png "Interfaz"
+[fig3]: /img/fig3-vp.png "Relación de dependencia"
+[fig4]: /img/fig4-vp.png "Paquete"
+[fig5]: /img/fig5-vp.png "Dependencia entre paquetes"
+[fig6]: /img/fig6-vp.png "Diagrama de Componentes de aplicación"
+[fig7]: /img/fig7-vp.png "Asociación"
+[fig8]: /img/fig8-vp.png "Componente"
+[fig9]: /img/fig9-vp.png "Dependencia"
+[fig10]: /img/fig10-vp.png "Interfaz"
+[fig11]: /img/fig11-vp.png "Nodo"
+[fig12]: /img/fig12-vp.png "Estereotipo"
 
-<!-- Inicio de view development -->
-## Development  view <a name="development -view"></a>
-
-A continuación se describe la vista de desarrollo los modelos de componentes y paquetes.
-
-### Models+ <a name="models-development -view"></a>
-### Components <a name="models-component-development-view"></a>
-
-![alt text][fig14]
-
-Figura 14: Diagrama de Componentes de aplicación
-
-### Package <a name="models-package-development-view"></a>
-
-El objetivo del diagrama es obtener una visión más clara del sistema de información orientado a objetos, organizándolo en subsistemas, agrupando los elementos de análisis, diseño y construcción detallando las relaciones de dependencia entre ellos.
-
-El diagrama de paquetes y sus dependencias, son elementos de los diagramas de casos de uso y de componentes de nuestro sistema.
-
-![alt text][fig15]
-
-Figura 15: Diagrama de paquetes
-
-### Known Issues with View <a name="issues-with-development-view"></a>
-
-Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
-
-[Table of contents](#table-of-contents-vp)
-
-<!-- Fin de view development -->
-
-<!-- Inicio de view Fisica -->
-## Physical  view <a name="physical-view"></a>
-
-Descripción de la vista de fisica empleada, presentando el modelo de despliegue.
-
-### Models+ <a name="models-physical-view"></a>
-
-### Components <a name="models-component-physical-view"></a>
-
-El diagrama de despliegue describe la implementación física de la información generada por el programa de software en los componentes de hardware. La arquitectura presentada en capas, es la que ofrece mayor rendimiento en cumplimiento con las preocupaciones de stakeholders, respecto CNR-002 Disponibilidad "Availability", CNR-003 - Reacción al cambio "Escalabilidad", CNR-006 - Rendimiento: Desempeño del aplicativo, CNR-010 - Estructura de información.
-
-Como se evidencia en la Figura 10, se especifica el ambiente de Producción y en la figura, los ambientes de Desarrollo y Pruebas, producción es independiente mientra desarrollo y pruebas comparten base de datos lo cual optimiza recursos.
-
-El sistema de la empresa ”K” está diseñado para que se ejecute en un servidor de aplicaciones, este cuenta con un componente encargado de gestionar la vista, un servidor de aplicaciones con el backend de la aplicación y una base de datos en un nodo independiente.
-
-El objetivo de separar los componentes por su responsabilidad, se plantea minimizando el acoplamiento, ademas de esto la lógica de negocio no se vera afectada en casos de requerir cambios, las transacciones y seguridad de la aplicación será aumentada por la distribución de capas y su consumo desde la capa superior únicamente.
-
-La separación por capas permite que la aplicación sea fácilmente escalable.
-
-La aplicación interactúa con una base de datos a través de una capa de persistencia, para lo cual emplea repositorio y es persistida por medio del motor de base de datos de la empresa.
-
-![alt text][fig16]
-
-Figura 16: Diagrama de Despliegue de aplicación en ambiente productivo
-
-![alt text][fig17]
-
-Figura 17: Diagrama de Despliegue de aplicación desarrollo y pruebas 
-
-### Known Issues with View <a name="issues-with-physical-view"></a>
-
-La empresa no cuenta con equipos de seguridad que permitan implementar medidas de seguridad de los servicios que se exponen y los equipos donde se encuntran desplegados. 
-
-[Table of contents](#table-of-contents-vp)
-
-<!-- Fin de view Fisica -->
-
-[fig2]: /img/fig2.png "Componente"
-[fig3]: /img/fig3.png "Interfaz"
-[fig4]: /img/fig4.png "Relación de dependencia"
-[fig5]: /img/fig5.png "Paquete"
-[fig6]: /img/fig6.png "Dependencia entre paquetes"
-[fig7]: /img/fig7.png "Diagrama de Componentes de aplicación"
-[fig8]: /img/fig8.png "Asociación"
-[fig9]: /img/fig9.png "Componente"
-[fig10]: /img/fig10.png "Dependencia"
-[fig11]: /img/fig11.png "Interfaz"
-[fig12]: /img/fig12.png "Nodo"
-[fig13]: /img/fig13.png "Estereotipo"
-[fig14]: /img/fig14.png "Diagrama de Componentes de aplicación"
-[fig15]: /img/fig15.png "Diagrama de paquetes"
-[fig16]: /img/fig16.png "Diagrama de Despliegue de aplicación en ambiente productivo"
-[fig17]: /img/fig17.png "Diagrama de Despliegue de aplicación desarrollo y pruebas"
