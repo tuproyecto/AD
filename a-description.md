@@ -327,7 +327,7 @@ Allí entenderemos qué cambios de estados tienen las actividades en el transcur
 
 ![alt text][fig6]
 
-Figura 4: Diagrama de Actividades
+Figura 5: Diagrama de Actividades
 
 
 

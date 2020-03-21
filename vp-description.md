@@ -427,7 +427,11 @@ En la arquitectura de procesos, es indispensable mostrar el flujo de cada proces
 
 ## Sources <a name="sources-procesos"></a>
 
-referencia://
+referencias: 
+Architectural Blueprints—The “4+1” View
+Model of Software Architecture Philippe Kruchten
+Rational Software Corp.
+
 
 [Table of contents](#table-of-contents-vp)
 
