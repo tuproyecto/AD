@@ -315,3 +315,14 @@ La empresa no cuenta con equipos de seguridad que permitan implementar medidas d
 [Table of contents](#table-of-contents)
 
 <!-- Fin de view Fisica -->
+
+[fig2]: /img/fig2.png "Componente"
+[fig3]: /img/fig3.png "Interfaz"
+[fig4]: /img/fig4.png "Relación de dependencia"
+[fig5]: /img/fig5.png "Paquete"
+[fig6]: /img/fig6.png "Dependencia entre paquetes"
+[fig7]: /img/fig7.png "Diagrama de Componentes de aplicación"
+[fig8]: /img/fig8.png "Diagrama de paquetes"
+[fig9]: /img/fig9.png "Nodo"
+[fig10]: /img/fig10.png "Diagrama de Despliegue"
+[fig11]: /img/fig11.png "Diagrama de Despliegue Desarrollo y Pruebas"
