@@ -537,7 +537,7 @@ Figura 11: Diagrama de Despliegue de aplicación desarrollo y pruebas
 
 ### Known Issues with View <a name="issues-with-physical-view"></a>
 
-> La empresa no cuenta con equipos de seguridad que permitan implementar medidas de seguridad de los servicios que se exponen y los equipos donde se encentran desplegados. 
+La empresa no cuenta con equipos de seguridad que permitan implementar medidas de seguridad de los servicios que se exponen y los equipos donde se encuntran desplegados. 
 
 
 [Table of contents](#table-of-contents)
@@ -594,5 +594,6 @@ The second paragraph text
 [fig8]: /img/fig8.png "Diagrama de paquetes"
 [fig9]: /img/fig9.png "Nodo"
 [fig10]: /img/fig10.png "Diagrama de Despliegue"
+[fig11]: /img/fig11.png "Diagrama de Despliegue Desarrollo y Pruebas"
 
 
