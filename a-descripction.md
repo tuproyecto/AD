@@ -228,7 +228,7 @@ Para complementar las definiciones de cada viewpoint en la [tabla 10](#tabla10) 
 
 Tabla 10: Matriz de relación entre las vistas y los modelos con los que se representa cada vista.
 
-Me llamo Javier Cristóbal y tengo un blog sobre [productividad mac][blog].
+A continuación se presentan los [viewpoint description][vp-description].
 
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
@@ -282,4 +282,4 @@ The second paragraph text
 [fig10]: /img/fig10.png "Diagrama de Despliegue"
 [fig11]: /img/fig11.png "Diagrama de Despliegue Desarrollo y Pruebas"
 
-[blog]: /vp-description.md
+[vp-description]: /vp-description.md
