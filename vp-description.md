@@ -246,31 +246,48 @@ El diagrama de despliegue empleado para describir la vista fisica está formado 
 
 __Artefacto:__ Un producto desarrollado por el software, representado por un rectángulo con el nombre y la palabra "artefacto" encerrado por flechas dobles.
 
+![alt text][fig7]
+
+Figura 7: Artefacto
+
 __Asociación:__ Una línea que indica un mensaje u otro tipo de comunicación entre nodos.
+
+![alt text][fig8]
+
+Figura 8: Asociación
 
 __Componente:__ Representa una unidad lógicas del sistema, se grafica como un rectángulo con un rectángulo más pequeño en la esquina superior derecha con pestañas o la palabra escrita encima del nombre del componente.
 
 Puede representar dos tipos de elementos: componentes lógicos (componentes de negocio o proceso) o componentes físicos (como componentes .NET, EJB).
 
-![alt text][fig2]
+![alt text][fig9]
 
-Figura 2: Componente
+Figura 9: Componente
 
 
 __Dependencia:__ Una línea discontinua que termina en una flecha, que indica que un nodo o componente depende de otro.
 
+![alt text][fig10]
 
-__La interfaz:__ Representa la zona del módulo que es utilizada para la comunicación con otro de los componentes está compuesta generalmente por una relación de Proveedor y consumidor de un servicio que es expuesto mediante un contrato.
+Figura 10: Dependencia
 
-![alt text][fig3]
+__Interfaz:__ Representa la zona del módulo que es utilizada para la comunicación con otro de los componentes está compuesta generalmente por una relación de Proveedor y consumidor de un servicio que es expuesto mediante un contrato.
 
-Figura 3: Interfaz
+![alt text][fig11]
+
+Figura 11: Interfaz
 
 __Nodo:__ Un objeto de hardware o software, mostrado por un cuadro tridimensional.
 
+![alt text][fig12]
+
+Figura 12: Nodo
 
 __Estereotipo:__ Un dispositivo contenido dentro del nodo, presentado en la parte superior del nodo, con el nombre entre flechas dobles a manera de corchetes.
 
+![alt text][fig13]
+
+Figura 13: Estereotipo
 
 ## Operations on views+ <a name="operations-on-views-physical"></a>
 
@@ -298,3 +315,89 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 [Table of contents](#table-of-contents-vp)
 
 <!-- Fin de viewpoint Fisica -->
+
+# Views+ <a name="views"></a>
+
+<!-- Inicio de view development -->
+## Development  view <a name="development -view"></a>
+
+A continuación se describe la vista de desarrollo los modelos de componentes y paquetes.
+
+### Models+ <a name="models-development -view"></a>
+### Components <a name="models-component-development-view"></a>
+
+![alt text][fig14]
+
+Figura 14: Diagrama de Componentes de aplicación
+
+### Package <a name="models-package-development-view"></a>
+
+El objetivo del diagrama es obtener una visión más clara del sistema de información orientado a objetos, organizándolo en subsistemas, agrupando los elementos de análisis, diseño y construcción detallando las relaciones de dependencia entre ellos.
+
+El diagrama de paquetes y sus dependencias, son elementos de los diagramas de casos de uso y de componentes de nuestro sistema.
+
+![alt text][fig15]
+
+Figura 15: Diagrama de paquetes
+
+### Known Issues with View <a name="issues-with-development-view"></a>
+
+Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
+
+[Table of contents](#table-of-contents-vp)
+
+<!-- Fin de view development -->
+
+<!-- Inicio de view Fisica -->
+## Physical  view <a name="physical-view"></a>
+
+Descripción de la vista de fisica empleada, presentando el modelo de despliegue.
+
+### Models+ <a name="models-physical-view"></a>
+
+### Components <a name="models-component-physical-view"></a>
+
+El diagrama de despliegue describe la implementación física de la información generada por el programa de software en los componentes de hardware. La arquitectura presentada en capas, es la que ofrece mayor rendimiento en cumplimiento con las preocupaciones de stakeholders, respecto CNR-002 Disponibilidad "Availability", CNR-003 - Reacción al cambio "Escalabilidad", CNR-006 - Rendimiento: Desempeño del aplicativo, CNR-010 - Estructura de información.
+
+Como se evidencia en la Figura 10, se especifica el ambiente de Producción y en la figura, los ambientes de Desarrollo y Pruebas, producción es independiente mientra desarrollo y pruebas comparten base de datos lo cual optimiza recursos.
+
+El sistema de la empresa ”K” está diseñado para que se ejecute en un servidor de aplicaciones, este cuenta con un componente encargado de gestionar la vista, un servidor de aplicaciones con el backend de la aplicación y una base de datos en un nodo independiente.
+
+El objetivo de separar los componentes por su responsabilidad, se plantea minimizando el acoplamiento, ademas de esto la lógica de negocio no se vera afectada en casos de requerir cambios, las transacciones y seguridad de la aplicación será aumentada por la distribución de capas y su consumo desde la capa superior únicamente.
+
+La separación por capas permite que la aplicación sea fácilmente escalable.
+
+La aplicación interactúa con una base de datos a través de una capa de persistencia, para lo cual emplea repositorio y es persistida por medio del motor de base de datos de la empresa.
+
+![alt text][fig16]
+
+Figura 16: Diagrama de Despliegue de aplicación en ambiente productivo
+
+![alt text][fig17]
+
+Figura 17: Diagrama de Despliegue de aplicación desarrollo y pruebas 
+
+### Known Issues with View <a name="issues-with-physical-view"></a>
+
+La empresa no cuenta con equipos de seguridad que permitan implementar medidas de seguridad de los servicios que se exponen y los equipos donde se encuntran desplegados. 
+
+[Table of contents](#table-of-contents-vp)
+
+<!-- Fin de view Fisica -->
+
+[fig2]: /img/fig2.png "Componente"
+[fig3]: /img/fig3.png "Interfaz"
+[fig4]: /img/fig4.png "Relación de dependencia"
+[fig5]: /img/fig5.png "Paquete"
+[fig6]: /img/fig6.png "Dependencia entre paquetes"
+[fig7]: /img/fig7.png "Diagrama de Componentes de aplicación"
+[fig8]: /img/fig8.png "Asociación"
+[fig9]: /img/fig9.png "Componente"
+[fig10]: /img/fig10.png "Dependencia"
+[fig11]: /img/fig11.png "Interfaz"
+[fig12]: /img/fig12.png "Nodo"
+[fig13]: /img/fig13.png "Estereotipo"
+[fig14]: /img/fig14.png "Diagrama de Componentes de aplicación"
+[fig15]: /img/fig15.png "Diagrama de paquetes"
+[fig16]: /img/fig16.png "Diagrama de Despliegue de aplicación en ambiente productivo"
+[fig17]: /img/fig17.png "Diagrama de Despliegue de aplicación desarrollo y pruebas"
