@@ -355,9 +355,9 @@ Operations define the methods to be applied to views and their models. Types of 
 ## Correspondence rules <a name="correspondence-rules-component"></a>
 
 * R1: Los módulos presentados en el diagrama de componentes serán desplegados en nodos del diagrama de despliegue.
-por lo anterior debe existir 3 nodos Desarrollo, Pruebas y Producción, desarrollo corresponde al nodo de desarrollo local de los programadores, mientras que pruebas será desplegado de manera independiente a producción, el nodo productivo será independiente y si y sólo si sera puesto en producción aquellos componentes y/o paquetes que han sido probadas por desarrolladores, testers y usuarios finales.
+por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de desarrollo corresponde al ambiente local de los programadores, pruebas será desplegado de manera independiente a producción, y si y sólo si sera puesto en producción aquellos componentes y/o paquetes que han sido probados por desarrolladores, testers y usuarios finales.
 
-* R2: Las bases de datos estarán en nodos, manejando tres ambientes como es el caso de los componentes, desarrollo, pruebas y producción.
+* R2: Las bases de datos estarán en 2 nodos, manejando dos ambientes producción y para el caso de desarrollo y pruebas la base de datos sera compartida.
 
 * R3: Debe existir un solo repositorio para el versionamiento del código el cual será  desplegado en un nodo descrito en el diagrama de despliegue.
 
@@ -454,7 +454,7 @@ __Nodo:__ Un objeto de hardware o software, mostrado por un cuadro tridimensiona
 __Estereotipo:__ Un dispositivo contenido dentro del nodo, presentado en la parte superior del nodo, con el nombre entre flechas dobles a manera de corchetes.
 
 
-## Operations on views+ <a name="operations-on-views-component"></a>
+## Operations on views+ <a name="operations-on-views-physical"></a>
 
 Operations define the methods to be applied to views and their models. Types of operations include:
 
@@ -466,12 +466,12 @@ Operations define the methods to be applied to views and their models. Types of 
 
   Para el caso del personal de infraestructura, el diagrama de componentes les permitirá tener claro el panorama de despliegue y uso de equipos, asi mismo le permite identificar la necesidad de asignacion de recursos, memoria, disco, equipos fisicos, servicios virtuales, responsables y despliegue de aplicaciones en la infraestructura de la organización.
 
-## Correspondence rules <a name="correspondence-rules-component"></a>
+## Correspondence rules <a name="correspondence-rules-physical"></a>
 
 * R1: Los módulos presentados en el diagrama de componentes serán desplegados en nodos del diagrama de despliegue.
-por lo anterior debe existir 3 nodos Desarrollo, Pruebas y Producción, desarrollo corresponde al nodo de desarrollo local de los programadores, mientras que pruebas será desplegado de manera independiente a producción, el nodo productivo será independiente y si y sólo si sera puesto en producción aquellos componentes y/o paquetes que han sido probadas por desarrolladores, testers y usuarios finales.
+por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de desarrollo corresponde al ambiente local de los programadores, pruebas será desplegado de manera independiente a producción, y si y sólo si sera puesto en producción aquellos componentes y/o paquetes que han sido probados por desarrolladores, testers y usuarios finales.
 
-* R2: Las bases de datos estarán en nodos, manejando tres ambientes como es el caso de los componentes, desarrollo, pruebas y producción.
+* R2: Las bases de datos estarán en 2 nodos, manejando dos ambientes producción y para el caso de desarrollo y pruebas la base de datos sera compartida.
 
 * R3: Debe existir un solo repositorio para el versionamiento del código el cual será  desplegado en un nodo descrito en el diagrama de despliegue.
 
@@ -516,22 +516,29 @@ Documente cualquier discrepancia entre la vista y sus convenciones de puntos de 
 <!-- Inicio de view Fisica -->
 ## Physical  view <a name="physical-view"></a>
 
-Descripción de la vista de fisica usada. modelo de despliegue
+Descripción de la vista de fisica empleada, presentando el modelo de despliegue
 
 ### Models+ <a name="models-physical-view"></a>
 
 ### Components <a name="models-component-physical-view"></a>
 
-En el contexto del Lenguaje Unificado de Modelado (UML), el diagrama de despliegue describe la implementación física de la información generada por el programa de software en los componentes de hardware. A la información que el software genera se la conoce como artefacto. 
+El diagrama de despliegue describe la implementación física de la información generada por el programa de software en los componentes de hardware. La arquitectura presentada en capas, es la que ofrece mayor rendimiento en cumplimiento con las preocupaciones de stakeholders, respecto CNR-002 Disponibilidad "Availability", CNR-003 - Reacción al cambio "Escalabilidad", CNR-006 - Rendimiento: Desempeño del aplicativo, CNR-010 - Estructura de información.
 
-Los diagramas de despliegue están formados por varias formas UML. Nodos, representan los elementos básicos de software o hardware, o nodos, en el sistema. Las líneas de nodo a nodo indican relaciones y las formas más pequeñas contenidas en los cuadros representan los artefactos de software que se implementan.
+Como se evidencia en la Figura 10, los se especifican 3 ambientes Desarrollo, Pruebas y Producción, este último es independiente mientra desarrollo y pruebas comparten base de datos lo cual optimiza recursos. 
+
 ![alt text][fig10]
 
-Figura 10: Diagrama de Despliegue de aplicación
+Figura 10: Diagrama de Despliegue de aplicación en ambiente productivo
 
-### Known Issues with View <a name="issues-with-development-view"></a>
 
-> Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
+![alt text][fig11]
+
+Figura 11: Diagrama de Despliegue de aplicación desarrollo y pruebas 
+
+### Known Issues with View <a name="issues-with-physical-view"></a>
+
+> La empresa no cuenta con equipos de seguridad que permitan implementar medidas de seguridad de los servicios que se exponen y los equipos donde se encentran desplegados. 
+
 
 [Table of contents](#table-of-contents)
 
