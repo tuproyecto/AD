@@ -16,6 +16,10 @@
         2. [Components](#models-component-development-view)
         3. [Package](#models-package-development-view)
         4. [Known Issues with View](#issues-with-development-view)
+    2. [Physical view](#physical-view)
+        1. [Models+](#models-physical-view)
+        2. [Deployment](#models-deployment-physical-view)
+        3. [Known Issues with View](#issues-with-physical-view)
 5. [Consistency and correspondences](#consistency-and-correspondences)
     1. [Known inconsistencies](#known-inconsistencies)
     2. [Correspondences in the AD](#correspondences-in-the-ad)
@@ -235,6 +239,9 @@ A continuación se presentan los [viewpoints descriptions][vp-description]:
 
 * [Development viewpoint][development-viewpoint-description]
 * [Physical viewpoint][physical-viewpoint-description]
+* [Logical viewpoint][logical-viewpoint-description]
+* [Process viewpoint][process-viewpoint-description]
+* [Scenarios viewpoint][scenarios-viewpoint-description]
 
 # Views+ <a name="views"></a>
 
@@ -275,7 +282,7 @@ Descripción de la vista de fisica empleada, presentando el modelo de despliegue
 
 ### Models+ <a name="models-physical-view"></a>
 
-### Components <a name="models-component-physical-view"></a>
+### Deployment <a name="models-deployment-physical-view"></a>
 
 El diagrama de despliegue describe la implementación física de la información generada por el programa de software en los componentes de hardware. La arquitectura presentada en capas, es la que ofrece mayor rendimiento en cumplimiento con las preocupaciones de stakeholders, respecto CNR-002 Disponibilidad "Availability", CNR-003 - Reacción al cambio "Escalabilidad", CNR-006 - Rendimiento: Desempeño del aplicativo, CNR-010 - Estructura de información.
 
@@ -352,3 +359,6 @@ The second paragraph text
 [vp-description]: /vp-description.md
 [development-viewpoint-description]: /vp-description.md#development-viewpoint
 [physical-viewpoint-description]: /vp-description.md#physical-viewpoint
+[logical-viewpoint-description]: /vp-description.md#logical-viewpoint
+[process-viewpoint-description]: /vp-description.md#process-viewpoint
+[scenarios-viewpoint-description]: /vp-description.md#scenarios-viewpoint
