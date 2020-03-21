@@ -315,6 +315,125 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 
 <!-- Fin de viewpoint Fisica -->
 
+
+
+<!-- Inicio de viewpoint Procesos -->
+
+## Process viewpoint <a name="process-viewpoint"></a>
+
+La arquitectura de procesos nos muestra los procesos que hay en el sistema de la empresa K, y la forma en la que se comunican estos procesos, el flujo de trabajo paso a paso del negocio de catálogos de productos, la forma de expresar este flujo de los componentes del sistema se muestran en un diagrama de actividades UML.
+
+La arquitectura de procesos tiene en cuenta algunos requisitos no funcionales como el rendimiento y la disponibilidad, y tiene en cuenta las principales abstracciones de la vista lógica. Los procesos representan el nivel en el que la arquitectura del proceso puede controlarse tácticamente, es decir, iniciar,recuperarse, configurarse y cerrarse.
+
+
+## Overview <a name="overview-process"></a>
+
+El viewpoint de procesos nos muestra el detalle de comunicación y flujo de procesos de trabajo que se ejecutan en el sistema de catálogos de productos de la empresa K, en este viewpoint brindaremos las vistas y modelos que nos ayudan a entender cómo funciona cada proceso, que entradas y salidas se obtienen durante el flujo.
+
+## Framed concerns and typical stakeholders <a name="framed-concerns-and-typical-stakeholders-process"></a>
+
+Para el tema de procesos, los equipos de comercial, mercadeo y técnicos de cosméticos, son los responsables de que un proceso en gestión de catálogos y gestión de manuales se cumpla de manera correcta, por este motivo, en esta vista se ofrece buscar un flujo de la mejor manera dentro del sistema de ventas, para ayudar así a los equipos mencionados con sus responsabilidades.
+
+
+### Concerns <a name="concerns-process"></a>
+
+Aquí se describen las preocupaciones de los stakeholder relacionados con el viewpoint de procesos.
+
+* [CNR-001](#CNR-001): Usabilidad: Se busca contar con una herramienta de vanguardia que ofrezca una buena experiencia de usuario, esta preocupación se encuentra asociada al equipo comercial ya que en su día a día utilizan la herramienta y un sistema fácil e intuitivo para mostrar los catálogos al usuario final.
+
+* [CNR-006](#CNR-006): Desempeño del sistema, el aplicativo debe tener un desempeño rápido y óptimo, debido a que se necesita consultar y gestionar los catálogos para mostrar al usuario final, y debe ser una consulta rápida y óptima, esta preocupación está relacionada con equipo comercial, equipo de mercadeo y equipo tecnico.
+
+* [CNR-007](#CNR-007): Actualizar sus recursos comerciales, se necesita actualizar los productos en los catálogos, el sistema debe tener la capacidad para modificar los catálogos de manera fácil, esta preocupación está relacionada con el área comercial y mercadeo.
+
+* [CNR-008](#CNR-008):  Aumentar la efectividad del equipo comercial, teniendo un sistema que se pueda acceder desde cualquier dispositivo y que el mismo tenga agilidad y velocidad para gestionar los catálogos, el equipo comercial está relacionado a esta preocupación ya que busca aumentar su productividad con el nuevo sistema.
+
+
+
+### Typical stakeholders <a name="typical-stakeholders-process"></a>
+
+Las partes interesadas para esta vista incluyen a los integrantes del equipo de procesos responsables de la ejecucion de procesos y/o actividades del sistema de ventas.
+
+
+* [STK-002](#STK-002) - Equipo comercial: Personal que apoya el proceso de ventas
+* [STK-003](#STK-003) - Equipo de mercadeo: Personal encargado de definir estrategias de mercadeo y diseño de catálogos
+* [STK-004](#STK-004) - Equipo técnico: Expertos en cosmetología, apoyan el proceso de definición de los catálogos
+
+Tabla No 4 Catálogo de Stakeholder Viewpoint fisico
+
+## Model kinds+ <a name="model-kinds-process"></a>
+
+* [MOD-006](#MOD-006) - Modelo de actividades 
+
+__Subset of metamodel elements__
+
+* Actividad
+* condición 
+* Marcos de responsabilidad  
+
+
+## Activities model <a name="Activities-model"></a>
+
+En este viewpoint se realiza el diagrama de Actividades uml que es lo recomendada de acuerdo a lo que menciona Philippe Kruchten en la vista de procesos.
+
+Un diagrama de actividades ilustra la naturaleza dinámica de un sistema mediante el modelado del flujo ocurrente de actividad en actividad. Una actividad representa una operación en alguna clase del sistema y que resulta en un cambio en el estado de un sistema.
+
+
+### Activities model conventions <a name="activities-model-conventions"></a>
+
+
+__Actividad:__ 
+
+![alt text][fig13]
+
+Figura 13: Actividad
+
+__Estados:__ 
+
+![alt text][fig14]
+
+Figura 14: Estados
+
+__Ramificacion:__ 
+
+![alt text][fig15]
+
+Figura 15: Ramificacion 
+
+__Sincronizacion:__ 
+
+![alt text][fig16]
+
+Figura 16: Sincronizacion 
+
+__Marcos de Responsabilidad:__ 
+
+![alt text][fig16]
+
+Figura 16: Marcos de Responsabilidad 
+
+
+
+* __Construction Method:__ 
+
+Este tipo de modelos se construye estableciendo marcos de responsabilidad, en estos marcos incluimos las tareas y relación entre ellas, incluimos rombos que significan ciclos de decisión en caso de que se necesiten y un inicio y fin del flujo de trabajo. 
+
+* __Analysis method:__ 
+
+En la arquitectura de procesos, es indispensable mostrar el flujo de cada proceso, estos los representamos en un diagrama de actividades, y se muestra el flujo y estados de estas actividades, las mismas siempre están asociadas a responsables. Con este diagrama el arquitecto puede encontrar qué procesos deben ejecutarse en el sistema y de qué manera deben realizar su flujo.
+
+## Correspondence rules <a name="correspondence-rules-process"></a>
+
+* R1: Los procesos presentados en el diagrama de actividades serán desplegados en 3 marcos de responsabilidad, estos son los stakeholder que intervienen con los procesos, cada actividad mostrada en el diagrama tiene interaccion con sus responsables y se muestra el flujo de cada actividad para asi entender que secuencia, entradas y salidad tiene en el sistema de ventas.
+
+## Sources <a name="sources-procesos"></a>
+
+referencia://
+
+[Table of contents](#table-of-contents-vp)
+
+<!-- Fin de viewpoint procesos -->
+
+
 [fig1]: /img/fig1-vp.png "Componente"
 [fig2]: /img/fig2-vp.png "Interfaz"
 [fig3]: /img/fig3-vp.png "Relación de dependencia"
@@ -327,4 +446,10 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 [fig10]: /img/fig10-vp.png "Interfaz"
 [fig11]: /img/fig11-vp.png "Nodo"
 [fig12]: /img/fig12-vp.png "Estereotipo"
+[fig13]: /img/fig13-proc-vp.png "Actividad"
+[fig14]: /img/fig14-proc-vp.png "Estados"   
+[fig15]: /img/fig15-proc-vp.png "Ramificacion"
+[fig16]: /img/fig16-proc-vp.png "Sincronizacion"
+
+
 

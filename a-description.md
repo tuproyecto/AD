@@ -312,6 +312,34 @@ La empresa no cuenta con equipos de seguridad que permitan implementar medidas d
 
 <!-- Fin de view Fisica -->
 
+<!-- Inicio de view Procesos  -->
+## Process  view <a name="process-view"></a>
+
+Descripción de la vista de procesos empleada, presentando el modelo de actividades.
+
+### Models+ <a name="models-process-view"></a>
+
+### Activities <a name="models-activities-process-view"></a>
+
+El diagrama de actividades nos ayudará a entender los procesos que se ejecutan en el sistema de ventas de la empresa K, se mostrará cual es el flujo de trabajo de cada actividad las cuales representan los procesos del sistema de catálogos.
+Allí entenderemos qué cambios de estados tienen las actividades en el transcurso del flujo, que entradas y salidas se obtienen en la transición de procesos y cuales son las condiciones que intervienen tras bambalinas en medio de una solicitud de un producto de cosméticos.
+
+
+![alt text][fig6]
+
+Figura 4: Diagrama de Actividades
+
+
+
+### Known Issues with View <a name="issues-with-physical-view"></a>
+
+En la vista de procesos, en un punto inicial puede que no se contemplen todos los detalles de los procesos, es debido realizar un levantamiento de informacion fortalecido con iteraciones, para identificar una funcionalidad mas cercana a lo que se busca en cada proceso.
+
+[Table of contents](#table-of-contents-vp)
+
+<!-- Fin de view process -->
+
+
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
 > Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
@@ -357,6 +385,7 @@ The second paragraph text
 [fig3]: /img/fig3.png "Diagrama de paquetes"
 [fig4]: /img/fig4.png "Diagrama de Despliegue de aplicación en ambiente productivo"
 [fig5]: /img/fig5.png "Diagrama de Despliegue de aplicación desarrollo y pruebas"
+[fig6]: /img/fig18-proc-diagrama.png "Diagrama de actividades"
 
 [vp-description]: /vp-description.md
 [development-viewpoint-description]: /vp-description.md#development-viewpoint
