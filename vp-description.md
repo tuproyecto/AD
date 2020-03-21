@@ -299,7 +299,7 @@ Operations define the methods to be applied to views and their models. Types of 
 
 * __Analysis method:__ Para el arquitecto el diagrama de despliegue le permite conocer un plano general de la distribucion de la aplicación, bases de datos y otros componentes en la infraestructura (Hardware), ahora bien existen tecnologías que permiten virtualizar el despliegue y para este caso el diagrama es el mismo, este tipo d diagramas hace posible que identificar las necesidades de hardware para el dspliegue, generar solicitudes de equipos, requerimientos de configuración, permisos de seguridad y configuraciones de red.
 
-  Para el caso del personal de infraestructura, el diagrama de componentes les permitirá tener claro el panorama de despliegue y uso de equipos, asi mismo le permite identificar la necesidad de asignacion de recursos, memoria, disco, equipos fisicos, servicios virtuales, responsables y despliegue de aplicaciones en la infraestructura de la organización.
+Para el caso del personal de infraestructura, el diagrama de componentes les permitirá tener claro el panorama de despliegue y uso de equipos, asi mismo le permite identificar la necesidad de asignacion de recursos, memoria, disco, equipos fisicos, servicios virtuales, responsables y despliegue de aplicaciones en la infraestructura de la organización.
 
 ## Correspondence rules <a name="correspondence-rules-physical"></a>
 
@@ -316,75 +316,6 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 
 <!-- Fin de viewpoint Fisica -->
 
-# Views+ <a name="views"></a>
-
-<!-- Inicio de view development -->
-## Development  view <a name="development -view"></a>
-
-A continuación se describe la vista de desarrollo los modelos de componentes y paquetes.
-
-### Models+ <a name="models-development -view"></a>
-### Components <a name="models-component-development-view"></a>
-
-![alt text][fig14]
-
-Figura 14: Diagrama de Componentes de aplicación
-
-### Package <a name="models-package-development-view"></a>
-
-El objetivo del diagrama es obtener una visión más clara del sistema de información orientado a objetos, organizándolo en subsistemas, agrupando los elementos de análisis, diseño y construcción detallando las relaciones de dependencia entre ellos.
-
-El diagrama de paquetes y sus dependencias, son elementos de los diagramas de casos de uso y de componentes de nuestro sistema.
-
-![alt text][fig15]
-
-Figura 15: Diagrama de paquetes
-
-### Known Issues with View <a name="issues-with-development-view"></a>
-
-Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
-
-[Table of contents](#table-of-contents-vp)
-
-<!-- Fin de view development -->
-
-<!-- Inicio de view Fisica -->
-## Physical  view <a name="physical-view"></a>
-
-Descripción de la vista de fisica empleada, presentando el modelo de despliegue.
-
-### Models+ <a name="models-physical-view"></a>
-
-### Components <a name="models-component-physical-view"></a>
-
-El diagrama de despliegue describe la implementación física de la información generada por el programa de software en los componentes de hardware. La arquitectura presentada en capas, es la que ofrece mayor rendimiento en cumplimiento con las preocupaciones de stakeholders, respecto CNR-002 Disponibilidad "Availability", CNR-003 - Reacción al cambio "Escalabilidad", CNR-006 - Rendimiento: Desempeño del aplicativo, CNR-010 - Estructura de información.
-
-Como se evidencia en la Figura 10, se especifica el ambiente de Producción y en la figura, los ambientes de Desarrollo y Pruebas, producción es independiente mientra desarrollo y pruebas comparten base de datos lo cual optimiza recursos.
-
-El sistema de la empresa ”K” está diseñado para que se ejecute en un servidor de aplicaciones, este cuenta con un componente encargado de gestionar la vista, un servidor de aplicaciones con el backend de la aplicación y una base de datos en un nodo independiente.
-
-El objetivo de separar los componentes por su responsabilidad, se plantea minimizando el acoplamiento, ademas de esto la lógica de negocio no se vera afectada en casos de requerir cambios, las transacciones y seguridad de la aplicación será aumentada por la distribución de capas y su consumo desde la capa superior únicamente.
-
-La separación por capas permite que la aplicación sea fácilmente escalable.
-
-La aplicación interactúa con una base de datos a través de una capa de persistencia, para lo cual emplea repositorio y es persistida por medio del motor de base de datos de la empresa.
-
-![alt text][fig16]
-
-Figura 16: Diagrama de Despliegue de aplicación en ambiente productivo
-
-![alt text][fig17]
-
-Figura 17: Diagrama de Despliegue de aplicación desarrollo y pruebas 
-
-### Known Issues with View <a name="issues-with-physical-view"></a>
-
-La empresa no cuenta con equipos de seguridad que permitan implementar medidas de seguridad de los servicios que se exponen y los equipos donde se encuntran desplegados. 
-
-[Table of contents](#table-of-contents-vp)
-
-<!-- Fin de view Fisica -->
-
 [fig2]: /img/fig2.png "Componente"
 [fig3]: /img/fig3.png "Interfaz"
 [fig4]: /img/fig4.png "Relación de dependencia"
@@ -397,7 +328,4 @@ La empresa no cuenta con equipos de seguridad que permitan implementar medidas d
 [fig11]: /img/fig11.png "Interfaz"
 [fig12]: /img/fig12.png "Nodo"
 [fig13]: /img/fig13.png "Estereotipo"
-[fig14]: /img/fig14.png "Diagrama de Componentes de aplicación"
-[fig15]: /img/fig15.png "Diagrama de paquetes"
-[fig16]: /img/fig16.png "Diagrama de Despliegue de aplicación en ambiente productivo"
-[fig17]: /img/fig17.png "Diagrama de Despliegue de aplicación desarrollo y pruebas"
+
