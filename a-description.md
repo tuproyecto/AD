@@ -6,7 +6,7 @@
         1. [Rationale for key decisions](#rationale-for-key-decisions)
 2. [Stakeholders and concerns](#stakeholders-and-concerns)
     1. [Stakeholders](#stakeholders)
-    2. [Concerns](#concerns
+    2. [Concerns](#concerns)
     3. [Concern–Stakeholder Taceability](#concern–stakeholder-traceability)
 3. [Viewpoints+](#viewpoints)    1. [Viewpoints descriptions](#viepoint-description)
 4. [Views+](#views)    1. [Development view](#development-view)
