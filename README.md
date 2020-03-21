@@ -530,7 +530,7 @@ Como se evidencia en la Figura 10, los se especifican 3 ambientes Desarrollo, Pr
 
 Figura 10: Diagrama de Despliegue de aplicación en ambiente productivo
 
-![alt text][fig11]
+![alt text][fig10]
 
 Figura 11: Diagrama de Despliegue de aplicación desarrollo y pruebas 
 
