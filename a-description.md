@@ -233,6 +233,67 @@ Tabla 10: Matriz de relación entre las vistas y los modelos con los que se repr
 
 A continuación se presentan los [viewpoints descriptions][vp-description].
 
+# Views+ <a name="views"></a>
+
+<!-- Inicio de view development -->
+## Development  view <a name="development -view"></a>
+
+A continuación se describe la vista de desarrollo los modelos de componentes y paquetes.
+
+### Models+ <a name="models-development -view"></a>
+### Components <a name="models-component-development-view"></a>
+
+![alt text][fig7]
+
+Figura 7: Diagrama de Componentes de aplicación
+
+### Package <a name="models-package-development-view"></a>
+
+El objetivo del diagrama es obtener una visión más clara del sistema de información orientado a objetos, organizándolo en subsistemas, agrupando los elementos de análisis, diseño y construcción detallando las relaciones de dependencia entre ellos.
+
+El diagrama de paquetes y sus dependencias, son elementos de los diagramas de casos de uso y de componentes de nuestro sistema.
+
+![alt text][fig8]
+
+Figura 8: Diagrama de paquetes
+
+### Known Issues with View <a name="issues-with-development-view"></a>
+
+Documente cualquier discrepancia entre la vista y sus convenciones de puntos de vista. Cada vista de arquitectura debe cumplir con las convenciones de su punto de vista de arquitectura de gobierno. Los problemas conocidos pueden incluir: inconsistencias elementos a completar, problemas abiertos o no resueltos, excepciones y desviaciones de las convenciones establecidas por el punto de vista. Los asuntos abiertos pueden llevar a tomar decisiones. Las excepciones y desviaciones pueden documentarse como resultados de decisión y justificación.
+
+[Table of contents](#table-of-contents)
+
+<!-- Fin de view development -->
+
+<!-- Inicio de view Fisica -->
+## Physical  view <a name="physical-view"></a>
+
+Descripción de la vista de fisica empleada, presentando el modelo de despliegue
+
+### Models+ <a name="models-physical-view"></a>
+
+### Components <a name="models-component-physical-view"></a>
+
+El diagrama de despliegue describe la implementación física de la información generada por el programa de software en los componentes de hardware. La arquitectura presentada en capas, es la que ofrece mayor rendimiento en cumplimiento con las preocupaciones de stakeholders, respecto CNR-002 Disponibilidad "Availability", CNR-003 - Reacción al cambio "Escalabilidad", CNR-006 - Rendimiento: Desempeño del aplicativo, CNR-010 - Estructura de información.
+
+Como se evidencia en la Figura 10, los se especifican 3 ambientes Desarrollo, Pruebas y Producción, este último es independiente mientra desarrollo y pruebas comparten base de datos lo cual optimiza recursos. 
+
+![alt text][fig10]
+
+Figura 10: Diagrama de Despliegue de aplicación en ambiente productivo
+
+![alt text][fig11]
+
+Figura 11: Diagrama de Despliegue de aplicación desarrollo y pruebas 
+
+### Known Issues with View <a name="issues-with-physical-view"></a>
+
+La empresa no cuenta con equipos de seguridad que permitan implementar medidas de seguridad de los servicios que se exponen y los equipos donde se encuntran desplegados. 
+
+[Table of contents](#table-of-contents)
+
+<!-- Fin de view Fisica -->
+
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
 > Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
@@ -274,5 +335,15 @@ The second paragraph text
 [Table of contents](#table-of-contents)
 
 [fig1]: /img/fig1.png "Model Conceptual"
+[fig2]: /img/fig2.png "Componente"
+[fig3]: /img/fig3.png "Interfaz"
+[fig4]: /img/fig4.png "Relación de dependencia"
+[fig5]: /img/fig5.png "Paquete"
+[fig6]: /img/fig6.png "Dependencia entre paquetes"
+[fig7]: /img/fig7.png "Diagrama de Componentes de aplicación"
+[fig8]: /img/fig8.png "Diagrama de paquetes"
+[fig9]: /img/fig9.png "Nodo"
+[fig10]: /img/fig10.png "Diagrama de Despliegue"
+[fig11]: /img/fig11.png "Diagrama de Despliegue Desarrollo y Pruebas"
 
 [vp-description]: /vp-description.md
