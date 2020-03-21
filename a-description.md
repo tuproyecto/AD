@@ -6,12 +6,10 @@
         1. [Rationale for key decisions](#rationale-for-key-decisions)
 2. [Stakeholders and concerns](#stakeholders-and-concerns)
     1. [Stakeholders](#stakeholders)
-    2. [Concerns](#concerns)
-    3. [Concern–Stakeholder Traceability](#concern–stakeholder-traceability)
-3. [Viewpoints+](#viewpoints)
-    1. [Viewpoints descriptions](#viewpoint-description)
-4. [Views+](#views)
-    1. [Development view](#development-view)
+    2. [Concerns](#concerns
+    3. [Concern–Stakeholder Taceability](#concern–stakeholder-traceability)
+3. [Viewpoints+](#viewpoints)    1. [Viewpoints descriptions](#viepoint-description)
+4. [Views+](#views)    1. [Development view](#development-view)
         1. [Models+](#models-development-view)
         2. [Components](#models-component-development-view)
         3. [Package](#models-package-development-view)
@@ -236,7 +234,7 @@ A continuación se presentan los [viewpoints descriptions][vp-description].
 # Views+ <a name="views"></a>
 
 <!-- Inicio de view development -->
-## Development  view <a name="development -view"></a>
+## Development  view <a name="development-view"></a>
 
 A continuación se describe la vista de desarrollo los modelos de componentes y paquetes.
 
