@@ -20,6 +20,10 @@
         1. [Models+](#models-physical-view)
         2. [Deployment](#models-deployment-physical-view)
         3. [Known Issues with View](#issues-with-physical-view)
+    4. [Logical view](#logical-view)
+        1. [Models+](#models-logical-view)
+        2. [Deployment](#models-deployment-logical-view)
+        3. [Known Issues with View](#issues-with-logical-view)
 5. [Consistency and correspondences](#consistency-and-correspondences)
     1. [Known inconsistencies](#known-inconsistencies)
     2. [Correspondences in the AD](#correspondences-in-the-ad)
@@ -339,6 +343,44 @@ En la vista de procesos, en un punto inicial puede que no se contemplen todos lo
 
 <!-- Fin de view process -->
 
+<!-- Inicio de view Logico  -->
+## Logical  view <a name="logical-view"></a>
+
+Descripción de la vista logica empleada, presentando el modelo de clases y el modelo de secuencia.
+
+### Models+ <a name="models-logical-view"></a>
+
+### Clases <a name="models-class-logical-view"></a>
+
+El diagrama de clases nos ayudará a  visualizar las diferentes entidades que interactúan en el proceso, sus propiedades y sus eventos, entender este diagrama nos permite agilizar la comunicación entre dos entidades buscando mejorar sus tiempos de respuesta, mostraremos la interacción entre mercadeo, comercial y clientes.
+
+![alt text][figN1]
+
+Figura N1: Diagrama de Clases
+
+### Sequence <a name="models-sequence-logical-view"></a>
+
+El diagrama de secuencia muestra una línea de vida entre las actividades o procesos, enviando un mensaje y esperando una respuesta, en esta vista podremos ver el flujo adecuado y de manera óptima, si tenemos procesos ambiguos o muy complejos de desarrollar, para este caso separamos en dos esquemas diferentes donde el profesional de mercadeo crea y gestiona unos catálogos publicados a comerciales y otro esquema en donde los comerciales realizan el proceso de una venta en interacción con el usuario final.
+
+![alt text][figN2]
+
+Figura N2: Diagrama de sequencia mercadeo
+
+![alt text][figN2]
+
+Figura N3: Diagrama de sequencia comercial cliente
+
+
+### Known Issues with View <a name="issues-with-logical-view"></a>
+
+En la vista logica, se esperar tener una lista de interesados, el desconocimiento de la cantidad de actividades procesos o involucrados nos impide saber la dimencion del modelo, por ende de lo que se desea hacer, es requerido un levantamiento de informacion optimo y lo mas completo posible.
+
+
+
+[Table of contents](#table-of-contents-vp)
+
+<!-- Fin de view logico -->
+
 
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
@@ -386,6 +428,12 @@ The second paragraph text
 [fig4]: /img/fig4.png "Diagrama de Despliegue de aplicación en ambiente productivo"
 [fig5]: /img/fig5.png "Diagrama de Despliegue de aplicación desarrollo y pruebas"
 [fig6]: /img/fig18-proc-diagrama.png "Diagrama de actividades"
+[fig5]: /img/fig5.png "Diagrama de Despliegue de aplicación desarrollo y pruebas"
+[fig6]: /img/fig18-proc-diagrama.png "Diagrama de actividades"
+[figN1]: /img/Clases/DiagramaClases.png "Diagrama de Calses"
+[figN2]: /img/Secuencia/DiagramaSecuenciaMercadeo.png "Diagrama de secuencia mercadeo"
+[figN3]: /img/DiagramaSecuenciaClienteVendedor.png "Diagrama de secuencia comercial cliente"
+
 
 [vp-description]: /vp-description.md
 [development-viewpoint-description]: /vp-description.md#development-viewpoint
