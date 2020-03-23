@@ -425,7 +425,44 @@ En la vista de escenarios, se deberian especificar las funcionalidades del siste
 
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
-> Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
+Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
+
+la siguiente tabla presenta la relacion que existe entre objetos, nodos, relaciones y otros con cada diagrama, el objetivo es permitirle al lectos identificar las relaciones de dependencia entre vistas y de esta manera facilitar la lectura de relacion de dependencia entre los modelos
+
+
+| Diagrama |Componentes| Despliegue | Caso de uso  | Paquetes | Secuencia | Clases | Actividades | 
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Paquete |  |  |  | X |  |  |  |
+| Artefacto |  | X |  |  |  |  |  |
+| Nodo |  | X |  |  |  |  |  |
+| Actividad |  |  |  |  |  |  | X |
+| Estados (I-F) |  |  |  |  |  |  | X |
+| Condición  |  |  |  |  |  |  | X |
+| Sincronización|  |  |  |  |  |  |  |
+| Clase  |  |  |  |  |  | X |  |
+| Composicion |  |  |  |  |  | X |  |
+| Agregación |  |  |  |  |  | X |  |
+| Herencia |  |  |  |  |  | X |  |
+| Dependencia |  |  |  |  |  | X |  |
+| Objeto |  |  |  |  | X |  |  |
+| Casilla de activacion  |  |  |  |  | X |  |  |
+| Actor  |  |  | X |  | X | X |  |
+| Linea de vida |  |  |  |  | X |  |  |
+| Símbolo de mensaje sincrónico |  |  |  |  | X |  |  |
+| Caso de uso  |  |  | X |  |  |  |  |
+|Marco de reponsabilidad  |  |  | X |  |  |  |  |
+| Limite del sistema  |  |  | X |  |  |  |  |
+| Componente | X | X |  |  |  |  |  |
+| Interfaz | X | X |  |  |  |  |  |
+|Relación de dependencia  | X |  |  |  |  |  |  |
+| Stereotype |  | X |  |  |  |  |  |
+| Dependencia entre paquetes |  |  |  | X |  |  |  |
+| Relacion entre actuvudades |  |  |  |  |  |  | X |
+
+Tabla 11: Pertenencia de componentes y vistas.
+
+[Table of contents](#table-of-contents)
+
 
 ## Known inconsistencies <a name="known-inconsistencies"></a>
 
