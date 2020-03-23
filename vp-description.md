@@ -601,6 +601,106 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 <!-- Fin de viewpoint logico -->
 
 
+
+<!-- Inicio de viewpoint Escenarios -->
+
+## Escenarios viewpoint <a name="escenarios-viewpoint"></a>
+
+El viewpoint de escenarios hace una abstracción de los requerimientos, mostrando cómo el sistema será operado con una descripción de las acciones y los procesos que se esperan del sistema, para las necesidades de los diferentes involucrados o stakeholders.
+
+
+## Overview <a name="overview-escenarios"></a>
+
+El viewpoint de escenarios se utiliza para tener un primer bosquejo general de lo que se espera del desarrollo en una solución, la primera interpretación que se le pueden dar a los requerimientos se logra mediante la identificación de cada una de sus partes, los diferentes procesos, sus interesados y funcionalidades.
+
+al documentar los requerimientos desde la perspectiva del usuario tenemos la capacidad de identificar las necesidades individuales de cada uno.
+
+
+## Framed concerns and typical stakeholders <a name="framed-concerns-and-typical-stakeholders-escenarios"></a>
+
+Por medio del análisis de los requerimientos y mediante el viewpoint de escenarios el equipo de earquitectura espera enmarcar adecuadamente la arquitectura de la empresa K para ello se  identifican las preocupaciones de los stakeholders que tienen interés en el sistema y en el producto final. 
+
+
+### Concerns <a name="concerns-escenarios"></a>
+
+A continuación se describe cada preocupación de las partes interesadas relacionadas con el Viewpoint de Escenarios, las preocupaciones identificadas en esta sección son información esencial para el arquitecto ya que le ayudan a tener una perspectiva desde el punto de vista de cada uno de los diferentes stakeholders. s.
+
+* [CNR-001]Usabilidad: Se busca contar con una herramienta de vanguardia que ofrezca una buena experiencia de usuario, dados los requerimientos iniciales se espera abarcar las necesidades de cada uno de los involucrado.
+
+* [CNR-009](#CNR-009): Acceso a la información: Contar con la información necesaria en el momento adecuado, evitar complejidad en el flujo de la información haciendo procesos cortos y eficaces además de brindar la seguridad necesaria según sea la necesidad de los usuarios finales.
+
+
+* [CNR-010](#CNR-010): Estructura de información: Administrar y presentar la información en los catálogos de acuerdo a la estrategia definida de manera que los diferentes usuarios finales disfruten de experiencia de usuario eficaz y entendibles.
+
+
+
+
+### Typical stakeholders <a name="typical-stakeholders-process"></a>
+
+Las partes interesadas para esta vista incluyen a los de actores responsables de la ejecucion de acciones o casos de uso del sistema de ventas.
+
+* [STK-001](#STK-001) - Clientes
+* [STK-002](#STK-002) - Equipo comercial: Personal que apoya el proceso de ventas
+* [STK-003](#STK-003) - Equipo de mercadeo: Personal encargado de definir estrategias de mercadeo y diseño de catálogos
+* [STK-004](#STK-004) - Equipo técnico: Expertos en cosmetología, apoyan el proceso de definición de los catálogos
+
+Tabla No 4 Catálogo de Stakeholder Viewpoint fisico
+
+## Model kinds+ <a name="model-kinds-process"></a>
+
+* [MOD-007](#MOD-007) - Modelo de casos de uso 
+
+__Subset of metamodel elements__
+
+* Actores
+* Casos de uso  
+* Limite del sistema
+
+
+## Casos de uso model <a name="casosdeuso-model"></a>
+
+La vista de casos de uso captura la funcionalidad de un sistema, de un subsistema, o de una clase, tal como se muestra a un usuario exterior.
+
+Aquí se especifican los requerimientos funcionales y damos una visión más clara de cada funcionalidad.
+
+
+### Casos de uso model conventions <a name="casosdeuso-model-conventions"></a>
+
+
+__Simbologia de Diagrama de casos de uso:__ 
+
+![alt text][figES1-VP]
+
+Caso de uso: Se representan con óvalos. La etiqueta en el óvalo indica la función del sistema.
+
+Actor: Un diagrama de caso de uso contiene los símbolos del actor y del caso de uso, junto con líneas conectoras. Los actores son similares a las entidades externas; existen fuera del sistema. El término actor se refiere a un rol específico de un usuario del sistema.
+
+Límite del sistema: Es el entorno en donde interactúan los casos de uso y acceso interno para los actores del sistema.
+
+* __Construction Method:__ 
+
+Este modelo lo realizamos estableciendo casos de uso y actores del sistema, entendiendo los requerimientos funcionales del sistema de ventas establecimos los casos de uso, e identificando los stakeholder pudimos relacionar los actores.  
+
+* __Analysis method:__ 
+
+Previamente se tuvieron que identificar los stakeholders, y como estos interactúan con los procesos del sistema de ventas, y analizando estos proceso y los requisitos de digitalizar catálogos, logramos establecer casos de uso que debe tener el sistema para funcionar de manera correcta, y esto unirlo en el diagrama de casos de uso.
+
+## Correspondence rules <a name="correspondence-rules-process"></a>
+
+
+## Sources <a name="sources-procesos"></a>
+
+referencias: 
+Architectural Blueprints—The “4+1” View
+Model of Software Architecture Philippe Kruchten
+Rational Software Corp.
+
+
+[Table of contents](#table-of-contents-vp)
+
+<!-- Fin de viewpoint Escenarios -->
+
+
 [fig1]: /img/fig1-vp.png "Componente"
 [fig2]: /img/fig2-vp.png "Interfaz"
 [fig3]: /img/fig3-vp.png "Relación de dependencia"
@@ -627,6 +727,8 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 [figNL8-vp]: /img/figNL8-vp.png "Actor"
 [figNL9-vp]: /img/figNL9-vp.png "Linea de vida"
 [figNL10-vp]: /img/figNL10-vp.png "Símbolo de mensaje sincrónico"
+[figES1-VP]: /img/fig1ES-VP.png "Simbologia casos de uso"
+
 
 
 

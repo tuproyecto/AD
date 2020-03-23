@@ -20,6 +20,19 @@
         1. [Models+](#models-physical-view)
         2. [Deployment](#models-deployment-physical-view)
         3. [Known Issues with View](#issues-with-physical-view)
+    3. [Process view](#process-view)
+        1. [Models+](#models-process-view)
+        2. [activities](#models-activities-process-view)
+        3. [Known Issues with View](#issues-with-process-view)
+    4. [Logical view](#logical-view)
+        1. [Models+](#models-logical-view)
+        2. [clases](#models-clases-logical-view)
+        3. [secuencia](#models-secuencia-logical-view)
+        4. [Known Issues with View](#issues-with-logical-view)
+    5. [Escenarios view](#escenarios-view)
+        1. [Models+](#models-escenarios-view)
+        2. [casosdeuso](#models-casosdeuso-escenarios-view)
+        4. [Known Issues with View](#issues-with-escenarios-view)
 5. [Consistency and correspondences](#consistency-and-correspondences)
     1. [Known inconsistencies](#known-inconsistencies)
     2. [Correspondences in the AD](#correspondences-in-the-ad)
@@ -371,11 +384,43 @@ Figura N3: Diagrama de sequencia comercial cliente
 
 En la vista logica, se esperar tener una lista de interesados, el desconocimiento de la cantidad de actividades procesos o involucrados nos impide saber la dimencion del modelo, por ende de lo que se desea hacer, es requerido un levantamiento de informacion optimo y lo mas completo posible.
 
-
-
 [Table of contents](#table-of-contents-vp)
 
 <!-- Fin de view logico -->
+
+
+<!-- Inicio de view Escenarios  -->
+## Escenarios  view <a name="escenarios-view"></a>
+
+Descripción de la vista de Escenarios empleada, presentando el modelo de casos de uso.
+
+### Models+ <a name="models-logical-view"></a>
+
+### Clases <a name="models-class-logical-view"></a>
+
+El diagrama de casos de uso se expresa en la arquitectura de nuestro sistema de ventas para representar cada una de las acciones que se ejecutan para cumplir con un propósito de funcionalidad.
+
+Estas acciones son los casos de uso, alli mostramos las funcionalidades que tendra el sistema, y tambien se usan los actores con el fin de mostrar los stakeholder involucrados con las funcionalidades del sistema.  
+
+
+![alt text][figEs1]
+
+Figura N1: Diagrama de Casos 
+
+### Casos de Uso <a name="models-casosdeuso-escenarios-view"></a>
+
+La vista de casos de uso captura la funcionalidad de un sistema, de un subsistema, o de una clase, tal como se muestra a un usuario exterior.
+
+Aquí se especifican los requerimientos funcionales y damos una visión más clara de cada funcionalidad.
+
+
+### Known Issues with View <a name="issues-with-logical-view"></a>
+
+En la vista de escenarios, se deberian especificar las funcionalidades del sistema de una manera completa, relacionando cada una de ellas con un actor, sin embargo en el levantamiento de requerimientos de informacion no se detalla de manera completa en la primera iteracion realizada.
+
+[Table of contents](#table-of-contents-vp)
+
+<!-- Fin de view Escenarios -->
 
 
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
@@ -429,6 +474,7 @@ The second paragraph text
 [figN1]: /img/Clases/DiagramaClases.png "Diagrama de Calses"
 [figN2]: /img/Secuencia/DiagramaSecuenciaMercadeo.png "Diagrama de secuencia mercadeo"
 [figN3]: /img/DiagramaSecuenciaClienteVendedor.png "Diagrama de secuencia comercial cliente"
+[figEs1]: /img/fig2DiagramaCasos.png "Diagrama de secuencia comercial cliente"
 
 
 [vp-description]: /vp-description.md
