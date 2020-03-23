@@ -430,6 +430,7 @@ Este capítulo describe los requisitos de coherencia, el registro de inconsisten
 la siguiente tabla presenta la relacion que existe entre objetos, nodos, relaciones y otros con cada diagrama, el objetivo es permitirle al lectos identificar las relaciones de dependencia entre vistas y de esta manera facilitar la lectura de relacion de dependencia entre los modelos
 
 
+![alt text][figcorrespond]
 
 
 Tabla 11: Pertenencia de componentes y vistas.
@@ -485,6 +486,7 @@ The second paragraph text
 [figN2]: /img/Secuencia/DiagramaSecuenciaMercadeo.png "Diagrama de secuencia mercadeo"
 [figN3]: /img/Secuencia/DiagramaSecuenciaClienteVendedor.png "Diagrama de secuencia comercial cliente"
 [figEs1]: /img/fig2DiagramaCasos.png "Diagrama de secuencia comercial cliente"
+[figcorrespond]: /img/correspondencia.png "Correspondencia"
 
 
 [vp-description]: /vp-description.md
