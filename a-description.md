@@ -473,7 +473,7 @@ The second paragraph text
 [fig6]: /img/fig18-proc-diagrama.png "Diagrama de actividades"
 [figN1]: /img/Clases/DiagramaClases.png "Diagrama de Calses"
 [figN2]: /img/Secuencia/DiagramaSecuenciaMercadeo.png "Diagrama de secuencia mercadeo"
-[figN3]: /img/DiagramaSecuenciaClienteVendedor.png "Diagrama de secuencia comercial cliente"
+[figN3]: /img/Secuencia/DiagramaSecuenciaClienteVendedor.png "Diagrama de secuencia comercial cliente"
 [figEs1]: /img/fig2DiagramaCasos.png "Diagrama de secuencia comercial cliente"
 
 
