@@ -407,7 +407,7 @@ Figura 16: Sincronizacion
 
 __Marcos de Responsabilidad:__ 
 
-![alt text][fig16]
+![alt text][fig17]
 
 Figura 16: Marcos de Responsabilidad 
 
@@ -718,7 +718,7 @@ Rational Software Corp.
 [fig15]: /img/fig15-proc-vp.png "Ramificacion"
 [fig16]: /img/fig16-proc-vp.png "Sincronizacion"
 [fig17]: /img/fig17-proc-vp.png "marcos de responsable"
-[figNL1-vp]: /img/figNLo1-vp.png "Clase"
+[figNL1-vp]: /img/figLoN1-vp.png "Clase"
 [figNL2-vp]: /img/figNoL2-vp.png "Composición"
 [figNL3-vp]: /img/figNoL3-vp.png "Agregación"
 [figNL4-vp]: /img/figNoL4-vp.png "Herencia"
