@@ -430,7 +430,7 @@ Este capítulo describe los requisitos de coherencia, el registro de inconsisten
 la siguiente tabla presenta la relacion que existe entre objetos, nodos, relaciones y otros con cada diagrama, el objetivo es permitirle al lectos identificar las relaciones de dependencia entre vistas y de esta manera facilitar la lectura de relacion de dependencia entre los modelos
 
 
-| Diagrama |Componentes| Despliegue | Caso de uso  | Paquetes | Secuencia | Clases | Actividades | 
+| Diagrama <a name="tabla11"> |Componentes| Despliegue | Caso de uso  | Paquetes | Secuencia | Clases | Actividades | 
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Paquete |  |  |  | X |  |  |  |
 | Artefacto |  | X |  |  |  |  |  |
