@@ -423,7 +423,7 @@ En la arquitectura de procesos, es indispensable mostrar el flujo de cada proces
 
 ## Correspondence rules <a name="correspondence-rules-process"></a>
 
-* R1: Los procesos presentados en el diagrama de actividades serán desplegados en 3 marcos de responsabilidad, estos son los stakeholder que intervienen con los procesos, cada actividad mostrada en el diagrama tiene interaccion con sus responsables y se muestra el flujo de cada actividad para asi entender que secuencia, entradas y salidad tiene en el sistema de ventas.
+* R4: Los procesos presentados en el diagrama de actividades serán desplegados en 3 marcos de responsabilidad, estos son los stakeholder que intervienen con los procesos, cada actividad mostrada en el diagrama tiene interaccion con sus responsables y se muestra el flujo de cada actividad para asi entender que secuencia, entradas y salidad tiene en el sistema de ventas.
 
 ## Sources <a name="sources-procesos"></a>
 
@@ -585,14 +585,12 @@ Para el caso de los comerciales y profesionales de mercadeo, los diagramas les p
 
 ## Correspondence rules <a name="correspondence-rules-logical"></a>
 
-* R1: Los módulos presentados en el diagrama de componentes serán desplegados en nodos del diagrama de despliegue.
-por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de desarrollo corresponde al ambiente local de los programadores, pruebas será desplegado de manera independiente a producción, y si y sólo si sera puesto en producción aquellos componentes y/o paquetes que han sido probados por desarrolladores, testers y usuarios finales.
+* R5: Las interacciones identificadas en el diagrama de clases representan las relaciones y acciones que se representan en el diagrama de secuencia.
 
-* R2: Las bases de datos estarán en 2 nodos, manejando dos ambientes producción y para el caso de desarrollo y pruebas la base de datos sera compartida.
+* R6: Los actores del diagrama de casos de uso se identifican como clases en el diagrama de clases
 
-* R3: Debe existir un solo repositorio para el versionamiento del código el cual será  desplegado en un nodo descrito en el diagrama de despliegue.
+* 7: Las clases del diagrama de clase se entiene como objetos de interaccion en el diagrama de secuencia
 
-* R4: Las interacciones identificadas en el diagrama de clases representan las relaciones y acciones que se representan en el diagrama de secuencia
 
 ## Sources <a name="sources-logical"></a>
 
