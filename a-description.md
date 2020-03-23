@@ -425,7 +425,7 @@ En la vista de escenarios, se deberian especificar las funcionalidades del siste
 
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
-Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
+A continuación se describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
 
 la siguiente tabla presenta la relacion que existe entre objetos, nodos, relaciones y otros con cada diagrama, el objetivo es permitirle al lectos identificar las relaciones de dependencia entre vistas y de esta manera facilitar la lectura de relacion de dependencia entre los modelos
 
@@ -440,17 +440,13 @@ Tabla 11: Pertenencia de componentes y vistas.
 
 ## Known inconsistencies <a name="known-inconsistencies"></a>
 
+Luego de hacer una validación del documento de definición de arquitectura se logró identificar las siguientes inconsistencias las cuales en su mayoria estan orientadas a diagramas y la relacion entre componentes y vistas, esta sección nos permite validar las fallas presentadas y corregir los hallazgos mejorando la presentación durante la revisión y validación
+
 
 
 ## Correspondences in the AD <a name="correspondences-in-the-ad"></a>
 
-> Identifique cada correspondencia en el AD y sus elementos de AD participantes. Identificar las reglas de correspondencia que rigen
 
-> Las correspondencias se utilizan para expresar, registrar, aplicar y analizar la coherencia entre modelos, vistas y otros elementos de AD dentro de una descripción de arquitectura, entre AD o entre un AD y otras formas de documentación.
-
-> Los elementos de AD incluyen instancias de partes interesadas, preocupaciones, puntos de vista y puntos de vista, tipos y modelos de modelos, decisiones y fundamentos. Las construcciones introducidas por los puntos de vista y los tipos de modelos también son elementos AD.
-
-> Las correspondencias son relaciones matemáticas n-arias. Las correspondencias pueden representarse mediante tablas, enlaces o mediante otras formas de asociación (como en UML).
 
 [Table of contents](#table-of-contents)
 
