@@ -589,7 +589,7 @@ Para el caso de los comerciales y profesionales de mercadeo, los diagramas les p
 
 * R6: Los actores del diagrama de casos de uso se identifican como clases en el diagrama de clases
 
-* 7: Las clases del diagrama de clase se entiene como objetos de interaccion en el diagrama de secuencia
+* R7: Las clases del diagrama de clase se entiene como objetos de interaccion en el diagrama de secuencia
 
 
 ## Sources <a name="sources-logical"></a>
