@@ -456,11 +456,8 @@ A continuación se presentan reglas de correspondencia entre las vistas y sus mo
 
 ![alt text][figreglascat]
 
-Figura: Catalogo de Reglas
 
-![alt text] [figincons]
-
-Figura: Matriz de reglas e inconsistencias
+![alt text][figincons]
 
 
 [Table of contents](#table-of-contents)
@@ -490,7 +487,7 @@ The second paragraph text
 [figcorrespond]: /img/correspondencia.png "Correspondencia"
 [figreglascat]: /img/rulesctl.png "Diagrama de paquetes"
 [figreglasmat]: /img/matrizrules.png "Diagrama de paquetes"
-[figincons]: /img/inconsistencia.png "Inconsistencia"
+[figincons]: /img/inconsistencias.png "Inconsistencias"
 
 
 [vp-description]: /vp-description.md
