@@ -431,7 +431,7 @@ la siguiente tabla presenta la relacion que existe entre objetos, nodos, relacio
 
 
 | Diagrama |Componentes| Despliegue | Caso de uso  | Paquetes | Secuencia | Clases | Actividades | 
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Paquete |  |  |  | X |  |  |  |
 | Artefacto |  | X |  |  |  |  |  |
 | Nodo |  | X |  |  |  |  |  |
