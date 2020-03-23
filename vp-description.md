@@ -499,7 +499,8 @@ El diagrama de clases empleado para describir la vista de desarrollo está forma
 
 __Clases:__ Representa una entidad del sistema, se grafica como un rectángulo con un rectángulo dividido en tres partes, a superior contiene el nombre de la clase, la central contiene los atributos y la inferior las acciones.
 
-![alt text][figNL1-vp]
+
+![alt text][figL1-vp]
 
 Figura NL1: Clase
 
@@ -717,7 +718,7 @@ Rational Software Corp.
 [fig14]: /img/fig14-proc-vp.png "Estados"   
 [fig15]: /img/fig15-proc-vp.png "Ramificacion"
 [fig16]: /img/fig16-proc-vp.png "Sincronizacion"
-[figNL1-vp]: /img/figNL1-vp.png "Clase"
+[figL1-vp]: /img/figL1-vp.png "Clase"
 [figNL2-vp]: /img/figNL2-vp.png "Composición"
 [figNL3-vp]: /img/figNL3-vp.png "Agregación"
 [figNL4-vp]: /img/figNL4-vp.png "Herencia"
