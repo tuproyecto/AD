@@ -717,6 +717,7 @@ Rational Software Corp.
 [fig14]: /img/fig14-proc-vp.png "Estados"   
 [fig15]: /img/fig15-proc-vp.png "Ramificacion"
 [fig16]: /img/fig16-proc-vp.png "Sincronizacion"
+[fig17]: /img/fig17-proc-vp.png "marcos de responsable"
 [figNL1-vp]: /img/figNL1-vp.png "Clase"
 [figNL2-vp]: /img/figNL2-vp.png "Composición"
 [figNL3-vp]: /img/figNL3-vp.png "Agregación"
