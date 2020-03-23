@@ -452,11 +452,7 @@ Luego de hacer una validación del documento de definición de arquitectura se l
 
 ## Correspondence rules <a name="correspondence-rules-final"></a>
 
-> Identifique cada regla de correspondencia que se aplica al AD.
-
-> Las reglas de correspondencia pueden ser introducidas por el AD, por uno de sus puntos de vista, o desde un marco de arquitectura o lenguaje de descripción de arquitectura que se esté utilizando.
-
-> Para cada regla de correspondencia identificada, registre si la regla cumple (se cumple) o, de lo contrario, registre todas las violaciones conocidas.
+A continuación se presentan reglas de correspondencia entre las vistas y sus modelos, el objetivo es validar la coherencia entre el diseño y la correcta aplicaciones de arquitectura.
 
 ![alt text][figreglascat]
 
