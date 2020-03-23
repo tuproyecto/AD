@@ -375,7 +375,7 @@ El diagrama de secuencia muestra una línea de vida entre las actividades o proc
 
 Figura N2: Diagrama de sequencia mercadeo
 
-![alt text][figN2]
+![alt text][figN3]
 
 Figura N3: Diagrama de sequencia comercial cliente
 
