@@ -466,7 +466,9 @@ Tabla 11: Pertenencia de componentes y vistas.
 
 ## Known inconsistencies <a name="known-inconsistencies"></a>
 
-> Registre cualquier inconsistencia conocida en el AD. Aunque obviamente se prefieren los EA consistentes, a veces es inviable o poco práctico resolver todas las inconsistencias por razones de tiempo, esfuerzo o información insuficiente.
+I1: Se identificó que no se construyó un nodo para subir el repositorio de codigo como se planteó en en la regla de correspondencia No 3
+I2: Se encuentra incosistencia en el diagrama de componentes Figura 2: Diagrama de Componentes de aplicación, no puede relacionarse con diagrama de paquetes Figura 3: Diagrama de paquetes, ya que no se identifican los paquetes que y su correspondencia dentro de los componentes
+I3: El Diagrama de paquetes presenta incosistencia debido a que no se grafico el paquete de controladores, ni se hizó diferenciacion entre los controladores y la lógica de negocio
 
 ## Correspondences in the AD <a name="correspondences-in-the-ad"></a>
 
