@@ -430,34 +430,7 @@ Este capítulo describe los requisitos de coherencia, el registro de inconsisten
 la siguiente tabla presenta la relacion que existe entre objetos, nodos, relaciones y otros con cada diagrama, el objetivo es permitirle al lectos identificar las relaciones de dependencia entre vistas y de esta manera facilitar la lectura de relacion de dependencia entre los modelos
 
 
-| Diagrama <a name="tabla11"> |Componentes| Despliegue | Caso de uso  | Paquetes | Secuencia | Clases | Actividades | 
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Paquete |  |  |  | X |  |  |  |
-| Artefacto |  | X |  |  |  |  |  |
-| Nodo |  | X |  |  |  |  |  |
-| Actividad |  |  |  |  |  |  | X |
-| Estados (I-F) |  |  |  |  |  |  | X |
-| Condición  |  |  |  |  |  |  | X |
-| Sincronización|  |  |  |  |  |  |  |
-| Clase  |  |  |  |  |  | X |  |
-| Composicion |  |  |  |  |  | X |  |
-| Agregación |  |  |  |  |  | X |  |
-| Herencia |  |  |  |  |  | X |  |
-| Dependencia |  |  |  |  |  | X |  |
-| Objeto |  |  |  |  | X |  |  |
-| Casilla de activacion  |  |  |  |  | X |  |  |
-| Actor  |  |  | X |  | X | X |  |
-| Linea de vida |  |  |  |  | X |  |  |
-| Símbolo de mensaje sincrónico |  |  |  |  | X |  |  |
-| Caso de uso  |  |  | X |  |  |  |  |
-|Marco de reponsabilidad  |  |  | X |  |  |  |  |
-| Limite del sistema  |  |  | X |  |  |  |  |
-| Componente | X | X |  |  |  |  |  |
-| Interfaz | X | X |  |  |  |  |  |
-|Relación de dependencia  | X |  |  |  |  |  |  |
-| Stereotype |  | X |  |  |  |  |  |
-| Dependencia entre paquetes |  |  |  | X |  |  |  |
-| Relacion entre actuvudades |  |  |  |  |  |  | X |
+
 
 Tabla 11: Pertenencia de componentes y vistas.
 
@@ -466,9 +439,7 @@ Tabla 11: Pertenencia de componentes y vistas.
 
 ## Known inconsistencies <a name="known-inconsistencies"></a>
 
-I1: Se identificó que no se construyó un nodo para subir el repositorio de codigo como se planteó en en la regla de correspondencia No 3
-I2: Se encuentra incosistencia en el diagrama de componentes Figura 2: Diagrama de Componentes de aplicación, no puede relacionarse con diagrama de paquetes Figura 3: Diagrama de paquetes, ya que no se identifican los paquetes que y su correspondencia dentro de los componentes
-I3: El Diagrama de paquetes presenta incosistencia debido a que no se grafico el paquete de controladores, ni se hizó diferenciacion entre los controladores y la lógica de negocio
+
 
 ## Correspondences in the AD <a name="correspondences-in-the-ad"></a>
 
