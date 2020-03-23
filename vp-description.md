@@ -407,7 +407,7 @@ Figura 16: Sincronizacion
 
 __Marcos de Responsabilidad:__ 
 
-![alt text][fig16]
+![alt text][fig17]
 
 Figura 16: Marcos de Responsabilidad 
 
@@ -423,7 +423,7 @@ En la arquitectura de procesos, es indispensable mostrar el flujo de cada proces
 
 ## Correspondence rules <a name="correspondence-rules-process"></a>
 
-* R1: Los procesos presentados en el diagrama de actividades serán desplegados en 3 marcos de responsabilidad, estos son los stakeholder que intervienen con los procesos, cada actividad mostrada en el diagrama tiene interaccion con sus responsables y se muestra el flujo de cada actividad para asi entender que secuencia, entradas y salidad tiene en el sistema de ventas.
+* R4: Los procesos presentados en el diagrama de actividades serán desplegados en 3 marcos de responsabilidad, estos son los stakeholder que intervienen con los procesos, cada actividad mostrada en el diagrama tiene interaccion con sus responsables y se muestra el flujo de cada actividad para asi entender que secuencia, entradas y salidad tiene en el sistema de ventas.
 
 ## Sources <a name="sources-procesos"></a>
 
@@ -585,20 +585,118 @@ Para el caso de los comerciales y profesionales de mercadeo, los diagramas les p
 
 ## Correspondence rules <a name="correspondence-rules-logical"></a>
 
-* R1: Los módulos presentados en el diagrama de componentes serán desplegados en nodos del diagrama de despliegue.
-por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de desarrollo corresponde al ambiente local de los programadores, pruebas será desplegado de manera independiente a producción, y si y sólo si sera puesto en producción aquellos componentes y/o paquetes que han sido probados por desarrolladores, testers y usuarios finales.
+* R5: Las interacciones identificadas en el diagrama de clases representan las relaciones y acciones que se representan en el diagrama de secuencia.
 
-* R2: Las bases de datos estarán en 2 nodos, manejando dos ambientes producción y para el caso de desarrollo y pruebas la base de datos sera compartida.
+* R6: Los actores del diagrama de casos de uso se identifican como clases en el diagrama de clases
 
-* R3: Debe existir un solo repositorio para el versionamiento del código el cual será  desplegado en un nodo descrito en el diagrama de despliegue.
+* R7: Las clases del diagrama de clase se entiene como objetos de interaccion en el diagrama de secuencia
 
-* R4: Las interacciones identificadas en el diagrama de clases representan las relaciones y acciones que se representan en el diagrama de secuencia
 
 ## Sources <a name="sources-logical"></a>
 
 [Table of contents](#table-of-contents-vp)
 
 <!-- Fin de viewpoint logico -->
+
+
+
+<!-- Inicio de viewpoint Escenarios -->
+
+## Escenarios viewpoint <a name="escenarios-viewpoint"></a>
+
+El viewpoint de escenarios hace una abstracción de los requerimientos, mostrando cómo el sistema será operado con una descripción de las acciones y los procesos que se esperan del sistema, para las necesidades de los diferentes involucrados o stakeholders.
+
+
+## Overview <a name="overview-escenarios"></a>
+
+El viewpoint de escenarios se utiliza para tener un primer bosquejo general de lo que se espera del desarrollo en una solución, la primera interpretación que se le pueden dar a los requerimientos se logra mediante la identificación de cada una de sus partes, los diferentes procesos, sus interesados y funcionalidades.
+
+al documentar los requerimientos desde la perspectiva del usuario tenemos la capacidad de identificar las necesidades individuales de cada uno.
+
+
+## Framed concerns and typical stakeholders <a name="framed-concerns-and-typical-stakeholders-escenarios"></a>
+
+Por medio del análisis de los requerimientos y mediante el viewpoint de escenarios el equipo de earquitectura espera enmarcar adecuadamente la arquitectura de la empresa K para ello se  identifican las preocupaciones de los stakeholders que tienen interés en el sistema y en el producto final. 
+
+
+### Concerns <a name="concerns-escenarios"></a>
+
+A continuación se describe cada preocupación de las partes interesadas relacionadas con el Viewpoint de Escenarios, las preocupaciones identificadas en esta sección son información esencial para el arquitecto ya que le ayudan a tener una perspectiva desde el punto de vista de cada uno de los diferentes stakeholders. s.
+
+* [CNR-001]Usabilidad: Se busca contar con una herramienta de vanguardia que ofrezca una buena experiencia de usuario, dados los requerimientos iniciales se espera abarcar las necesidades de cada uno de los involucrado.
+
+* [CNR-009](#CNR-009): Acceso a la información: Contar con la información necesaria en el momento adecuado, evitar complejidad en el flujo de la información haciendo procesos cortos y eficaces además de brindar la seguridad necesaria según sea la necesidad de los usuarios finales.
+
+
+* [CNR-010](#CNR-010): Estructura de información: Administrar y presentar la información en los catálogos de acuerdo a la estrategia definida de manera que los diferentes usuarios finales disfruten de experiencia de usuario eficaz y entendibles.
+
+
+
+
+### Typical stakeholders <a name="typical-stakeholders-process"></a>
+
+Las partes interesadas para esta vista incluyen a los de actores responsables de la ejecucion de acciones o casos de uso del sistema de ventas.
+
+* [STK-001](#STK-001) - Clientes
+* [STK-002](#STK-002) - Equipo comercial: Personal que apoya el proceso de ventas
+* [STK-003](#STK-003) - Equipo de mercadeo: Personal encargado de definir estrategias de mercadeo y diseño de catálogos
+* [STK-004](#STK-004) - Equipo técnico: Expertos en cosmetología, apoyan el proceso de definición de los catálogos
+
+Tabla No 4 Catálogo de Stakeholder Viewpoint fisico
+
+## Model kinds+ <a name="model-kinds-process"></a>
+
+* [MOD-007](#MOD-007) - Modelo de casos de uso 
+
+__Subset of metamodel elements__
+
+* Actores
+* Casos de uso  
+* Limite del sistema
+
+
+## Casos de uso model <a name="casosdeuso-model"></a>
+
+La vista de casos de uso captura la funcionalidad de un sistema, de un subsistema, o de una clase, tal como se muestra a un usuario exterior.
+
+Aquí se especifican los requerimientos funcionales y damos una visión más clara de cada funcionalidad.
+
+
+### Casos de uso model conventions <a name="casosdeuso-model-conventions"></a>
+
+
+__Simbologia de Diagrama de casos de uso:__ 
+
+![alt text][figES1-VP]
+
+Caso de uso: Se representan con óvalos. La etiqueta en el óvalo indica la función del sistema.
+
+Actor: Un diagrama de caso de uso contiene los símbolos del actor y del caso de uso, junto con líneas conectoras. Los actores son similares a las entidades externas; existen fuera del sistema. El término actor se refiere a un rol específico de un usuario del sistema.
+
+Límite del sistema: Es el entorno en donde interactúan los casos de uso y acceso interno para los actores del sistema.
+
+* __Construction Method:__ 
+
+Este modelo lo realizamos estableciendo casos de uso y actores del sistema, entendiendo los requerimientos funcionales del sistema de ventas establecimos los casos de uso, e identificando los stakeholder pudimos relacionar los actores.  
+
+* __Analysis method:__ 
+
+Previamente se tuvieron que identificar los stakeholders, y como estos interactúan con los procesos del sistema de ventas, y analizando estos proceso y los requisitos de digitalizar catálogos, logramos establecer casos de uso que debe tener el sistema para funcionar de manera correcta, y esto unirlo en el diagrama de casos de uso.
+
+## Correspondence rules <a name="correspondence-rules-process"></a>
+
+
+## Sources <a name="sources-procesos"></a>
+
+referencias: 
+Architectural Blueprints—The “4+1” View
+Model of Software Architecture Philippe Kruchten
+Rational Software Corp.
+
+
+[Table of contents](#table-of-contents-vp)
+
+<!-- Fin de viewpoint Escenarios -->
 
 
 [fig1]: /img/fig1-vp.png "Componente"
@@ -617,16 +715,19 @@ por lo anterior debe existir 2 nodos, Pruebas y Producción, para el caso de des
 [fig14]: /img/fig14-proc-vp.png "Estados"   
 [fig15]: /img/fig15-proc-vp.png "Ramificacion"
 [fig16]: /img/fig16-proc-vp.png "Sincronizacion"
-[figNL1-vp]: /img/figNL1-vp.png "Clase"
-[figNL2-vp]: /img/figNL2-vp.png "Composición"
-[figNL3-vp]: /img/figNL3-vp.png "Agregación"
-[figNL4-vp]: /img/figNL4-vp.png "Herencia"
-[figNL5-vp]: /img/figNL5-vp.png "Dependencia"
-[figNL6-vp]: /img/figNL6-vp.png "Objeto"
-[figNL7-vp]: /img/figNL7-vp.png "Casilla de activacion"
-[figNL8-vp]: /img/figNL8-vp.png "Actor"
-[figNL9-vp]: /img/figNL9-vp.png "Linea de vida"
-[figNL10-vp]: /img/figNL10-vp.png "Símbolo de mensaje sincrónico"
+[fig17]: /img/fig17-proc-vp.png "marcos de responsable"
+[figNL1-vp]: /img/figLoN1-vp.png "Clase"
+[figNL2-vp]: /img/figNoL2-vp.png "Composición"
+[figNL3-vp]: /img/figNoL3-vp.png "Agregación"
+[figNL4-vp]: /img/figNoL4-vp.png "Herencia"
+[figNL5-vp]: /img/figNoL5-vp.png "Dependencia"
+[figNL6-vp]: /img/figNoL6-vp.png "Objeto"
+[figNL7-vp]: /img/figNoL7-vp.png "Casilla de activacion"
+[figNL8-vp]: /img/figNoL8-vp.png "Actor"
+[figNL9-vp]: /img/figNoL9-vp.png "Linea de vida"
+[figNL10-vp]: /img/figNoL10-vp.png "Símbolo de mensaje sincrónico"
+[figES1-VP]: /img/fig1ES-VP.png "Simbologia casos de uso"
+
 
 
 

@@ -20,6 +20,19 @@
         1. [Models+](#models-physical-view)
         2. [Deployment](#models-deployment-physical-view)
         3. [Known Issues with View](#issues-with-physical-view)
+    3. [Process view](#process-view)
+        1. [Models+](#models-process-view)
+        2. [activities](#models-activities-process-view)
+        3. [Known Issues with View](#issues-with-process-view)
+    4. [Logical view](#logical-view)
+        1. [Models+](#models-logical-view)
+        2. [clases](#models-clases-logical-view)
+        3. [secuencia](#models-secuencia-logical-view)
+        4. [Known Issues with View](#issues-with-logical-view)
+    5. [Escenarios view](#escenarios-view)
+        1. [Models+](#models-escenarios-view)
+        2. [casosdeuso](#models-casosdeuso-escenarios-view)
+        4. [Known Issues with View](#issues-with-escenarios-view)
 5. [Consistency and correspondences](#consistency-and-correspondences)
     1. [Known inconsistencies](#known-inconsistencies)
     2. [Correspondences in the AD](#correspondences-in-the-ad)
@@ -362,7 +375,7 @@ El diagrama de secuencia muestra una línea de vida entre las actividades o proc
 
 Figura N2: Diagrama de sequencia mercadeo
 
-![alt text][figN2]
+![alt text][figN3]
 
 Figura N3: Diagrama de sequencia comercial cliente
 
@@ -371,20 +384,63 @@ Figura N3: Diagrama de sequencia comercial cliente
 
 En la vista logica, se esperar tener una lista de interesados, el desconocimiento de la cantidad de actividades procesos o involucrados nos impide saber la dimencion del modelo, por ende de lo que se desea hacer, es requerido un levantamiento de informacion optimo y lo mas completo posible.
 
-
-
 [Table of contents](#table-of-contents-vp)
 
 <!-- Fin de view logico -->
 
 
+<!-- Inicio de view Escenarios  -->
+## Escenarios  view <a name="escenarios-view"></a>
+
+Descripción de la vista de Escenarios empleada, presentando el modelo de casos de uso.
+
+### Models+ <a name="models-escenarios-view"></a>
+
+### Casos de uso <a name="models-class-escenarios-view"></a>
+
+El diagrama de casos de uso se expresa en la arquitectura de nuestro sistema de ventas para representar cada una de las acciones que se ejecutan para cumplir con un propósito de funcionalidad.
+
+Estas acciones son los casos de uso, alli mostramos las funcionalidades que tendra el sistema, y tambien se usan los actores con el fin de mostrar los stakeholder involucrados con las funcionalidades del sistema.  
+
+
+![alt text][figEs1]
+
+Figura N1: Diagrama de Casos 
+
+### Casos de Uso <a name="models-casosdeuso-escenarios-view"></a>
+
+La vista de casos de uso captura la funcionalidad de un sistema, de un subsistema, o de una clase, tal como se muestra a un usuario exterior.
+
+Aquí se especifican los requerimientos funcionales y damos una visión más clara de cada funcionalidad.
+
+
+### Known Issues with View <a name="issues-with-escenarios-view"></a>
+
+En la vista de escenarios, se deberian especificar las funcionalidades del sistema de una manera completa, relacionando cada una de ellas con un actor, sin embargo en el levantamiento de requerimientos de informacion no se detalla de manera completa en la primera iteracion realizada.
+
+[Table of contents](#table-of-contents-vp)
+
+<!-- Fin de view Escenarios -->
+
+
 # Consistency and correspondences <a name="consistency-and-correspondences"></a>
 
-> Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
+Este capítulo describe los requisitos de coherencia, el registro de inconsistencias conocidas en un AD y el uso y documentación de correspondencias y reglas de correspondencia.
+
+la siguiente tabla presenta la relacion que existe entre objetos, nodos, relaciones y otros con cada diagrama, el objetivo es permitirle al lectos identificar las relaciones de dependencia entre vistas y de esta manera facilitar la lectura de relacion de dependencia entre los modelos
+
+
+![alt text][figcorrespond]
+
+
+Tabla 11: Pertenencia de componentes y vistas.
+
+[Table of contents](#table-of-contents)
+
 
 ## Known inconsistencies <a name="known-inconsistencies"></a>
 
-> Registre cualquier inconsistencia conocida en el AD. Aunque obviamente se prefieren los EA consistentes, a veces es inviable o poco práctico resolver todas las inconsistencias por razones de tiempo, esfuerzo o información insuficiente.
+
 
 ## Correspondences in the AD <a name="correspondences-in-the-ad"></a>
 
@@ -405,6 +461,12 @@ En la vista logica, se esperar tener una lista de interesados, el desconocimient
 > Las reglas de correspondencia pueden ser introducidas por el AD, por uno de sus puntos de vista, o desde un marco de arquitectura o lenguaje de descripción de arquitectura que se esté utilizando.
 
 > Para cada regla de correspondencia identificada, registre si la regla cumple (se cumple) o, de lo contrario, registre todas las violaciones conocidas.
+
+![alt text][figreglascat]
+
+
+![alt text][figreglasmat]
+
 
 [Table of contents](#table-of-contents)
 
@@ -428,7 +490,11 @@ The second paragraph text
 [fig6]: /img/fig18-proc-diagrama.png "Diagrama de actividades"
 [figN1]: /img/Clases/DiagramaClases.png "Diagrama de Calses"
 [figN2]: /img/Secuencia/DiagramaSecuenciaMercadeo.png "Diagrama de secuencia mercadeo"
-[figN3]: /img/DiagramaSecuenciaClienteVendedor.png "Diagrama de secuencia comercial cliente"
+[figN3]: /img/Secuencia/DiagramaSecuenciaClienteVendedor.png "Diagrama de secuencia comercial cliente"
+[figEs1]: /img/fig2DiagramaCasos.png "Diagrama de secuencia comercial cliente"
+[figcorrespond]: /img/correspondencia.png "Correspondencia"
+[figreglascat]: /img/rulesctl.png "Diagrama de paquetes"
+[figreglasmat]: /img/matrizrules.png "Diagrama de paquetes"
 
 
 [vp-description]: /vp-description.md
