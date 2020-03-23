@@ -462,6 +462,12 @@ Tabla 11: Pertenencia de componentes y vistas.
 
 > Para cada regla de correspondencia identificada, registre si la regla cumple (se cumple) o, de lo contrario, registre todas las violaciones conocidas.
 
+![alt text][figreglascat]
+
+
+![alt text][figreglasmat]
+
+
 [Table of contents](#table-of-contents)
 
 # Architecture decisions and rationale <a name="architecture-decisions-and-rationale"></a>
@@ -487,6 +493,8 @@ The second paragraph text
 [figN3]: /img/Secuencia/DiagramaSecuenciaClienteVendedor.png "Diagrama de secuencia comercial cliente"
 [figEs1]: /img/fig2DiagramaCasos.png "Diagrama de secuencia comercial cliente"
 [figcorrespond]: /img/correspondencia.png "Correspondencia"
+[figreglascat]: /img/rulesctl.png "Diagrama de paquetes"
+[figreglasmat]: /img/matrizrules.png "Diagrama de paquetes"
 
 
 [vp-description]: /vp-description.md
