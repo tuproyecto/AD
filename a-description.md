@@ -394,9 +394,9 @@ En la vista logica, se esperar tener una lista de interesados, el desconocimient
 
 Descripción de la vista de Escenarios empleada, presentando el modelo de casos de uso.
 
-### Models+ <a name="models-logical-view"></a>
+### Models+ <a name="models-escenarios-view"></a>
 
-### Clases <a name="models-class-logical-view"></a>
+### Casos de uso <a name="models-class-escenarios-view"></a>
 
 El diagrama de casos de uso se expresa en la arquitectura de nuestro sistema de ventas para representar cada una de las acciones que se ejecutan para cumplir con un propósito de funcionalidad.
 
@@ -414,7 +414,7 @@ La vista de casos de uso captura la funcionalidad de un sistema, de un subsistem
 Aquí se especifican los requerimientos funcionales y damos una visión más clara de cada funcionalidad.
 
 
-### Known Issues with View <a name="issues-with-logical-view"></a>
+### Known Issues with View <a name="issues-with-escenarios-view"></a>
 
 En la vista de escenarios, se deberian especificar las funcionalidades del sistema de una manera completa, relacionando cada una de ellas con un actor, sin embargo en el levantamiento de requerimientos de informacion no se detalla de manera completa en la primera iteracion realizada.
 
